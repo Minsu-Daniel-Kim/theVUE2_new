@@ -525,31 +525,31 @@
         android:title="@string/preference_category_online"
         >
 
-        <Preference
-		    android:key="preference_online_help"  
-		    android:title="@string/preference_online_help"
-            android:summary="@string/preference_online_help"  
-		    />  
+        <!--<Preference-->
+		    <!--android:key="preference_online_help"  -->
+		    <!--android:title="@string/preference_online_help"-->
+            <!--android:summary="@string/preference_online_help"  -->
+		    <!--/>  -->
 
-        <Preference
-            android:key="preference_donate"  
-            android:title="@string/preference_donate"
-            android:summary="@string/preference_donate_summary"  
-            />  
+        <!--<Preference-->
+            <!--android:key="preference_donate"  -->
+            <!--android:title="@string/preference_donate"-->
+            <!--android:summary="@string/preference_donate_summary"  -->
+            <!--/>  -->
 
-        <!--  if we move this to another PreferenceGroup, we should update code for the findPreference() call -->
+        <!--&lt;!&ndash;  if we move this to another PreferenceGroup, we should update code for the findPreference() call &ndash;&gt;-->
         <CheckBoxPreference
-            android:key="preference_use_camera2"  
+            android:key="preference_use_camera2"
             android:title="@string/preference_use_camera2"
-            android:summary="@string/preference_use_camera2_summary"  
+            android:summary="@string/preference_use_camera2_summary"
             android:defaultValue="false"
-            />  
-        
-        <Preference
-            android:key="preference_about"  
-            android:title="@string/preference_about"
-            android:summary="@string/preference_about_summary"  
-            />  
+            />
+
+        <!--<Preference-->
+            <!--android:key="preference_about"-->
+            <!--android:title="@string/preference_about"-->
+            <!--android:summary="@string/preference_about_summary"-->
+            <!--/>-->
         
         <Preference
             android:key="preference_reset"  

@@ -696,12 +696,13 @@ public class MainActivity extends Activity {
 
 			view = findViewById(R.id.trash);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
-			layoutParams.addRule(align_parent_bottom, 0);
-			layoutParams.addRule(left_of, R.id.switch_camera);
-			layoutParams.addRule(right_of, 0);
-			view.setLayoutParams(layoutParams);
-			view.setRotation(ui_rotation);
+            layoutParams.addRule(align_parent_left, 0);
+            layoutParams.addRule(align_parent_right, 0);
+            layoutParams.addRule(below, R.id.popup);
+            layoutParams.addRule(align_parent_bottom, 0);
+            layoutParams.addRule(right_of, 0);
+            view.setLayoutParams(layoutParams);
+            view.setRotation(ui_rotation);
 
 			view = findViewById(R.id.share);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
