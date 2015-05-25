@@ -191,8 +191,8 @@ public class MainActivity extends Activity {
 		
         preview = new Preview(applicationInterface, savedInstanceState, ((ViewGroup) this.findViewById(R.id.preview)));
 		
-	    View switchCameraButton = (View) findViewById(R.id.switch_camera);
-	    switchCameraButton.setVisibility(preview.getCameraControllerManager().getNumberOfCameras() > 1 ? View.VISIBLE : View.GONE);
+//	    View switchCameraButton = (View) findViewById(R.id.switch_camera);
+//	    switchCameraButton.setVisibility(preview.getCameraControllerManager().getNumberOfCameras() > 1 ? View.VISIBLE : View.GONE);
 
 	    orientationEventListener = new OrientationEventListener(this) {
 			@Override
@@ -634,21 +634,21 @@ public class MainActivity extends Activity {
             view.setLayoutParams(layoutParams);
             view.setRotation(ui_rotation);
 
-            view = findViewById(R.id.switch_camera);
-            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-            layoutParams.addRule(align_parent_left, 0);
-            layoutParams.addRule(align_parent_right, 0);
-            layoutParams.addRule(below, R.id.switch_video);
-            layoutParams.addRule(align_parent_bottom, 0);
-            layoutParams.addRule(right_of, 0);
-            view.setLayoutParams(layoutParams);
-            view.setRotation(ui_rotation);
+//            view = findViewById(R.id.switch_camera);
+//            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
+//            layoutParams.addRule(align_parent_left, 0);
+//            layoutParams.addRule(align_parent_right, 0);
+//            layoutParams.addRule(below, R.id.switch_video);
+//            layoutParams.addRule(align_parent_bottom, 0);
+//            layoutParams.addRule(right_of, 0);
+//            view.setLayoutParams(layoutParams);
+//            view.setRotation(ui_rotation);
 
 			view = findViewById(R.id.exposure_lock);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
             layoutParams.addRule(align_parent_left, 0);
             layoutParams.addRule(align_parent_right, 0);
-            layoutParams.addRule(below, R.id.switch_camera);
+            layoutParams.addRule(below, R.id.switch_video);
             layoutParams.addRule(align_parent_bottom, 0);
             layoutParams.addRule(right_of, 0);
             view.setLayoutParams(layoutParams);
@@ -932,10 +932,10 @@ public class MainActivity extends Activity {
 		    else {
 		    	preview.showToast(switch_camera_toast, R.string.back_camera);
 		    }
-		    View switchCameraButton = (View) findViewById(R.id.switch_camera);
-		    switchCameraButton.setEnabled(false); // prevent slowdown if user repeatedly clicks
-			this.preview.setCamera(cameraId);
-		    switchCameraButton.setEnabled(true);
+//		    View switchCameraButton = (View) findViewById(R.id.switch_camera);
+//		    switchCameraButton.setEnabled(false); // prevent slowdown if user repeatedly clicks
+//			this.preview.setCamera(cameraId);
+//		    switchCameraButton.setEnabled(true);
 		}
     }
 

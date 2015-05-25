@@ -1,19 +1,5 @@
 package net.sourceforge.theVUE2;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.text.DateFormat;
-import java.text.DecimalFormat;
-import java.util.Calendar;
-import java.util.Date;
-
-import net.sourceforge.theVUE2.CameraController.CameraController;
-import net.sourceforge.theVUE2.Preview.ApplicationInterface;
-import net.sourceforge.theVUE2.Preview.Preview;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -25,9 +11,9 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.Paint;
+import android.graphics.Paint.Align;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.graphics.Paint.Align;
 import android.location.Location;
 import android.media.CamcorderProfile;
 import android.media.ExifInterface;
@@ -48,6 +34,20 @@ import android.view.Surface;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
+
+import net.sourceforge.theVUE2.CameraController.CameraController;
+import net.sourceforge.theVUE2.Preview.ApplicationInterface;
+import net.sourceforge.theVUE2.Preview.Preview;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.text.DateFormat;
+import java.text.DecimalFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 public class MyApplicationInterface implements ApplicationInterface {
 	private static final String TAG = "MyApplicationInterface";
@@ -734,7 +734,7 @@ public class MyApplicationInterface implements ApplicationInterface {
 				if( MyDebug.LOG )
 					Log.d(TAG, "setImmersiveMode: set visibility: " + visibility);
 		    	// n.b., don't hide share and trash buttons, as they require immediate user input for us to continue
-			    View switchCameraButton = (View) main_activity.findViewById(R.id.switch_camera);
+//			    View switchCameraButton = (View) main_activity.findViewById(R.id.switch_camera);
 			    View switchVideoButton = (View) main_activity.findViewById(R.id.switch_video);
 			    View exposureButton = (View) main_activity.findViewById(R.id.exposure);
 			    View exposureLockButton = (View) main_activity.findViewById(R.id.exposure_lock);
@@ -743,8 +743,8 @@ public class MyApplicationInterface implements ApplicationInterface {
 			    View settingsButton = (View) main_activity.findViewById(R.id.settings);
 			    View zoomControls = (View) main_activity.findViewById(R.id.zoom);
 			    View zoomSeekBar = (View) main_activity.findViewById(R.id.zoom_seekbar);
-			    if( main_activity.getPreview().getCameraControllerManager().getNumberOfCameras() > 1 )
-			    	switchCameraButton.setVisibility(visibility);
+//			    if( main_activity.getPreview().getCameraControllerManager().getNumberOfCameras() > 1 )
+//			    	switchCameraButton.setVisibility(visibility);
 		    	switchVideoButton.setVisibility(visibility);
 			    if( main_activity.supportsExposureButton() )
 			    	exposureButton.setVisibility(visibility);
@@ -792,13 +792,13 @@ public class MyApplicationInterface implements ApplicationInterface {
 		main_activity.runOnUiThread(new Runnable() {
 			public void run() {
 		    	final int visibility = show ? View.VISIBLE : View.GONE;
-			    View switchCameraButton = (View) main_activity.findViewById(R.id.switch_camera);
+//			    View switchCameraButton = (View) main_activity.findViewById(R.id.switch_camera);
 			    View switchVideoButton = (View) main_activity.findViewById(R.id.switch_video);
 			    View exposureButton = (View) main_activity.findViewById(R.id.exposure);
 			    View exposureLockButton = (View) main_activity.findViewById(R.id.exposure_lock);
 			    View popupButton = (View) main_activity.findViewById(R.id.popup);
-			    if( main_activity.getPreview().getCameraControllerManager().getNumberOfCameras() > 1 )
-			    	switchCameraButton.setVisibility(visibility);
+//			    if( main_activity.getPreview().getCameraControllerManager().getNumberOfCameras() > 1 )
+//			    	switchCameraButton.setVisibility(visibility);
 			    if( !main_activity.getPreview().isVideo() )
 			    	switchVideoButton.setVisibility(visibility); // still allow switch video when recording video
 			    if( main_activity.supportsExposureButton() && !main_activity.getPreview().isVideo() ) // still allow exposure when recording video
