@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Daniel/Documents/workspace/Android/theVUE2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Daniel/Documents/workspace/Android/theVUE2/app/build/intermediates/pre-dexed/debug/classes-a20632defccf2aeac9d6811d828939ca9b8dd700.jar" />
+    </item>
+    <item
+        jar="/Users/Daniel/Documents/workspace/Android/theVUE2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Daniel/Documents/workspace/Android/theVUE2/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-2b97d1b14686a1f9e5fd1dc6ae2fc00e38821630.jar" />
+    </item>
+    <item
+        jar="/Users/Daniel/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Daniel/Documents/workspace/Android/theVUE2/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-19c0455a76ee1c7cff57c40995764e37e424a465.jar" />
+    </item>
+
+</items>
