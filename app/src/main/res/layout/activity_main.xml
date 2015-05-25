@@ -3,14 +3,114 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="60dp"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <!--<ImageButton-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:scaleType="fitCenter"-->
+                <!--android:contentDescription="@string/switch_video"-->
+                <!--android:src="@drawable/switch_video"-->
+                <!--android:onClick="clickedSwitchVideo"/>-->
+            <ImageButton
+                android:id="@+id/switch_video"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/switch_video"
+                android:src="@drawable/switch_video"
+                android:onClick="clickedSwitchVideo"
+                />
+            <ImageButton
+                android:id="@+id/switch_camera"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/switch_camera"
+                android:src="@drawable/switch_camera"
+                android:onClick="clickedSwitchCamera"
+                />
+            <ImageButton
+                android:id="@+id/exposure_lock"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/exposure_lock"
+                android:onClick="clickedExposureLock"
+                />
+            <ImageButton
+                android:id="@+id/exposure"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/exposure"
+                android:src="@drawable/exposure"
+                android:onClick="clickedExposure"
+                />
+            <ImageButton
+                android:id="@+id/gallery"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/gallery"
+                android:src="@drawable/gallery"
+                android:onClick="clickedGallery"
+                />
+
+            <ImageButton
+                android:id="@+id/settings"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/settings"
+                android:onClick="clickedSettings"
+                />
+            <ImageButton
+                android:id="@+id/popup"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/action_popup"
+                android:src="@drawable/popup"
+                android:onClick="clickedPopupSettings"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
 
     <FrameLayout
         android:id="@+id/preview"
+        android:layout_toRightOf="@id/scroll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         />
-    
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/take_photo"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:contentDescription="@string/take_photo"-->
+        <!--android:src="@drawable/take_photo_selector"-->
+        <!--android:onClick="clickedTakePhoto"-->
+        <!--android:layout_centerVertical="true"-->
+		<!--android:background="@null"-->
+        <!--/>-->
     <ImageButton
         android:id="@+id/take_photo"
         android:layout_width="100dp"
@@ -21,9 +121,8 @@
         android:src="@drawable/take_photo_selector"
         android:onClick="clickedTakePhoto"
         android:layout_centerVertical="true"
-		android:background="@null"
+        android:background="@null"
         />
-
     <ZoomControls
         android:id="@+id/zoom"
         android:contentDescription="@string/zoom"
@@ -42,7 +141,7 @@
         android:layout_marginTop="0dp"
         android:layout_marginBottom="0dp"
         />
-    
+
     <SeekBar
         android:id="@+id/focus_seekbar"
         android:contentDescription="@string/focus_distance"
@@ -54,7 +153,7 @@
         android:layout_marginBottom="0dp"
         android:visibility="invisible"
         />
-    
+
     <Button
         android:id="@+id/gui_anchor"
         android:layout_width="0dp"
@@ -63,81 +162,51 @@
         android:scaleType="fitCenter"
         />
 
-    <ImageButton
-        android:id="@+id/settings"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/action_settings"
-        android:src="@drawable/settings"
-        android:onClick="clickedSettings"
-        />
 
-    <ImageButton
-        android:id="@+id/gallery"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/gallery"
-        android:src="@drawable/gallery"
-        android:onClick="clickedGallery"
-        />
 
-    <ImageButton
-        android:id="@+id/popup"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/action_popup"
-        android:src="@drawable/popup"
-        android:onClick="clickedPopupSettings"
-        />
-    
-    <ImageButton
-        android:id="@+id/exposure_lock"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/exposure_lock"
-        android:onClick="clickedExposureLock"
-        />
 
-    <ImageButton
-        android:id="@+id/exposure"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/exposure"
-        android:src="@drawable/exposure"
-        android:onClick="clickedExposure"
-        />
+    <!--<ImageButton-->
+        <!--android:id="@+id/exposure_lock"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:contentDescription="@string/exposure_lock"-->
+        <!--android:onClick="clickedExposureLock"-->
+        <!--/>-->
 
-    <ImageButton
-        android:id="@+id/switch_video"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/switch_video"
-        android:src="@drawable/switch_video"
-        android:onClick="clickedSwitchVideo"
-        />
+    <!--<ImageButton-->
+        <!--android:id="@+id/exposure"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:contentDescription="@string/exposure"-->
+        <!--android:src="@drawable/exposure"-->
+        <!--android:onClick="clickedExposure"-->
+        <!--/>-->
 
-    <ImageButton
-        android:id="@+id/switch_camera"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/switch_camera"
-        android:src="@drawable/switch_camera"
-        android:onClick="clickedSwitchCamera"
-        />
+    <!--<ImageButton-->
+        <!--android:id="@+id/switch_video"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:contentDescription="@string/switch_video"-->
+        <!--android:src="@drawable/switch_video"-->
+        <!--android:onClick="clickedSwitchVideo"-->
+        <!--/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/switch_camera"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:contentDescription="@string/switch_camera"-->
+        <!--android:src="@drawable/switch_camera"-->
+        <!--android:onClick="clickedSwitchCamera"-->
+        <!--/>-->
 
     <!-- should be at left-most -->
     <ImageButton
@@ -206,7 +275,7 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         />
-    
+
     <FrameLayout
         android:id="@+id/locker"
         android:layout_width="match_parent"
@@ -220,11 +289,11 @@
         android:layout_toLeftOf="@+id/settings"
         android:layout_below="@+id/settings"
         />
-    
+
     <ScrollView
         android:id="@+id/hide_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
-    
+
 </RelativeLayout>

@@ -1,12 +1,13 @@
 package net.sourceforge.theVUE2.Preview;
 
-import net.sourceforge.theVUE2.MyDebug;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
+
+import net.sourceforge.theVUE2.MyDebug;
 
 public class CanvasView extends View {
 	private static final String TAG = "CanvasView";

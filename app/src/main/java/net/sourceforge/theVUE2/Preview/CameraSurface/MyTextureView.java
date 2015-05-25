@@ -1,10 +1,5 @@
 package net.sourceforge.theVUE2.Preview.CameraSurface;
 
-import net.sourceforge.theVUE2.MyDebug;
-import net.sourceforge.theVUE2.CameraController.CameraController;
-import net.sourceforge.theVUE2.CameraController.CameraControllerException;
-import net.sourceforge.theVUE2.Preview.Preview;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Matrix;
@@ -14,6 +9,11 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.TextureView;
 import android.view.View;
+
+import net.sourceforge.theVUE2.CameraController.CameraController;
+import net.sourceforge.theVUE2.CameraController.CameraControllerException;
+import net.sourceforge.theVUE2.MyDebug;
+import net.sourceforge.theVUE2.Preview.Preview;
 
 public class MyTextureView extends TextureView implements CameraSurface {
 	private static final String TAG = "MyTextureView";

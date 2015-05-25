@@ -1,10 +1,10 @@
 package net.sourceforge.theVUE2.Preview.CameraSurface;
 
-import net.sourceforge.theVUE2.CameraController.CameraController;
-
 import android.graphics.Matrix;
 import android.media.MediaRecorder;
 import android.view.View;
+
+import net.sourceforge.theVUE2.CameraController.CameraController;
 
 public interface CameraSurface {
 	abstract View getView();

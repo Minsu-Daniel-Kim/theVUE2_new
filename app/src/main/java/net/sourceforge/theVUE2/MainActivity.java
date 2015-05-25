@@ -1,19 +1,18 @@
 package net.sourceforge.theVUE2;
 
-import net.sourceforge.theVUE2.CameraController.CameraController;
-import net.sourceforge.theVUE2.CameraController.CameraControllerManager2;
-import net.sourceforge.theVUE2.Preview.Preview;
-import net.sourceforge.theVUE2.UI.FolderChooserDialog;
-import net.sourceforge.theVUE2.UI.PopupView;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Hashtable;
-import java.util.List;
-import java.util.Map;
-
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
+import android.app.Activity;
+import android.app.ActivityManager;
+import android.app.AlertDialog;
+import android.content.ActivityNotFoundException;
+import android.content.ContentResolver;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -31,19 +30,6 @@ import android.os.ParcelFileDescriptor;
 import android.os.StatFs;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
-import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
-import android.app.Activity;
-import android.app.ActivityManager;
-import android.app.AlertDialog;
-import android.content.ActivityNotFoundException;
-import android.content.ContentResolver;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.ActivityInfo;
-import android.content.res.Configuration;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.GestureDetector.SimpleOnGestureListener;
@@ -64,6 +50,20 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.ZoomControls;
+
+import net.sourceforge.theVUE2.CameraController.CameraController;
+import net.sourceforge.theVUE2.CameraController.CameraControllerManager2;
+import net.sourceforge.theVUE2.Preview.Preview;
+import net.sourceforge.theVUE2.UI.FolderChooserDialog;
+import net.sourceforge.theVUE2.UI.PopupView;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Map;
 
 public class MainActivity extends Activity {
 	private static final String TAG = "MainActivity";
@@ -333,7 +333,7 @@ public class MainActivity extends Activity {
 		editor.apply();
 	}
 
-	public boolean onKeyDown(int keyCode, KeyEvent event) { 
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		if( MyDebug.LOG )
 			Log.d(TAG, "onKeyDown: " + keyCode);
 		switch( keyCode ) {
@@ -466,7 +466,7 @@ public class MainActivity extends Activity {
 	public void changeISO(int change) {
 	    changeSeekbar((SeekBar) findViewById(R.id.iso_seekbar), change);
 	}
-	
+
 	void changeFocusDistance(int change) {
 	    changeSeekbar((SeekBar) findViewById(R.id.focus_seekbar), change);
 	}
@@ -572,7 +572,7 @@ public class MainActivity extends Activity {
 		this.ui_placement_right = ui_placement.equals("ui_right");
 		if( MyDebug.LOG )
 			Log.d(TAG, "ui_placement: " + ui_placement);
-		// new code for orientation fixed to landscape	
+		// new code for orientation fixed to landscape
 		// the display orientation should be locked to landscape, but how many degrees is that?
 	    int rotation = this.getWindowManager().getDefaultDisplay().getRotation();
 	    int degrees = 0;
@@ -625,72 +625,75 @@ public class MainActivity extends Activity {
 			layoutParams.addRule(right_of, 0);
 			view.setLayoutParams(layoutParams);
 			view.setRotation(ui_rotation);
-	
-			view = findViewById(R.id.settings);
-			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
-			layoutParams.addRule(align_parent_bottom, 0);
-			layoutParams.addRule(left_of, R.id.gui_anchor);
-			layoutParams.addRule(right_of, 0);
-			view.setLayoutParams(layoutParams);
-			view.setRotation(ui_rotation);
-	
-			view = findViewById(R.id.gallery);
-			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
-			layoutParams.addRule(align_parent_bottom, 0);
-			layoutParams.addRule(left_of, R.id.settings);
-			layoutParams.addRule(right_of, 0);
-			view.setLayoutParams(layoutParams);
-			view.setRotation(ui_rotation);
-	
-			view = findViewById(R.id.popup);
-			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
-			layoutParams.addRule(align_parent_bottom, 0);
-			layoutParams.addRule(left_of, R.id.gallery);
-			layoutParams.addRule(right_of, 0);
-			view.setLayoutParams(layoutParams);
-			view.setRotation(ui_rotation);
-	
+
+            view = findViewById(R.id.switch_video);
+            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
+            layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
+            layoutParams.addRule(align_parent_bottom, 0);
+            layoutParams.addRule(right_of, 0);
+            view.setLayoutParams(layoutParams);
+            view.setRotation(ui_rotation);
+
+            view = findViewById(R.id.switch_camera);
+            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
+            layoutParams.addRule(align_parent_left, 0);
+            layoutParams.addRule(align_parent_right, 0);
+            layoutParams.addRule(below, R.id.switch_video);
+            layoutParams.addRule(align_parent_bottom, 0);
+            layoutParams.addRule(right_of, 0);
+            view.setLayoutParams(layoutParams);
+            view.setRotation(ui_rotation);
+
 			view = findViewById(R.id.exposure_lock);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
-			layoutParams.addRule(align_parent_bottom, 0);
-			layoutParams.addRule(left_of, R.id.popup);
-			layoutParams.addRule(right_of, 0);
-			view.setLayoutParams(layoutParams);
-			view.setRotation(ui_rotation);
-	
+            layoutParams.addRule(align_parent_left, 0);
+            layoutParams.addRule(align_parent_right, 0);
+            layoutParams.addRule(below, R.id.switch_camera);
+            layoutParams.addRule(align_parent_bottom, 0);
+            layoutParams.addRule(right_of, 0);
+            view.setLayoutParams(layoutParams);
+            view.setRotation(ui_rotation);
+
 			view = findViewById(R.id.exposure);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
-			layoutParams.addRule(align_parent_bottom, 0);
-			layoutParams.addRule(left_of, R.id.exposure_lock);
-			layoutParams.addRule(right_of, 0);
-			view.setLayoutParams(layoutParams);
-			view.setRotation(ui_rotation);
-	
-			view = findViewById(R.id.switch_video);
-			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
-			layoutParams.addRule(align_parent_bottom, 0);
-			layoutParams.addRule(left_of, R.id.exposure);
-			layoutParams.addRule(right_of, 0);
-			view.setLayoutParams(layoutParams);
-			view.setRotation(ui_rotation);
-	
-			view = findViewById(R.id.switch_camera);
-			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_left, 0);
-			layoutParams.addRule(align_parent_right, 0);
-			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
-			layoutParams.addRule(align_parent_bottom, 0);
-			layoutParams.addRule(left_of, R.id.switch_video);
-			layoutParams.addRule(right_of, 0);
-			view.setLayoutParams(layoutParams);
-			view.setRotation(ui_rotation);
-	
+            layoutParams.addRule(align_parent_left, 0);
+            layoutParams.addRule(align_parent_right, 0);
+            layoutParams.addRule(below, R.id.exposure_lock);
+            layoutParams.addRule(align_parent_bottom, 0);
+            layoutParams.addRule(right_of, 0);
+            view.setLayoutParams(layoutParams);
+            view.setRotation(ui_rotation);
+
+            view = findViewById(R.id.gallery);
+            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
+            layoutParams.addRule(align_parent_left, 0);
+            layoutParams.addRule(align_parent_right, 0);
+            layoutParams.addRule(below, R.id.exposure);
+            layoutParams.addRule(align_parent_bottom, 0);
+            layoutParams.addRule(right_of, 0);
+            view.setLayoutParams(layoutParams);
+            view.setRotation(ui_rotation);
+
+            view = findViewById(R.id.settings);
+            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
+            layoutParams.addRule(align_parent_left, 0);
+            layoutParams.addRule(align_parent_right, 0);
+            layoutParams.addRule(below, R.id.gallery);
+            layoutParams.addRule(align_parent_bottom, 0);
+            layoutParams.addRule(right_of, 0);
+            view.setLayoutParams(layoutParams);
+            view.setRotation(ui_rotation);
+
+            view = findViewById(R.id.popup);
+            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
+            layoutParams.addRule(align_parent_left, 0);
+            layoutParams.addRule(align_parent_right, 0);
+            layoutParams.addRule(below, R.id.settings);
+            layoutParams.addRule(align_parent_bottom, 0);
+            layoutParams.addRule(right_of, 0);
+            view.setLayoutParams(layoutParams);
+            view.setRotation(ui_rotation);
+
 			view = findViewById(R.id.trash);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
@@ -699,7 +702,7 @@ public class MainActivity extends Activity {
 			layoutParams.addRule(right_of, 0);
 			view.setLayoutParams(layoutParams);
 			view.setRotation(ui_rotation);
-	
+
 			view = findViewById(R.id.share);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
@@ -708,14 +711,14 @@ public class MainActivity extends Activity {
 			layoutParams.addRule(right_of, 0);
 			view.setLayoutParams(layoutParams);
 			view.setRotation(ui_rotation);
-	
+
 			view = findViewById(R.id.take_photo);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			layoutParams.addRule(align_parent_left, 0);
 			layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
 			view.setLayoutParams(layoutParams);
 			view.setRotation(ui_rotation);
-	
+
 			view = findViewById(R.id.zoom);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			layoutParams.addRule(align_parent_left, 0);
@@ -724,7 +727,7 @@ public class MainActivity extends Activity {
 			layoutParams.addRule(align_parent_bottom, RelativeLayout.TRUE);
 			view.setLayoutParams(layoutParams);
 			view.setRotation(180.0f); // should always match the zoom_seekbar, so that zoom in and out are in the same directions
-	
+
 			view = findViewById(R.id.zoom_seekbar);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			layoutParams.addRule(align_left, 0);
@@ -868,7 +871,7 @@ public class MainActivity extends Activity {
 			}
 		}
     }
-    
+
     boolean getUIPlacementRight() {
     	return this.ui_placement_right;
     }
