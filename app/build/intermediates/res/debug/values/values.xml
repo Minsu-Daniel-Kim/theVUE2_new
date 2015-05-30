@@ -522,7 +522,7 @@
     <string name="preference_max_brightness">Force maximum brightness</string>
     <string name="preference_max_brightness_summary">Force screen display to be at maximum brightness, rather than device default</string>
     <string name="preference_pause_preview">사진 촬영 후 정지</string>
-    <string name="preference_pause_preview_summary">Pause the screen after taking a photo, with the option to share or delete the photo</string>
+    <string name="preference_pause_preview_summary">사진 활영 후 정지됩니다.</string>
     <string name="preference_preview_size">Preview size</string>
     <string name="preference_preview_size_summary">How to choose the preview size</string>
     <string name="preference_quality">이미지 품질</string>
@@ -540,8 +540,8 @@
     <string name="preference_resolution_summary">사진 해상도를 설정합니다.</string>
     <string name="preference_rotate_preview">Rotate preview</string>
     <string name="preference_rotate_preview_summary">Option to rotate the preview (won\'t affect resultant photos/videos)</string>
-    <string name="preference_save_location">Save location</string>
-    <string name="preference_save_location_summary">Folder to save the photo/video files in</string>
+    <string name="preference_save_location">저장 위치</string>
+    <string name="preference_save_location_summary">사진과 비디오 파일을 저장할 폴더를 선택합니다.</string>
     <string name="preference_save_photo_prefix">Save photo prefix</string>
     <string name="preference_save_photo_prefix_summary">The prefix to use for the save filenames for photos</string>
     <string name="preference_save_video_prefix">Save video prefix</string>
@@ -573,8 +573,8 @@
     <string name="preference_show_zoom_slider_controls">Show zoom slider control</string>
     <string name="preference_show_zoom_slider_controls_summary">Show the slider for zoom control</string>
     <string name="preference_show_zoom_summary">Display the current camera zoom level on screen (when zoomed in)</string>
-    <string name="preference_shutter_sound">Shutter sound</string>
-    <string name="preference_shutter_sound_summary">Play a sound when taking a photo (requires Android 4.2 or greater to disable)</string>
+    <string name="preference_shutter_sound">셔터 사운드</string>
+    <string name="preference_shutter_sound_summary">사진 촬영시 셔터 사운드가 납니다.</string>
     <string name="preference_stamp">Stamp photos</string>
     <string name="preference_stamp_fontsize">Font size</string>
     <string name="preference_stamp_fontsize_summary">Font size to use when stamping text onto photos</string>
@@ -603,8 +603,8 @@
     <string name="preference_video_restart_summary">If the video has stopped after hitting the maximum duration (if set), this option will make the video restart, up to the specified number of times.</string>
     <string name="preference_video_stabilization">Enable video stabilization</string>
     <string name="preference_video_stabilization_summary">Video stabilization reduces the shaking due to the motion of the camera in both the preview and in recorded videos.</string>
-    <string name="preference_volume_keys">Volume keys</string>
-    <string name="preference_volume_keys_summary">Set behaviour for when volume keys are pressed</string>
+    <string name="preference_volume_keys">볼륨 키</string>
+    <string name="preference_volume_keys_summary">볼륨 키가 눌렸을때의 행동을 설정합니다. </string>
     <string name="preference_white_balance">화이트밸러스 세팅</string>
     <string name="preference_white_balance_summary">화이트밸러스를 위한 설정을 선택해주세요</string>
     <string name="repeats_to_go">repeats to go</string>

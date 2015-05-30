@@ -216,14 +216,14 @@
                 android:defaultValue="preference_preview_size_wysiwyg"
                 />
         
-            <ListPreference 
-                android:key="preference_ui_placement"
-                android:title="@string/preference_ui_placement"
-                android:summary="@string/preference_ui_placement_summary"
-                android:entries="@array/preference_ui_placement_entries"
-                android:entryValues="@array/preference_ui_placement_values"
-                android:defaultValue="ui_right"
-                />
+            <!--<ListPreference -->
+                <!--android:key="preference_ui_placement"-->
+                <!--android:title="@string/preference_ui_placement"-->
+                <!--android:summary="@string/preference_ui_placement_summary"-->
+                <!--android:entries="@array/preference_ui_placement_entries"-->
+                <!--android:entryValues="@array/preference_ui_placement_values"-->
+                <!--android:defaultValue="ui_right"-->
+                <!--/>-->
     
 	        <!--  if we move this to another PreferenceGroup, we should update code to remove this Preference -->
             <ListPreference 
@@ -253,7 +253,7 @@
                 android:key="preference_show_zoom_slider_controls"
                 android:title="@string/preference_show_zoom_slider_controls"
                 android:summary="@string/preference_show_zoom_slider_controls_summary"
-                android:defaultValue="true"
+                android:defaultValue="false"
                 />
 
             <!--  if we move this to another PreferenceGroup, we should update code to remove this Preference -->
@@ -261,7 +261,7 @@
                 android:key="preference_show_iso"
                 android:title="@string/preference_show_iso"
                 android:summary="@string/preference_show_iso_summary"
-                android:defaultValue="true"
+                android:defaultValue="false"
                 />
         
             <CheckBoxPreference
@@ -275,7 +275,7 @@
                 android:key="preference_show_angle"
                 android:title="@string/preference_show_angle"
                 android:summary="@string/preference_show_angle_summary"
-                android:defaultValue="true"
+                android:defaultValue="false"
                 />
 
             <CheckBoxPreference
@@ -289,14 +289,14 @@
                 android:key="preference_show_geo_direction"
                 android:title="@string/preference_show_geo_direction"
                 android:summary="@string/preference_show_geo_direction_summary"
-                android:defaultValue="true"
+                android:defaultValue="false"
                 />
 
             <CheckBoxPreference
                 android:key="preference_show_time"
                 android:title="@string/preference_show_time"
                 android:summary="@string/preference_show_time_summary"
-                android:defaultValue="true"
+                android:defaultValue="false"
                 />
 
             <CheckBoxPreference
@@ -525,19 +525,6 @@
         android:title="@string/preference_category_online"
         >
 
-        <!--<Preference-->
-		    <!--android:key="preference_online_help"  -->
-		    <!--android:title="@string/preference_online_help"-->
-            <!--android:summary="@string/preference_online_help"  -->
-		    <!--/>  -->
-
-        <!--<Preference-->
-            <!--android:key="preference_donate"  -->
-            <!--android:title="@string/preference_donate"-->
-            <!--android:summary="@string/preference_donate_summary"  -->
-            <!--/>  -->
-
-        <!--&lt;!&ndash;  if we move this to another PreferenceGroup, we should update code for the findPreference() call &ndash;&gt;-->
         <CheckBoxPreference
             android:key="preference_use_camera2"
             android:title="@string/preference_use_camera2"
@@ -545,11 +532,6 @@
             android:defaultValue="false"
             />
 
-        <!--<Preference-->
-            <!--android:key="preference_about"-->
-            <!--android:title="@string/preference_about"-->
-            <!--android:summary="@string/preference_about_summary"-->
-            <!--/>-->
         
         <Preference
             android:key="preference_reset"  
