@@ -1,7 +1,7 @@
-package net.sourceforge.theVUE2;
+package com.theeyes.theVUE2;
 
-import net.sourceforge.theVUE2.Preview.Preview;
-import net.sourceforge.theVUE2.UI.FolderChooserDialog;
+import com.theeyes.theVUE2.Preview.Preview;
+import com.theeyes.theVUE2.UI.FolderChooserDialog;
 
 import android.app.Activity;
 import android.app.ActivityManager;

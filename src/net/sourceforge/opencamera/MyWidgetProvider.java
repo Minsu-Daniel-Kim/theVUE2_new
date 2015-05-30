@@ -1,8 +1,8 @@
-package net.sourceforge.theVUE2;
+package com.theeyes.theVUE2;
 
-import net.sourceforge.theVUE2.MyDebug;
-import net.sourceforge.theVUE2.MainActivity;
-import net.sourceforge.theVUE2.R;
+import com.theeyes.theVUE2.MyDebug;
+import com.theeyes.theVUE2.MainActivity;
+import com.theeyes.theVUE2.R;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;

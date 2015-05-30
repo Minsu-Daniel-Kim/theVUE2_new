@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.sourceforge.theVUE2"
+    package="com.theeyes.theVUE2"
     android:versionCode="29"
     android:versionName="1.25"
     android:installLocation="auto"
@@ -29,7 +29,7 @@
         >
        	<!-- should not change the android:name, including moving to a subpackage - see http://android-developers.blogspot.co.uk/2011/06/things-that-cannot-change.html -->
         <activity
-            android:name="net.sourceforge.theVUE2.MainActivity"
+            android:name="com.theeyes.theVUE2.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape"
 			android:configChanges="orientation|screenSize|keyboardHidden"
@@ -54,7 +54,7 @@
         </activity>
        	<!-- should not change the android:name, including moving to a subpackage - see http://android-developers.blogspot.co.uk/2011/06/things-that-cannot-change.html -->
         <activity
-            android:name="net.sourceforge.theVUE2.TakePhoto"
+            android:name="com.theeyes.theVUE2.TakePhoto"
             android:label="@string/take_photo"
 	        android:icon="@drawable/ic_launcher_take_photo"
             android:screenOrientation="landscape"
@@ -67,7 +67,7 @@
         <receiver
 		    android:icon="@drawable/ic_launcher"
 		    android:label="@string/app_name"
-		    android:name="net.sourceforge.theVUE2.MyWidgetProvider" >
+		    android:name="com.theeyes.theVUE2.MyWidgetProvider" >
 		    <intent-filter >
 		         <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 		    </intent-filter>
@@ -82,7 +82,7 @@
         <receiver
 		    android:icon="@drawable/ic_launcher_take_photo"
             android:label="@string/take_photo"
-		    android:name="net.sourceforge.theVUE2.MyWidgetProviderTakePhoto" >
+		    android:name="com.theeyes.theVUE2.MyWidgetProviderTakePhoto" >
 		    <intent-filter >
 		         <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 		    </intent-filter>

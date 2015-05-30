@@ -1,6 +1,6 @@
-package net.sourceforge.theVUE2.Preview.CameraSurface;
+package com.theeyes.theVUE2.Preview.CameraSurface;
 
-import net.sourceforge.theVUE2.CameraController.CameraController;
+import com.theeyes.theVUE2.CameraController.CameraController;
 
 import android.graphics.Matrix;
 import android.media.MediaRecorder;

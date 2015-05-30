@@ -1,9 +1,9 @@
-package net.sourceforge.theVUE2.Preview.CameraSurface;
+package com.theeyes.theVUE2.Preview.CameraSurface;
 
-import net.sourceforge.theVUE2.MyDebug;
-import net.sourceforge.theVUE2.CameraController.CameraController;
-import net.sourceforge.theVUE2.CameraController.CameraControllerException;
-import net.sourceforge.theVUE2.Preview.Preview;
+import com.theeyes.theVUE2.MyDebug;
+import com.theeyes.theVUE2.CameraController.CameraController;
+import com.theeyes.theVUE2.CameraController.CameraControllerException;
+import com.theeyes.theVUE2.Preview.Preview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package net.sourceforge.theVUE2;
+package com.theeyes.theVUE2;
 
 public final class R {
     public static final class array {

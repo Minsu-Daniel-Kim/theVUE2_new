@@ -1,6 +1,6 @@
-package net.sourceforge.theVUE2.Preview;
+package com.theeyes.theVUE2.Preview;
 
-import net.sourceforge.theVUE2.MyDebug;
+import com.theeyes.theVUE2.MyDebug;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.os.Bundle;

@@ -1,10 +1,10 @@
-package net.sourceforge.theVUE2;
+package com.theeyes.theVUE2;
 
-import net.sourceforge.theVUE2.CameraController.CameraController;
-import net.sourceforge.theVUE2.CameraController.CameraControllerManager2;
-import net.sourceforge.theVUE2.Preview.Preview;
-import net.sourceforge.theVUE2.UI.FolderChooserDialog;
-import net.sourceforge.theVUE2.UI.PopupView;
+import com.theeyes.theVUE2.CameraController.CameraController;
+import com.theeyes.theVUE2.CameraController.CameraControllerManager2;
+import com.theeyes.theVUE2.Preview.Preview;
+import com.theeyes.theVUE2.UI.FolderChooserDialog;
+import com.theeyes.theVUE2.UI.PopupView;
 
 import java.io.File;
 import java.io.IOException;

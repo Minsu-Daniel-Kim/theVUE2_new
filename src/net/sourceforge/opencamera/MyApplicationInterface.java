@@ -1,4 +1,4 @@
-package net.sourceforge.theVUE2;
+package com.theeyes.theVUE2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,9 +10,9 @@ import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import net.sourceforge.theVUE2.CameraController.CameraController;
-import net.sourceforge.theVUE2.Preview.ApplicationInterface;
-import net.sourceforge.theVUE2.Preview.Preview;
+import com.theeyes.theVUE2.CameraController.CameraController;
+import com.theeyes.theVUE2.Preview.ApplicationInterface;
+import com.theeyes.theVUE2.Preview.Preview;
 
 import android.app.Activity;
 import android.content.Context;

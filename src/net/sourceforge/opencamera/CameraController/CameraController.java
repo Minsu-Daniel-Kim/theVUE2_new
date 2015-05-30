@@ -1,6 +1,6 @@
-package net.sourceforge.theVUE2.CameraController;
+package com.theeyes.theVUE2.CameraController;
 
-import net.sourceforge.theVUE2.MyDebug;
+import com.theeyes.theVUE2.MyDebug;
 
 import java.util.List;
 

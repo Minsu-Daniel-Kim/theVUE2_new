@@ -426,7 +426,7 @@
     <string name="angle">각도</string>
     <string name="answer_no">아니오</string>
     <string name="answer_yes">예</string>
-    <string name="app_name">더뷰2</string>
+    <string name="app_name">theVUE2</string>
     <string name="audio_disabled">오디오 사용 안함</string>
     <string name="auto_stabilise_not_supported">해당 기기에서는 자동보정 기능이 지원되지 않습니다.</string>
     <string name="back_camera">후면 카메라 </string>
@@ -469,6 +469,8 @@
     <string name="front_camera">전면 카메라 </string>
     <string name="gallery">갤러리</string>
     <string name="infinite">Infinite</string>
+    <string name="intro_ok">OK</string>
+    <string name="intro_text">더뷰2 입니다.</string>
     <string name="iso">ISO</string>
     <string name="location_not_available">GPS 사용불가</string>
     <string name="max_duration">최대 시간</string>

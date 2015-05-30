@@ -75,7 +75,7 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 		ADDED from AndroidManifest.xml:28:9
 	android:theme
 		ADDED from AndroidManifest.xml:27:9
-activity#net.sourceforge.theVUE2.MainActivity
+activity#com.theeyes.theVUE2.MainActivity
 ADDED from AndroidManifest.xml:31:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:34:13
@@ -117,7 +117,7 @@ action#android.media.action.STILL_IMAGE_CAMERA_SECURE
 ADDED from AndroidManifest.xml:51:17
 	android:name
 		ADDED from AndroidManifest.xml:51:25
-activity#net.sourceforge.theVUE2.TakePhoto
+activity#com.theeyes.theVUE2.TakePhoto
 ADDED from AndroidManifest.xml:56:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:60:13
@@ -133,7 +133,7 @@ ADDED from AndroidManifest.xml:56:9
 		ADDED from AndroidManifest.xml:62:4
 	android:name
 		ADDED from AndroidManifest.xml:57:13
-receiver#net.sourceforge.theVUE2.MyWidgetProvider
+receiver#com.theeyes.theVUE2.MyWidgetProvider
 ADDED from AndroidManifest.xml:67:9
 	android:label
 		ADDED from AndroidManifest.xml:69:7
@@ -153,7 +153,7 @@ ADDED from AndroidManifest.xml:77:7
 		ADDED from AndroidManifest.xml:79:10
 	android:name
 		ADDED from AndroidManifest.xml:78:10
-receiver#net.sourceforge.theVUE2.MyWidgetProviderTakePhoto
+receiver#com.theeyes.theVUE2.MyWidgetProviderTakePhoto
 ADDED from AndroidManifest.xml:82:9
 	android:label
 		ADDED from AndroidManifest.xml:84:13

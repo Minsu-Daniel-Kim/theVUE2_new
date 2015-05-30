@@ -1,7 +1,7 @@
-package net.sourceforge.theVUE2;
+package com.theeyes.theVUE2;
 
-import net.sourceforge.theVUE2.MyDebug;
-import net.sourceforge.theVUE2.MainActivity;
+import com.theeyes.theVUE2.MyDebug;
+import com.theeyes.theVUE2.MainActivity;
 
 import android.app.Activity;
 import android.content.Intent;
