@@ -99,7 +99,6 @@ public class LocationSupplier {
 			locationListeners[1] = new MyLocationListener();
 			
 			// location listeners should be stored in order best to worst
-			// also see https://sourceforge.net/p/opencamera/tickets/1/ - need to check provider is available
 			if( locationManager.getAllProviders().contains(LocationManager.NETWORK_PROVIDER) ) {
 				locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 1000, 0, locationListeners[1]);
 			}

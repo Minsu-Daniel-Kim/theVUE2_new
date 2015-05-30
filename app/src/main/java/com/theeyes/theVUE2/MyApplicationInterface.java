@@ -2009,7 +2009,7 @@ public class MyApplicationInterface implements ApplicationInterface {
 	            		// need to update EXIF data!
         	    		if( MyDebug.LOG )
         	    			Log.d(TAG, "write temp file to record EXIF data");
-	            		File tempFile = File.createTempFile("opencamera_exif", "");
+	            		File tempFile = File.createTempFile("theVUE2_exif", "");
 	    	            OutputStream tempOutputStream = new FileOutputStream(tempFile);
     	            	tempOutputStream.write(data);
     	            	tempOutputStream.close();

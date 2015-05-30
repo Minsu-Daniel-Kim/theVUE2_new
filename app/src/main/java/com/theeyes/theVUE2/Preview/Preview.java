@@ -1,32 +1,5 @@
 package com.theeyes.theVUE2.Preview;
 
-import com.theeyes.theVUE2.MyDebug;
-import com.theeyes.theVUE2.R;
-import com.theeyes.theVUE2.TakePhoto;
-import com.theeyes.theVUE2.ToastBoxer;
-import com.theeyes.theVUE2.CameraController.CameraController;
-import com.theeyes.theVUE2.CameraController.CameraController1;
-import com.theeyes.theVUE2.CameraController.CameraController2;
-import com.theeyes.theVUE2.CameraController.CameraControllerException;
-import com.theeyes.theVUE2.CameraController.CameraControllerManager;
-import com.theeyes.theVUE2.CameraController.CameraControllerManager1;
-import com.theeyes.theVUE2.CameraController.CameraControllerManager2;
-import com.theeyes.theVUE2.Preview.CameraSurface.CameraSurface;
-import com.theeyes.theVUE2.Preview.CameraSurface.MySurfaceView;
-import com.theeyes.theVUE2.Preview.CameraSurface.MyTextureView;
-
-import java.io.File;
-import java.io.IOException;
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Locale;
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.Vector;
-
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
@@ -59,10 +32,37 @@ import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.TextureView;
 import android.view.View;
+import android.view.View.MeasureSpec;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.view.View.MeasureSpec;
 import android.widget.Toast;
+
+import com.theeyes.theVUE2.CameraController.CameraController;
+import com.theeyes.theVUE2.CameraController.CameraController1;
+import com.theeyes.theVUE2.CameraController.CameraController2;
+import com.theeyes.theVUE2.CameraController.CameraControllerException;
+import com.theeyes.theVUE2.CameraController.CameraControllerManager;
+import com.theeyes.theVUE2.CameraController.CameraControllerManager1;
+import com.theeyes.theVUE2.CameraController.CameraControllerManager2;
+import com.theeyes.theVUE2.MyDebug;
+import com.theeyes.theVUE2.Preview.CameraSurface.CameraSurface;
+import com.theeyes.theVUE2.Preview.CameraSurface.MySurfaceView;
+import com.theeyes.theVUE2.Preview.CameraSurface.MyTextureView;
+import com.theeyes.theVUE2.R;
+import com.theeyes.theVUE2.TakePhoto;
+import com.theeyes.theVUE2.ToastBoxer;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Locale;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.Vector;
 
 public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextureListener {
 	private static final String TAG = "Preview";

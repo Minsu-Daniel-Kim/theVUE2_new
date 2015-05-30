@@ -1,12 +1,5 @@
 package com.theeyes.theVUE2;
 
-import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
-
-import com.theeyes.theVUE2.Preview.ApplicationInterface;
-
 import android.annotation.SuppressLint;
 import android.content.ContentUris;
 import android.content.Context;
@@ -20,10 +13,17 @@ import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Images;
-import android.provider.MediaStore.Video;
 import android.provider.MediaStore.Images.ImageColumns;
+import android.provider.MediaStore.Video;
 import android.provider.MediaStore.Video.VideoColumns;
 import android.util.Log;
+
+import com.theeyes.theVUE2.Preview.ApplicationInterface;
+
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 public class StorageUtils {
 	private static final String TAG = "StorageUtils";
@@ -160,7 +160,7 @@ public class StorageUtils {
 
     String getSaveLocation() {
 		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
-		String folder_name = sharedPreferences.getString(PreferenceKeys.getSaveLocationPreferenceKey(), "OpenCamera");
+		String folder_name = sharedPreferences.getString(PreferenceKeys.getSaveLocationPreferenceKey(), "theVUE2");
 		return folder_name;
     }
     

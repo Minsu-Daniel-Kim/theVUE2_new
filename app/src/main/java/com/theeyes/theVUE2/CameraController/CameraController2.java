@@ -1,13 +1,5 @@
 package com.theeyes.theVUE2.CameraController;
 
-import com.theeyes.theVUE2.MyDebug;
-
-import java.nio.ByteBuffer;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Vector;
-
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
@@ -39,6 +31,14 @@ import android.util.Range;
 import android.view.Display;
 import android.view.Surface;
 import android.view.SurfaceHolder;
+
+import com.theeyes.theVUE2.MyDebug;
+
+import java.nio.ByteBuffer;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Vector;
 
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
 public class CameraController2 extends CameraController {

@@ -1,12 +1,5 @@
 package com.theeyes.theVUE2.CameraController;
 
-import com.theeyes.theVUE2.MyDebug;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Vector;
-
 import android.annotation.TargetApi;
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
@@ -16,6 +9,13 @@ import android.os.Build;
 import android.os.Handler;
 import android.util.Log;
 import android.view.SurfaceHolder;
+
+import com.theeyes.theVUE2.MyDebug;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
 
 @SuppressWarnings("deprecation")
 public class CameraController1 extends CameraController {
@@ -999,7 +999,6 @@ public class CameraController1 extends CameraController {
 			camera.cancelAutoFocus();
 		}
 		catch(RuntimeException e) {
-			// had a report of crash on some devices, see comment at https://sourceforge.net/p/opencamera/tickets/4/ made on 20140520
 			if( MyDebug.LOG )
 				Log.d(TAG, "cancelAutoFocus() failed");
     		e.printStackTrace();

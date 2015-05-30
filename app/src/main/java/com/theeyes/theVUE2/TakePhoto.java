@@ -7,7 +7,7 @@ import android.util.Log;
 
 public class TakePhoto extends Activity {
 	private static final String TAG = "TakePhoto";
-	public static final String TAKE_PHOTO = "net.sourceforge.opencamera.TAKE_PHOTO";
+	public static final String TAKE_PHOTO = "com.theeyes.theVUE2.TAKE_PHOTO";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

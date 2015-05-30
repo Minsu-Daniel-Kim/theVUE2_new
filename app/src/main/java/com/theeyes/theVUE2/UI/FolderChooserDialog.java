@@ -1,15 +1,5 @@
 package com.theeyes.theVUE2.UI;
 
-import com.theeyes.theVUE2.MyDebug;
-import com.theeyes.theVUE2.PreferenceKeys;
-import com.theeyes.theVUE2.R;
-import com.theeyes.theVUE2.StorageUtils;
-
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -30,6 +20,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.theeyes.theVUE2.MyDebug;
+import com.theeyes.theVUE2.PreferenceKeys;
+import com.theeyes.theVUE2.R;
+import com.theeyes.theVUE2.StorageUtils;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class FolderChooserDialog extends DialogFragment {
 	private static final String TAG = "FolderChooserFragment";
@@ -78,7 +78,7 @@ public class FolderChooserDialog extends DialogFragment {
 		if( MyDebug.LOG )
 			Log.d(TAG, "onCreateDialog");
 		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this.getActivity());
-		String folder_name = sharedPreferences.getString("preference_save_location", "OpenCamera");
+		String folder_name = sharedPreferences.getString("preference_save_location", "theVUE2");
 		if( MyDebug.LOG )
 			Log.d(TAG, "folder_name: " + folder_name);
 		File new_folder = StorageUtils.getImageFolder(folder_name);
