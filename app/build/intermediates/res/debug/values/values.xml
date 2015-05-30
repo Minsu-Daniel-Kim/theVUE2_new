@@ -445,8 +445,8 @@
     <string name="exposure">노출</string>
     <string name="exposure_compensation">노출 보정</string>
     <string name="exposure_lock">노출 잠금</string>
-    <string name="exposure_locked">노출 락</string>
-    <string name="exposure_unlocked">노출 언락</string>
+    <string name="exposure_locked">노출 잠금</string>
+    <string name="exposure_unlocked">노출 잠금해제</string>
     <string name="failed_create_folder">새폴더 생성 실패</string>
     <string name="failed_to_auto_stabilise">자동 보정 실패</string>
     <string name="failed_to_open_camera_1">카메라 열기 실패</string>

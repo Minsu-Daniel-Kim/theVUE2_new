@@ -38,8 +38,8 @@
     <string name="back_camera">후면 카메라 </string>
     <string name="photo">사진</string>
     <string name="video">비디오</string>
-    <string name="exposure_locked">노출 락</string>
-    <string name="exposure_unlocked">노출 언락</string>
+    <string name="exposure_locked">노출 잠금</string>
+    <string name="exposure_unlocked">노출 잠금해제</string>
     <string name="cancelled_timer">타이머 취소</string>
     <string name="cancelled_burst_mode">연속촬영 모드 취소</string>
     <string name="started_timer">타이머 시작</string>
