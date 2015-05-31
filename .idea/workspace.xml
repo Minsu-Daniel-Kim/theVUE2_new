@@ -7,8 +7,12 @@
         <option name="packageNamePattern" value="net.sourceforge.opencamera" />
       </filter>
       <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
         <option name="name" value="app: com.theeyes" />
         <option name="packageNamePattern" value="com.theeyes" />
+        <option name="pid" value="" />
       </filter>
     </filters>
   </component>
@@ -18,6 +22,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.theeyes" />
   </component>
   <component name="ChangeListManager">
@@ -43,61 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.7777777" vertical-offset="1485" max-vertical-offset="3840">
-              <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
-              <folding>
-                <element signature="e#787#810#0" expanded="true" />
-                <element signature="e#1169#1187#0" expanded="true" />
-                <element signature="e#1591#1616#0" expanded="true" />
-                <element signature="e#2017#2039#0" expanded="true" />
-                <element signature="e#2442#2457#0" expanded="true" />
-                <element signature="e#3455#3477#0" expanded="true" />
-                <element signature="e#3947#3967#0" expanded="true" />
-                <element signature="e#4532#4549#0" expanded="true" />
-                <element signature="e#5413#5427#0" expanded="true" />
-                <element signature="e#5665#5679#0" expanded="true" />
-                <element signature="e#6054#6078#0" expanded="true" />
-                <element signature="e#6795#6810#0" expanded="true" />
-                <element signature="e#7025#7056#0" expanded="true" />
-                <element signature="e#7351#7382#0" expanded="true" />
-                <element signature="e#7644#7657#0" expanded="true" />
-                <element signature="e#7947#7965#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CameraController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3225">
-              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="12307" max-vertical-offset="33675">
-              <caret line="920" column="2" selection-start-line="920" selection-start-column="2" selection-end-line="920" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CanvasView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/CanvasView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2455" max-vertical-offset="3405">
+              <caret line="182" column="29" selection-start-line="182" selection-start-column="29" selection-end-line="182" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -106,41 +61,39 @@
       <file leaf-file-name="Preview.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/Preview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4264214" vertical-offset="0" max-vertical-offset="62085">
-              <caret line="79" column="53" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.75243664" vertical-offset="45724" max-vertical-offset="65040">
+              <caret line="3098" column="66" selection-start-line="3098" selection-start-column="66" selection-end-line="3098" selection-end-column="66" />
               <folding>
-                <element signature="e#114126#114957#0" expanded="true" />
-                <element signature="e#114950#114951#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#91430#91473#0" expanded="true" />
+                <element signature="e#91515#91564#0" expanded="true" />
+                <element signature="e#93401#93457#0" expanded="true" />
+                <element signature="e#93602#93640#0" expanded="true" />
+                <element signature="e#93829#93872#0" expanded="true" />
+                <element signature="e#94114#94152#0" expanded="true" />
+                <element signature="e#113849#113873#0" expanded="true" />
+                <element signature="e#114776#114805#0" expanded="true" />
+                <element signature="e#124202#124233#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraSurface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/CameraSurface/CameraSurface.java">
+      <file leaf-file-name="MyApplicationInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="7150" max-vertical-offset="33600">
+              <caret line="565" column="30" selection-start-line="565" selection-start-column="30" selection-end-line="565" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySurfaceView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/CameraSurface/MySurfaceView.java">
+      <file leaf-file-name="PreferenceKeys.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/PreferenceKeys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1110">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyTextureView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/CameraSurface/MyTextureView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1020">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1486" max-vertical-offset="2445">
+              <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -149,132 +102,32 @@
       <file leaf-file-name="preferences.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.615385" vertical-offset="787" max-vertical-offset="8340">
-              <caret line="83" column="39" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="39" />
+            <state vertical-scroll-proportion="-10.961538" vertical-offset="885" max-vertical-offset="7605">
+              <caret line="78" column="52" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="52" />
               <folding>
-                <element signature="e#226#270#0" expanded="true" />
-                <element signature="e#2487#2524#0" expanded="true" />
-                <element signature="e#2553#2598#0" expanded="true" />
-                <element signature="e#3024#3059#0" expanded="true" />
-                <element signature="e#3088#3131#0" expanded="true" />
-                <element signature="e#3593#3638#0" expanded="true" />
-                <element signature="e#3725#3751#0" expanded="true" />
-                <element signature="e#3777#3811#0" expanded="true" />
-                <element signature="e#4082#4113#0" expanded="true" />
-                <element signature="e#4142#4181#0" expanded="true" />
-                <element signature="e#4337#4368#0" expanded="true" />
-                <element signature="e#4397#4436#0" expanded="true" />
-                <element signature="e#4729#4764#0" expanded="true" />
-                <element signature="e#4793#4836#0" expanded="true" />
-                <element signature="e#5143#5191#0" expanded="true" />
-                <element signature="e#5329#5363#0" expanded="true" />
-                <element signature="e#5390#5432#0" expanded="true" />
-                <element signature="e#5697#5731#0" expanded="true" />
-                <element signature="e#5758#5800#0" expanded="true" />
-                <element signature="e#5958#5990#0" expanded="true" />
-                <element signature="e#6020#6060#0" expanded="true" />
-                <element signature="e#6378#6412#0" expanded="true" />
-                <element signature="e#6442#6484#0" expanded="true" />
-                <element signature="e#6515#6549#0" expanded="true" />
-                <element signature="e#6582#6624#0" expanded="true" />
-                <element signature="e#6834#6872#0" expanded="true" />
-                <element signature="e#6902#6948#0" expanded="true" />
-                <element signature="e#6979#7017#0" expanded="true" />
-                <element signature="e#7050#7096#0" expanded="true" />
-                <element signature="e#7300#7338#0" expanded="true" />
-                <element signature="e#7368#7414#0" expanded="true" />
-                <element signature="e#7445#7483#0" expanded="true" />
-                <element signature="e#7516#7562#0" expanded="true" />
-                <element signature="e#7769#7806#0" expanded="true" />
-                <element signature="e#7839#7884#0" expanded="true" />
-                <element signature="e#8063#8094#0" expanded="true" />
-                <element signature="e#8127#8166#0" expanded="true" />
-                <element signature="e#8347#8382#0" expanded="true" />
-                <element signature="e#8415#8458#0" expanded="true" />
-                <element signature="e#8811#8842#0" expanded="true" />
-                <element signature="e#8997#9030#0" expanded="true" />
-                <element signature="e#9063#9104#0" expanded="true" />
-                <element signature="e#10077#10112#0" expanded="true" />
-                <element signature="e#10145#10188#0" expanded="true" />
-                <element signature="e#10545#10575#0" expanded="true" />
-                <element signature="e#10608#10646#0" expanded="true" />
-                <element signature="e#10841#10880#0" expanded="true" />
-                <element signature="e#10913#10960#0" expanded="true" />
-                <element signature="e#11163#11209#0" expanded="true" />
-                <element signature="e#11242#11296#0" expanded="true" />
-                <element signature="e#11588#11617#0" expanded="true" />
-                <element signature="e#11650#11687#0" expanded="true" />
-                <element signature="e#11876#11908#0" expanded="true" />
-                <element signature="e#11941#11981#0" expanded="true" />
-                <element signature="e#12168#12199#0" expanded="true" />
-                <element signature="e#12232#12271#0" expanded="true" />
-                <element signature="e#12456#12492#0" expanded="true" />
-                <element signature="e#12525#12569#0" expanded="true" />
-                <element signature="e#12757#12796#0" expanded="true" />
-                <element signature="e#12829#12876#0" expanded="true" />
-                <element signature="e#13055#13085#0" expanded="true" />
-                <element signature="e#13118#13156#0" expanded="true" />
-                <element signature="e#13338#13371#0" expanded="true" />
-                <element signature="e#13404#13445#0" expanded="true" />
-                <element signature="e#13615#13640#0" expanded="true" />
-                <element signature="e#13673#13706#0" expanded="true" />
-                <element signature="e#14031#14062#0" expanded="true" />
-                <element signature="e#14095#14134#0" expanded="true" />
-                <element signature="e#14829#14865#0" expanded="true" />
-                <element signature="e#14898#14942#0" expanded="true" />
-                <element signature="e#15125#15160#0" expanded="true" />
-                <element signature="e#15193#15236#0" expanded="true" />
-                <element signature="e#15456#15500#0" expanded="true" />
-                <element signature="e#15605#15647#0" expanded="true" />
-                <element signature="e#15897#15928#0" expanded="true" />
-                <element signature="e#15955#15994#0" expanded="true" />
-                <element signature="e#16101#16129#0" expanded="true" />
-                <element signature="e#16156#16192#0" expanded="true" />
-                <element signature="e#16340#16366#0" expanded="true" />
-                <element signature="e#16396#16430#0" expanded="true" />
-                <element signature="e#17722#17764#0" expanded="true" />
-                <element signature="e#18019#18042#0" expanded="true" />
-                <element signature="e#18072#18103#0" expanded="true" />
-                <element signature="e#18345#18380#0" expanded="true" />
-                <element signature="e#18410#18453#0" expanded="true" />
-                <element signature="e#18754#18794#0" expanded="true" />
-                <element signature="e#18827#18875#0" expanded="true" />
-                <element signature="e#19052#19086#0" expanded="true" />
-                <element signature="e#19119#19161#0" expanded="true" />
-                <element signature="e#19490#19520#0" expanded="true" />
-                <element signature="e#19553#19591#0" expanded="true" />
-                <element signature="e#19921#19960#0" expanded="true" />
-                <element signature="e#19993#20040#0" expanded="true" />
-                <element signature="e#20377#20411#0" expanded="true" />
-                <element signature="e#20444#20486#0" expanded="true" />
-                <element signature="e#20806#20839#0" expanded="true" />
-                <element signature="e#20869#20910#0" expanded="true" />
-                <element signature="e#21086#21123#0" expanded="true" />
-                <element signature="e#21156#21201#0" expanded="true" />
-                <element signature="e#21553#21585#0" expanded="true" />
-                <element signature="e#21618#21658#0" expanded="true" />
-                <element signature="e#21852#21897#0" expanded="true" />
-                <element signature="e#22039#22068#0" expanded="true" />
-                <element signature="e#22098#22135#0" expanded="true" />
-                <element signature="e#22309#22343#0" expanded="true" />
-                <element signature="e#22373#22415#0" expanded="true" />
-                <element signature="e#22591#22628#0" expanded="true" />
-                <element signature="e#22658#22703#0" expanded="true" />
-                <element signature="e#22923#22959#0" expanded="true" />
-                <element signature="e#23074#23106#0" expanded="true" />
-                <element signature="e#23135#23175#0" expanded="true" />
-                <element signature="e#23333#23359#0" expanded="true" />
-                <element signature="e#23388#23422#0" expanded="true" />
+                <element signature="e#3505#3531#0" expanded="true" />
+                <element signature="e#12379#12419#0" expanded="true" />
+                <element signature="e#12452#12500#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <file leaf-file-name="CameraController2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.2" vertical-offset="930" max-vertical-offset="3705">
-              <caret line="99" column="71" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="40155">
+              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraController1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.884615" vertical-offset="14874" max-vertical-offset="17205">
+              <caret line="1036" column="14" selection-start-line="1036" selection-start-column="14" selection-end-line="1036" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -1485,16 +1338,24 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/LocationSupplier.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/StorageUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/TakePhoto.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController1.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/FolderChooserDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/PreferenceKeys.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/ApplicationInterface.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MotionDetection/Preview.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MotionDetection/MotionDetection.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MotionDetection/PIMActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraCallback.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/Preview.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController1.java" />
       </list>
     </option>
   </component>
@@ -1523,322 +1384,13 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Preview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Preview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CameraSurface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CameraController" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2059,6 +1611,259 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theeyes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theeyes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theeyes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CameraController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -2072,9 +1877,15 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="42f6d300383411df" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_22" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PicInMotion-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AndroidMotionDetection" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MotionDetection/image" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MotionDetection" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -2245,22 +2056,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-347" y="-1028" width="1598" height="1003" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16347238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27621195" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25028184" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25028184" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3461105" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17174038" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2273,6 +2083,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2327,71 +2138,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="13980" max-vertical-offset="35865">
-          <caret line="932" column="45" selection-start-line="932" selection-start-column="45" selection-end-line="932" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="12015" max-vertical-offset="34875">
-          <caret line="801" column="59" selection-start-line="801" selection-start-column="59" selection-end-line="801" selection-end-column="59" />
-          <folding>
-            <element signature="e#23123#23194#0" expanded="true" />
-            <element signature="e#23347#23408#0" expanded="true" />
-            <element signature="e#23875#23902#0" expanded="true" />
-            <element signature="e#24068#24095#0" expanded="true" />
-            <element signature="e#24635#24674#0" expanded="true" />
-            <element signature="e#24770#24801#0" expanded="true" />
-            <element signature="e#24974#25002#0" expanded="true" />
-            <element signature="e#25136#25168#0" expanded="true" />
-            <element signature="e#25868#25921#0" expanded="true" />
-            <element signature="e#25948#26009#0" expanded="true" />
-            <element signature="e#26043#26113#0" expanded="true" />
-            <element signature="e#26500#26570#0" expanded="true" />
-            <element signature="e#26648#26709#0" expanded="true" />
-            <element signature="e#26877#26912#0" expanded="true" />
-            <element signature="e#27022#27051#0" expanded="true" />
-            <element signature="e#49797#49849#0" expanded="true" />
-            <element signature="e#49852#49905#0" expanded="true" />
-            <element signature="e#49908#49965#0" expanded="true" />
-            <element signature="e#51178#51231#0" expanded="true" />
-            <element signature="e#51844#51901#0" expanded="true" />
-            <element signature="e#53705#53774#0" expanded="true" />
-            <element signature="e#53940#54009#0" expanded="true" />
-            <element signature="e#54687#54758#0" expanded="true" />
-            <element signature="e#54830#54901#0" expanded="true" />
-            <element signature="e#54989#55060#0" expanded="true" />
-            <element signature="e#56983#57035#0" expanded="true" />
-            <element signature="e#63046#63105#0" expanded="true" />
-            <element signature="e#70635#70667#0" expanded="true" />
-            <element signature="e#72296#72329#0" expanded="true" />
-            <element signature="e#78092#78116#0" expanded="true" />
-            <element signature="e#80675#80742#0" expanded="true" />
-            <element signature="e#84731#84760#0" expanded="true" />
-            <element signature="e#93807#93836#0" expanded="true" />
-            <element signature="e#94054#94083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyPreferenceFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="5100">
-          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7965" max-vertical-offset="8520">
-          <caret line="531" column="23" selection-start-line="531" selection-start-column="23" selection-end-line="531" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6270">
@@ -2437,8 +2183,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="64335">
           <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
-            <element signature="e#114126#114957#0" expanded="true" />
-            <element signature="e#114950#114951#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#91430#91473#0" expanded="true" />
+            <element signature="e#91515#91564#0" expanded="true" />
+            <element signature="e#93401#93457#0" expanded="true" />
+            <element signature="e#93602#93640#0" expanded="true" />
+            <element signature="e#93829#93872#0" expanded="true" />
+            <element signature="e#94114#94152#0" expanded="true" />
+            <element signature="e#113849#113873#0" expanded="true" />
+            <element signature="e#114776#114805#0" expanded="true" />
+            <element signature="e#124202#124233#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2463,22 +2217,22 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="3540">
           <caret line="29" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
           <folding>
-            <element signature="e#787#810#0" expanded="true" />
-            <element signature="e#1169#1187#0" expanded="true" />
-            <element signature="e#1591#1616#0" expanded="true" />
-            <element signature="e#2017#2039#0" expanded="true" />
-            <element signature="e#2442#2457#0" expanded="true" />
-            <element signature="e#3455#3477#0" expanded="true" />
-            <element signature="e#3947#3967#0" expanded="true" />
-            <element signature="e#4532#4549#0" expanded="true" />
-            <element signature="e#5413#5427#0" expanded="true" />
-            <element signature="e#5665#5679#0" expanded="true" />
-            <element signature="e#6054#6078#0" expanded="true" />
-            <element signature="e#6795#6810#0" expanded="true" />
-            <element signature="e#7025#7056#0" expanded="true" />
-            <element signature="e#7351#7382#0" expanded="true" />
-            <element signature="e#7644#7657#0" expanded="true" />
-            <element signature="e#7947#7965#0" expanded="true" />
+            <element signature="e#787#810#0" expanded="false" />
+            <element signature="e#1169#1187#0" expanded="false" />
+            <element signature="e#1591#1616#0" expanded="false" />
+            <element signature="e#2017#2039#0" expanded="false" />
+            <element signature="e#2442#2457#0" expanded="false" />
+            <element signature="e#3455#3477#0" expanded="false" />
+            <element signature="e#3947#3967#0" expanded="false" />
+            <element signature="e#4532#4549#0" expanded="false" />
+            <element signature="e#5413#5427#0" expanded="false" />
+            <element signature="e#5665#5679#0" expanded="false" />
+            <element signature="e#6054#6078#0" expanded="false" />
+            <element signature="e#6795#6810#0" expanded="false" />
+            <element signature="e#7025#7056#0" expanded="false" />
+            <element signature="e#7351#7382#0" expanded="false" />
+            <element signature="e#7644#7657#0" expanded="false" />
+            <element signature="e#7947#7965#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2551,14 +2305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
@@ -2573,13 +2319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/LocationSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1135" max-vertical-offset="2175">
-          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyWidgetProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="1155">
@@ -2591,22 +2330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1769" max-vertical-offset="5190">
           <caret line="162" column="112" selection-start-line="162" selection-start-column="112" selection-end-line="162" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="14399" max-vertical-offset="16065">
-          <caret line="1001" column="29" selection-start-line="1001" selection-start-column="29" selection-end-line="1001" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5264" max-vertical-offset="39900">
-          <caret line="399" column="29" selection-start-line="399" selection-start-column="22" selection-end-line="399" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2657,7 +2380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2669,192 +2391,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/PreferenceKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="2445">
-          <caret line="179" column="54" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyPreferenceFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4665">
           <caret line="56" column="54" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="54" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3360" max-vertical-offset="33600">
-          <caret line="302" column="0" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
-          <folding>
-            <element signature="e#23123#23194#0" expanded="true" />
-            <element signature="e#23347#23408#0" expanded="true" />
-            <element signature="e#23875#23902#0" expanded="true" />
-            <element signature="e#24068#24095#0" expanded="true" />
-            <element signature="e#24635#24674#0" expanded="true" />
-            <element signature="e#24770#24801#0" expanded="true" />
-            <element signature="e#24974#25002#0" expanded="true" />
-            <element signature="e#25136#25168#0" expanded="true" />
-            <element signature="e#25868#25921#0" expanded="true" />
-            <element signature="e#25948#26009#0" expanded="true" />
-            <element signature="e#26043#26113#0" expanded="true" />
-            <element signature="e#26500#26570#0" expanded="true" />
-            <element signature="e#26648#26709#0" expanded="true" />
-            <element signature="e#26877#26912#0" expanded="true" />
-            <element signature="e#27022#27051#0" expanded="true" />
-            <element signature="e#49797#49849#0" expanded="true" />
-            <element signature="e#49852#49905#0" expanded="true" />
-            <element signature="e#49908#49965#0" expanded="true" />
-            <element signature="e#51178#51231#0" expanded="true" />
-            <element signature="e#51844#51901#0" expanded="true" />
-            <element signature="e#53705#53774#0" expanded="true" />
-            <element signature="e#53940#54009#0" expanded="true" />
-            <element signature="e#54687#54758#0" expanded="true" />
-            <element signature="e#54830#54901#0" expanded="true" />
-            <element signature="e#54989#55060#0" expanded="true" />
-            <element signature="e#56983#57035#0" expanded="true" />
-            <element signature="e#63046#63105#0" expanded="true" />
-            <element signature="e#70635#70667#0" expanded="true" />
-            <element signature="e#72296#72329#0" expanded="true" />
-            <element signature="e#78092#78116#0" expanded="true" />
-            <element signature="e#80675#80742#0" expanded="true" />
-            <element signature="e#84731#84760#0" expanded="true" />
-            <element signature="e#93807#93836#0" expanded="true" />
-            <element signature="e#94054#94083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/ApplicationInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="1830">
-          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.615385" vertical-offset="787" max-vertical-offset="8340">
-          <caret line="83" column="39" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="39" />
-          <folding>
-            <element signature="e#226#270#0" expanded="true" />
-            <element signature="e#2487#2524#0" expanded="true" />
-            <element signature="e#2553#2598#0" expanded="true" />
-            <element signature="e#3024#3059#0" expanded="true" />
-            <element signature="e#3088#3131#0" expanded="true" />
-            <element signature="e#3593#3638#0" expanded="true" />
-            <element signature="e#3725#3751#0" expanded="true" />
-            <element signature="e#3777#3811#0" expanded="true" />
-            <element signature="e#4082#4113#0" expanded="true" />
-            <element signature="e#4142#4181#0" expanded="true" />
-            <element signature="e#4337#4368#0" expanded="true" />
-            <element signature="e#4397#4436#0" expanded="true" />
-            <element signature="e#4729#4764#0" expanded="true" />
-            <element signature="e#4793#4836#0" expanded="true" />
-            <element signature="e#5143#5191#0" expanded="true" />
-            <element signature="e#5329#5363#0" expanded="true" />
-            <element signature="e#5390#5432#0" expanded="true" />
-            <element signature="e#5697#5731#0" expanded="true" />
-            <element signature="e#5758#5800#0" expanded="true" />
-            <element signature="e#5958#5990#0" expanded="true" />
-            <element signature="e#6020#6060#0" expanded="true" />
-            <element signature="e#6378#6412#0" expanded="true" />
-            <element signature="e#6442#6484#0" expanded="true" />
-            <element signature="e#6515#6549#0" expanded="true" />
-            <element signature="e#6582#6624#0" expanded="true" />
-            <element signature="e#6834#6872#0" expanded="true" />
-            <element signature="e#6902#6948#0" expanded="true" />
-            <element signature="e#6979#7017#0" expanded="true" />
-            <element signature="e#7050#7096#0" expanded="true" />
-            <element signature="e#7300#7338#0" expanded="true" />
-            <element signature="e#7368#7414#0" expanded="true" />
-            <element signature="e#7445#7483#0" expanded="true" />
-            <element signature="e#7516#7562#0" expanded="true" />
-            <element signature="e#7769#7806#0" expanded="true" />
-            <element signature="e#7839#7884#0" expanded="true" />
-            <element signature="e#8063#8094#0" expanded="true" />
-            <element signature="e#8127#8166#0" expanded="true" />
-            <element signature="e#8347#8382#0" expanded="true" />
-            <element signature="e#8415#8458#0" expanded="true" />
-            <element signature="e#8811#8842#0" expanded="true" />
-            <element signature="e#8997#9030#0" expanded="true" />
-            <element signature="e#9063#9104#0" expanded="true" />
-            <element signature="e#10077#10112#0" expanded="true" />
-            <element signature="e#10145#10188#0" expanded="true" />
-            <element signature="e#10545#10575#0" expanded="true" />
-            <element signature="e#10608#10646#0" expanded="true" />
-            <element signature="e#10841#10880#0" expanded="true" />
-            <element signature="e#10913#10960#0" expanded="true" />
-            <element signature="e#11163#11209#0" expanded="true" />
-            <element signature="e#11242#11296#0" expanded="true" />
-            <element signature="e#11588#11617#0" expanded="true" />
-            <element signature="e#11650#11687#0" expanded="true" />
-            <element signature="e#11876#11908#0" expanded="true" />
-            <element signature="e#11941#11981#0" expanded="true" />
-            <element signature="e#12168#12199#0" expanded="true" />
-            <element signature="e#12232#12271#0" expanded="true" />
-            <element signature="e#12456#12492#0" expanded="true" />
-            <element signature="e#12525#12569#0" expanded="true" />
-            <element signature="e#12757#12796#0" expanded="true" />
-            <element signature="e#12829#12876#0" expanded="true" />
-            <element signature="e#13055#13085#0" expanded="true" />
-            <element signature="e#13118#13156#0" expanded="true" />
-            <element signature="e#13338#13371#0" expanded="true" />
-            <element signature="e#13404#13445#0" expanded="true" />
-            <element signature="e#13615#13640#0" expanded="true" />
-            <element signature="e#13673#13706#0" expanded="true" />
-            <element signature="e#14031#14062#0" expanded="true" />
-            <element signature="e#14095#14134#0" expanded="true" />
-            <element signature="e#14829#14865#0" expanded="true" />
-            <element signature="e#14898#14942#0" expanded="true" />
-            <element signature="e#15125#15160#0" expanded="true" />
-            <element signature="e#15193#15236#0" expanded="true" />
-            <element signature="e#15456#15500#0" expanded="true" />
-            <element signature="e#15605#15647#0" expanded="true" />
-            <element signature="e#15897#15928#0" expanded="true" />
-            <element signature="e#15955#15994#0" expanded="true" />
-            <element signature="e#16101#16129#0" expanded="true" />
-            <element signature="e#16156#16192#0" expanded="true" />
-            <element signature="e#16340#16366#0" expanded="true" />
-            <element signature="e#16396#16430#0" expanded="true" />
-            <element signature="e#17722#17764#0" expanded="true" />
-            <element signature="e#18019#18042#0" expanded="true" />
-            <element signature="e#18072#18103#0" expanded="true" />
-            <element signature="e#18345#18380#0" expanded="true" />
-            <element signature="e#18410#18453#0" expanded="true" />
-            <element signature="e#18754#18794#0" expanded="true" />
-            <element signature="e#18827#18875#0" expanded="true" />
-            <element signature="e#19052#19086#0" expanded="true" />
-            <element signature="e#19119#19161#0" expanded="true" />
-            <element signature="e#19490#19520#0" expanded="true" />
-            <element signature="e#19553#19591#0" expanded="true" />
-            <element signature="e#19921#19960#0" expanded="true" />
-            <element signature="e#19993#20040#0" expanded="true" />
-            <element signature="e#20377#20411#0" expanded="true" />
-            <element signature="e#20444#20486#0" expanded="true" />
-            <element signature="e#20806#20839#0" expanded="true" />
-            <element signature="e#20869#20910#0" expanded="true" />
-            <element signature="e#21086#21123#0" expanded="true" />
-            <element signature="e#21156#21201#0" expanded="true" />
-            <element signature="e#21553#21585#0" expanded="true" />
-            <element signature="e#21618#21658#0" expanded="true" />
-            <element signature="e#21852#21897#0" expanded="true" />
-            <element signature="e#22039#22068#0" expanded="true" />
-            <element signature="e#22098#22135#0" expanded="true" />
-            <element signature="e#22309#22343#0" expanded="true" />
-            <element signature="e#22373#22415#0" expanded="true" />
-            <element signature="e#22591#22628#0" expanded="true" />
-            <element signature="e#22658#22703#0" expanded="true" />
-            <element signature="e#22923#22959#0" expanded="true" />
-            <element signature="e#23074#23106#0" expanded="true" />
-            <element signature="e#23135#23175#0" expanded="true" />
-            <element signature="e#23333#23359#0" expanded="true" />
-            <element signature="e#23388#23422#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2871,43 +2412,27 @@
         <state vertical-scroll-proportion="-7.7777777" vertical-offset="1485" max-vertical-offset="3840">
           <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
           <folding>
-            <element signature="e#787#810#0" expanded="true" />
-            <element signature="e#1169#1187#0" expanded="true" />
-            <element signature="e#1591#1616#0" expanded="true" />
-            <element signature="e#2017#2039#0" expanded="true" />
-            <element signature="e#2442#2457#0" expanded="true" />
-            <element signature="e#3455#3477#0" expanded="true" />
-            <element signature="e#3947#3967#0" expanded="true" />
-            <element signature="e#4532#4549#0" expanded="true" />
-            <element signature="e#5413#5427#0" expanded="true" />
-            <element signature="e#5665#5679#0" expanded="true" />
-            <element signature="e#6054#6078#0" expanded="true" />
-            <element signature="e#6795#6810#0" expanded="true" />
-            <element signature="e#7025#7056#0" expanded="true" />
-            <element signature="e#7351#7382#0" expanded="true" />
-            <element signature="e#7644#7657#0" expanded="true" />
-            <element signature="e#7947#7965#0" expanded="true" />
+            <element signature="e#787#810#0" expanded="false" />
+            <element signature="e#1169#1187#0" expanded="false" />
+            <element signature="e#1591#1616#0" expanded="false" />
+            <element signature="e#2017#2039#0" expanded="false" />
+            <element signature="e#2442#2457#0" expanded="false" />
+            <element signature="e#3455#3477#0" expanded="false" />
+            <element signature="e#3947#3967#0" expanded="false" />
+            <element signature="e#4532#4549#0" expanded="false" />
+            <element signature="e#5413#5427#0" expanded="false" />
+            <element signature="e#5665#5679#0" expanded="false" />
+            <element signature="e#6054#6078#0" expanded="false" />
+            <element signature="e#6795#6810#0" expanded="false" />
+            <element signature="e#7025#7056#0" expanded="false" />
+            <element signature="e#7351#7382#0" expanded="false" />
+            <element signature="e#7644#7657#0" expanded="false" />
+            <element signature="e#7947#7965#0" expanded="false" />
           </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3225">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="12307" max-vertical-offset="33675">
-          <caret line="920" column="2" selection-start-line="920" selection-start-column="2" selection-end-line="920" selection-end-column="2" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/CameraSurface/CameraSurface.java">
@@ -2942,13 +2467,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MotionDetection/MotionDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding>
+            <element signature="e#1443#1473#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9487" max-vertical-offset="33675">
+          <caret line="920" column="17" selection-start-line="920" selection-start-column="17" selection-end-line="920" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MotionDetection/Preview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3600">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1500">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/LocationSupplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1135" max-vertical-offset="2175">
+          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/ApplicationInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1229" max-vertical-offset="1830">
+          <caret line="122" column="12" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14355628" vertical-offset="107" max-vertical-offset="765">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="40155">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.961538" vertical-offset="885" max-vertical-offset="7605">
+          <caret line="78" column="52" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="52" />
+          <folding>
+            <element signature="e#3505#3531#0" expanded="true" />
+            <element signature="e#12379#12419#0" expanded="true" />
+            <element signature="e#12452#12500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/PreferenceKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1486" max-vertical-offset="2445">
+          <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2455" max-vertical-offset="3405">
+          <caret line="182" column="29" selection-start-line="182" selection-start-column="29" selection-end-line="182" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7150" max-vertical-offset="33600">
+          <caret line="565" column="30" selection-start-line="565" selection-start-column="30" selection-end-line="565" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.884615" vertical-offset="14874" max-vertical-offset="17205">
+          <caret line="1036" column="14" selection-start-line="1036" selection-start-column="14" selection-end-line="1036" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/Preview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4264214" vertical-offset="0" max-vertical-offset="62085">
-          <caret line="79" column="53" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.75243664" vertical-offset="45724" max-vertical-offset="65040">
+          <caret line="3098" column="66" selection-start-line="3098" selection-start-column="66" selection-end-line="3098" selection-end-column="66" />
           <folding>
-            <element signature="e#114126#114957#0" expanded="true" />
-            <element signature="e#114950#114951#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#91430#91473#0" expanded="true" />
+            <element signature="e#91515#91564#0" expanded="true" />
+            <element signature="e#93401#93457#0" expanded="true" />
+            <element signature="e#93602#93640#0" expanded="true" />
+            <element signature="e#93829#93872#0" expanded="true" />
+            <element signature="e#94114#94152#0" expanded="true" />
+            <element signature="e#113849#113873#0" expanded="true" />
+            <element signature="e#114776#114805#0" expanded="true" />
+            <element signature="e#124202#124233#0" expanded="true" />
           </folding>
         </state>
       </provider>

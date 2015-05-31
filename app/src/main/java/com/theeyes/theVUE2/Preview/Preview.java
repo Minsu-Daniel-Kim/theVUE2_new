@@ -13,6 +13,7 @@ import android.graphics.Point;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.SurfaceTexture;
+import android.hardware.Camera;
 import android.hardware.SensorEvent;
 import android.hardware.SensorManager;
 import android.location.Location;
@@ -44,6 +45,7 @@ import com.theeyes.theVUE2.CameraController.CameraControllerException;
 import com.theeyes.theVUE2.CameraController.CameraControllerManager;
 import com.theeyes.theVUE2.CameraController.CameraControllerManager1;
 import com.theeyes.theVUE2.CameraController.CameraControllerManager2;
+import com.theeyes.theVUE2.MotionDetection.MotionDetection;
 import com.theeyes.theVUE2.MyDebug;
 import com.theeyes.theVUE2.Preview.CameraSurface.CameraSurface;
 import com.theeyes.theVUE2.Preview.CameraSurface.MySurfaceView;
@@ -67,10 +69,14 @@ import java.util.Vector;
 public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextureListener {
 	private static final String TAG = "Preview";
 
+//    private CameraCallback mCameraCallback;
+    private boolean mMotionDetectionActive;
+    private final static String MOTION_DETECTION_KEY = "motion_detection_active";
+
 	private boolean using_android_l = false;
 	private boolean using_texture_view = false;
 
-    private final static String MOTION_DETECTION_KEY = "motion_detection_active";
+    private boolean motion_detection = false;
 	private ApplicationInterface applicationInterface = null;
 	private CameraSurface cameraSurface = null;
 	private CanvasView canvasView = null;
@@ -221,6 +227,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	public int count_cameraAutoFocus = 0;
 	public int count_cameraTakePicture = 0;
 	public boolean test_fail_open_camera = false;
+
 
 	public Preview(ApplicationInterface applicationInterface, Bundle savedInstanceState, ViewGroup parent) {
 		if( MyDebug.LOG ) {
@@ -499,6 +506,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
     }
     
     private void mySurfaceDestroyed() {
+        using_motion_detection = false;
 		this.has_surface = false;
 		this.closeCamera();
     }
@@ -514,13 +522,17 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 		// need to force a layoutUI update (e.g., so UI is oriented correctly when app goes idle, device is then rotated, and app is then resumed)
         applicationInterface.layoutUI();
     }
-    
+
+    private Camera mCamera = null;
+
 	@Override
 	public void surfaceCreated(SurfaceHolder holder) {
 		if( MyDebug.LOG )
 			Log.d(TAG, "surfaceCreated()");
 		// The Surface has been created, acquire the camera and tell it where
 		// to draw.
+
+
 		mySurfaceCreated();
 		cameraSurface.getView().setWillNotDraw(false); // see http://stackoverflow.com/questions/2687015/extended-surfaceviews-ondraw-method-never-called
 	}
@@ -743,6 +755,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 		if( MyDebug.LOG ) {
 			Log.d(TAG, "closeCamera()");
 		}
+        using_motion_detection = false;
 		has_focus_area = false;
 		focus_success = FOCUS_DONE;
 		set_flash_value_after_autofocus = "";
@@ -763,7 +776,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 			}
 			// need to check for camera being non-null again - if an error occurred stopping the video, we will have closed the camera, and may not be able to reopen
 			if( camera_controller != null ) {
-				//camera.setPreviewCallback(null);
+//				camera.setPreviewCallback(null);
 				pausePreview();
 				camera_controller.release();
 				camera_controller = null;
@@ -805,6 +818,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 			this.updateFocusForVideo(false);
 		}
 		this.setPreviewPaused(false);
+        using_motion_detection = false;
 		camera_controller.stopPreview();
 		this.phase = PHASE_NORMAL;
 		this.is_preview_started = false;
@@ -955,6 +969,8 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 			if( MyDebug.LOG )
 				Log.d(TAG, "call setPreviewDisplay");
 			cameraSurface.setPreviewDisplay(camera_controller);
+
+
 			if( MyDebug.LOG ) {
 				//Log.d(TAG, "time after setting preview display: " + (System.currentTimeMillis() - debug_time));
 			}
@@ -967,6 +983,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 		}
 
 	}
+
 	
 	/* Should only be called after camera first opened, or after preview is paused.
 	 */
@@ -1059,6 +1076,44 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	    }
 	}
 
+//    public class CameraCallback implements Camera.PreviewCallback{
+//
+//        private static final int PICTURE_DELAY = 4000;
+//
+//        private MotionDetection mMotionDetection;
+//        private Camera mCamera;
+//
+//        private long mReferenceTime;
+//
+////        public CameraCallback(Context ct, Camera camera) {
+////
+////            mCamera = camera;
+////
+////            mMotionDetection = new MotionDetection(ct.getSharedPreferences(
+////                    MotionDetection.PREFS_NAME, Context.MODE_PRIVATE));
+////        }
+//        @Override
+//        public void onPreviewFrame(byte[] data, Camera camera) {
+//            Toast.makeText(getContext(), "onPreviewFrame", 3000).show();
+//            if (mMotionDetection.detect(data)) {
+//                // the delay is necessary to avoid taking a picture while in the
+//                // middle of taking another. This problem causes a Motorola
+//                // Milestone to reboot.
+////                long now = System.currentTimeMillis();
+////                if (now > mReferenceTime + PICTURE_DELAY) {
+////                    mReferenceTime = now + PICTURE_DELAY;
+////                    Log.i(TAG, "Taking picture");
+////                    Toast.makeText(getContext(), "Motion detected!!", 3000).show();
+//////                    camera.takePicture(null, null, this);
+////                } else {
+////                    Log.i(TAG, "Not taking picture because not enough time has "
+////                            + "passed since the creation of the Surface");
+////                }
+//            }
+//
+//        }
+//    }
+
 	private void setupCameraParameters() {
 		if( MyDebug.LOG )
 			Log.d(TAG, "setupCameraParameters()");
@@ -1146,8 +1201,20 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 				    	System.arraycopy(faces, 0, faces_detected, 0, faces.length);				    	
 				    }
 				}
+                Toast.makeText(getContext(), "using_face_detection", 3000).show();
 				camera_controller.setFaceDetectionListener(new MyFaceDetectionListener());
+//                class MyMotionDetectionListener implements Camera.PreviewCallback{
+//
+//                    @Override
+//                    public void onPreviewFrame(byte[] data, Camera camera) {
+//
+//                    }
+//                }
+                motion_detection = applicationInterface.getMotionDetectionPred();
+
 			}
+
+
 		}
 		
 		{
@@ -2917,7 +2984,12 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	}
 
 	public void takePicturePressed() {
-		if( MyDebug.LOG )
+        motion_detection = applicationInterface.getMotionDetectionPred();
+
+        using_motion_detection = !using_motion_detection;
+
+
+        if( MyDebug.LOG )
 			Log.d(TAG, "takePicturePressed");
 		if( camera_controller == null ) {
 			if( MyDebug.LOG )
@@ -2927,6 +2999,8 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 			this.phase = PHASE_NORMAL;
 			return;
 		}
+
+
 		if( !this.has_surface ) {
 			if( MyDebug.LOG )
 				Log.d(TAG, "preview surface not yet available");
@@ -2994,21 +3068,50 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	        }
 			remaining_burst_photos = n_burst-1;
 		}
-        boolean motion_detection = applicationInterface.getMotionDetectionPred();
+
 
         if( timer_delay == 0 ) {
 
+            if(motion_detection && using_motion_detection){
 
+                camera_controller.setMotionDetectionListener(new CameraController.MotionDetectionListener() {
+                    MotionDetection mMotionDetection = new MotionDetection(getContext().getSharedPreferences(
+                            MotionDetection.PREFS_NAME, Context.MODE_PRIVATE));
 
-            Log.i(TAG, burst_mode_value);
+                    @Override
+                    public void onPreviewFrame(byte[] data) {
+                        if(motion_detection && using_motion_detection) {
 
-            if(motion_detection){
+                            Log.i(TAG, "motion_detection : " + motion_detection);
+                            Log.i(TAG, "using_motion_detection : " + using_motion_detection);
 
-        		Toast.makeText(getContext(), "motion detection!", 3000).show();
-                Log.i(TAG, "motion detection!");
+                            if (mMotionDetection.detect(data)) {
+
+                                Log.i(TAG, "motion!!");
+
+                                camera_controller.setMotionDetectionListener(null);
+//                                the delay is necessary to avoid taking a picture while in the
+//                                middle of taking another. This problem causes a Motorola
+//                                Milestone to reboot.
+//                                long now = System.currentTimeMillis();
+//                                if (now > mReferenceTime + PICTURE_DELAY) {
+//                                    mReferenceTime = now + PICTURE_DELAY;
+//                                    Log.i(TAG, "Taking picture");
+//                                    Toast.makeText(getContext(), "Motion detected!!", 3000).show();
+//                //                    camera.takePicture(null, null, this);
+//                                } else {
+//                                    Log.i(TAG, "Not taking picture because not enough time has "
+//                                            + "passed since the creation of the Surface");
+//                                }
+                            }
+                        }
+                    }
+                });
             }else{
+                if(!motion_detection){
+                    takePicture();
+                }
 
-                takePicture();
             }
 		}
 		else {
@@ -3036,13 +3139,47 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
                         // we run on main thread to avoid problem of camera closing at the same time
                         // but still need to check that the camera hasn't closed or the task halted, since TimerTask.run() started
                         if (camera_controller != null && takePictureTimerTask != null){
-                            if(motion_detection){
-                                Toast.makeText(getContext(), "motion detection!", 3000).show();
-
-                            }else{
-
+                            if(!motion_detection){
                                 takePicture();
                             }
+
+//                            if(motion_detection && using_motion_detection){
+//
+//                                Toast.makeText(getContext(), "모션인식 촬영", 3000);
+//
+//                                camera_controller.setMotionDetectionListener(new CameraController.MotionDetectionListener() {
+//                                    MotionDetection mMotionDetection = new MotionDetection(getContext().getSharedPreferences(
+//                                            MotionDetection.PREFS_NAME, Context.MODE_PRIVATE));
+//
+//                                    @Override
+//                                    public void onPreviewFrame(byte[] data) {
+//                                        if(using_motion_detection) {
+//                                            if (mMotionDetection.detect(data)) {
+//
+//                                                Log.i(TAG, "motion!!");
+////                                the delay is necessary to avoid taking a picture while in the
+////                                middle of taking another. This problem causes a Motorola
+////                                Milestone to reboot.
+////                                long now = System.currentTimeMillis();
+////                                if (now > mReferenceTime + PICTURE_DELAY) {
+////                                    mReferenceTime = now + PICTURE_DELAY;
+////                                    Log.i(TAG, "Taking picture");
+////                                    Toast.makeText(getContext(), "Motion detected!!", 3000).show();
+////                //                    camera.takePicture(null, null, this);
+////                                } else {
+////                                    Log.i(TAG, "Not taking picture because not enough time has "
+////                                            + "passed since the creation of the Surface");
+////                                }
+//                                            }
+//                                        }
+//                                    }
+//                                });
+//                            }else{
+//                                if(!motion_detection){
+//                                    takePicture();
+//                                }
+//
+//                            }
 
                         }else {
                             if( MyDebug.LOG )

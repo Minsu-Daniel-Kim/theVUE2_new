@@ -49,7 +49,6 @@ import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
-import android.widget.Toast;
 import android.widget.ZoomControls;
 
 import com.theeyes.theVUE2.CameraController.CameraController;

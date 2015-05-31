@@ -55,6 +55,8 @@ public class CameraController2 extends CameraController {
 	private CaptureRequest.Builder previewBuilder = null;
 	private AutoFocusCallback autofocus_cb = null;
 	private FaceDetectionListener face_detection_listener = null;
+
+    private MotionDetectionListener motion_detection_listener = null;
 	private ImageReader imageReader = null;
 	private PictureCallback jpeg_cb = null;
 	private ErrorCallback take_picture_error_cb = null;
@@ -151,6 +153,8 @@ public class CameraController2 extends CameraController {
 				builder.set(CaptureRequest.JPEG_QUALITY, jpeg_quality);
 			}
 		}
+
+
 
 		private boolean setSceneMode(CaptureRequest.Builder builder) {
 			if( MyDebug.LOG ) {
@@ -730,7 +734,14 @@ public class CameraController2 extends CameraController {
 		return value;
 	}
 
-	@Override
+
+    @Override
+    public void setPreviewCallback() {
+
+
+    }
+
+    @Override
 	public SupportedValues setSceneMode(String value) {
 		if( MyDebug.LOG )
 			Log.d(TAG, "setSceneMode: " + value);
@@ -1917,8 +1928,9 @@ public class CameraController2 extends CameraController {
 		}
 		captureSession.capture(request, previewCaptureCallback, null);
 	}
-	
-	private void createPreviewRequest() {
+
+
+    private void createPreviewRequest() {
 		if( MyDebug.LOG )
 			Log.d(TAG, "createPreviewRequest");
 		if( camera == null  ) {
@@ -2174,7 +2186,12 @@ public class CameraController2 extends CameraController {
 		this.face_detection_listener = listener;
 	}
 
-	@Override
+    @Override
+    public void setMotionDetectionListener(MotionDetectionListener listener) {
+        this.motion_detection_listener = listener;
+    }
+
+    @Override
 	public void autoFocus(final AutoFocusCallback cb) {
 		if( MyDebug.LOG )
 			Log.d(TAG, "autoFocus");

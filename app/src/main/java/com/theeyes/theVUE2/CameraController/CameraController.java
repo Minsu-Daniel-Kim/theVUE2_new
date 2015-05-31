@@ -71,6 +71,16 @@ public abstract class CameraController {
 	public static interface FaceDetectionListener {
 		public abstract void onFaceDetection(Face[] faces);
 	}
+
+    public static interface MotionDetectionListener {
+        public abstract void onPreviewFrame(byte[] data);
+//        public abstract void onFaceDetection(Face[] faces);
+    }
+
+    public static interface CameraCallback{
+
+        public abstract void onPreviewFrame(byte[] data);
+    }
 	
 	public static interface PictureCallback {
 		public abstract void onPictureTaken(byte[] data);
@@ -175,11 +185,13 @@ public abstract class CameraController {
 	public abstract boolean focusIsVideo();
 	public abstract void reconnect() throws CameraControllerException;
 	public abstract void setPreviewDisplay(SurfaceHolder holder) throws CameraControllerException;
+    public abstract void setPreviewCallback();
 	public abstract void setPreviewTexture(SurfaceTexture texture) throws CameraControllerException;
 	public abstract void startPreview() throws CameraControllerException;
 	public abstract void stopPreview();
 	public abstract boolean startFaceDetection();
-	public abstract void setFaceDetectionListener(final CameraController.FaceDetectionListener listener);
+    public abstract void setFaceDetectionListener(final CameraController.FaceDetectionListener listener);
+    public abstract void setMotionDetectionListener(final CameraController.MotionDetectionListener listener);
 	public abstract void autoFocus(final CameraController.AutoFocusCallback cb);
 	public abstract void cancelAutoFocus();
 	public abstract void takePicture(final CameraController.PictureCallback raw, final CameraController.PictureCallback jpeg, final ErrorCallback error);

@@ -906,12 +906,60 @@ public class CameraController1 extends CameraController {
 			Log.d(TAG, "setPreviewDisplay");
 		try {
 			camera.setPreviewDisplay(holder);
+//            camera.setPr
 		}
 		catch(IOException e) {
 			e.printStackTrace();
 			throw new CameraControllerException();
 		}
 	}
+
+    @Override
+    public void setPreviewCallback() {
+        if( MyDebug.LOG )
+            Log.d(TAG, "startPreview");
+        try {
+            camera.setPreviewCallback(new com.theeyes.theVUE2.CameraController.CameraCallback(){
+                @Override
+                public void onPreviewFrame(byte[] data, Camera camera) {
+
+                    Log.i(TAG, "here!"+ data+"");
+
+                    super.onPreviewFrame(data, camera);
+                }
+            });
+        }
+        catch(RuntimeException e) {
+            if( MyDebug.LOG )
+                Log.e(TAG, "failed to start preview");
+            e.printStackTrace();
+//            throw new CameraControllerException();
+        }
+
+    }
+
+
+    //    @Override
+//    public void setPreviewCallback() throws CameraControllerException{
+
+//        if( MyDebug.LOG )
+//            Log.d(TAG, "startPreview");
+//        try {
+//            camera.setPreviewCallback(new com.theeyes.theVUE2.CameraController.CameraCallback(){
+//                @Override
+//                public void onPreviewFrame(byte[] data, Camera camera) {
+//                    super.onPreviewFrame(data, camera);
+//                }
+//            });
+//        }
+//        catch(RuntimeException e) {
+//            if( MyDebug.LOG )
+//                Log.e(TAG, "failed to start preview");
+//            e.printStackTrace();
+//            throw new CameraControllerException();
+//        }
+
+//    }
 
 	@Override
 	public void setPreviewTexture(SurfaceTexture texture) throws CameraControllerException {
@@ -973,6 +1021,35 @@ public class CameraController1 extends CameraController {
 		camera.setFaceDetectionListener(new CameraFaceDetectionListener());
 	}
 
+    public void setMotionDetectionListener(final CameraController.MotionDetectionListener listener) {
+
+        if(listener != null) {
+            class CameraCallback implements Camera.PreviewCallback {
+
+                @Override
+                public void onPreviewFrame(byte[] data, Camera camera) {
+
+                    listener.onPreviewFrame(data);
+
+                }
+            }
+            camera.setPreviewCallback(new CameraCallback());
+        }else{
+            camera.setPreviewCallback(null);
+        }
+//        class CameraFaceDetectionListener implements Camera.FaceDetectionListener {
+//            @Override
+//            public void onFaceDetection(Camera.Face[] camera_faces, Camera camera) {
+//                Face [] faces = new Face[camera_faces.length];
+//                for(int i=0;i<camera_faces.length;i++) {
+//                    faces[i] = new Face(camera_faces[i].score, camera_faces[i].rect);
+//                }
+//                listener.onFaceDetection(faces);
+//            }
+//        }
+//        camera.setFaceDetectionListener(new CameraFaceDetectionListener());
+    }
+
 	public void autoFocus(final CameraController.AutoFocusCallback cb) {
         Camera.AutoFocusCallback camera_cb = new Camera.AutoFocusCallback() {
 			@Override
@@ -1004,6 +1081,8 @@ public class CameraController1 extends CameraController {
     		e.printStackTrace();
 		}
 	}
+
+
 	
 	public void takePicture(final CameraController.PictureCallback raw, final CameraController.PictureCallback jpeg, final ErrorCallback error) {
     	Camera.ShutterCallback shutter = new Camera.ShutterCallback() {
