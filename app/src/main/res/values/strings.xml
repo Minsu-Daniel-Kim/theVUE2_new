@@ -96,6 +96,8 @@
     <string name="preference_lock_orientation_summary">사진/비디오 촬영시 방향을 고정합니다.</string>
     <string name="preference_face_detection">안면인식</string>
     <string name="preference_face_detection_summary">안면을 인식하여 초점을 마춥니다.</string>
+    <string name="preference_motion_detection">모션인식</string>
+    <string name="preference_motion_detection_summary">움직임을 포착하여 촬영합니다.</string>
 
     <string name="preference_category_camera_controls">카메라 제어</string>
     <string name="preference_timer">타이머</string>

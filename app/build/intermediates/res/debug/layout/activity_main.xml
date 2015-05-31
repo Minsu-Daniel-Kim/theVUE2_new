@@ -10,26 +10,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
-            <!--<ImageButton-->
-                <!--android:id="@+id/switch_video"-->
-                <!--android:layout_width="50dp"-->
-                <!--android:layout_height="50dp"-->
-                <!--android:padding="10dp"-->
-                <!--android:scaleType="fitCenter"-->
-                <!--android:contentDescription="@string/switch_video"-->
-                <!--android:src="@drawable/switch_video"-->
-                <!--android:onClick="clickedSwitchVideo"-->
-                <!--/>-->
-            <!--<ImageButton-->
-                <!--android:id="@+id/switch_camera"-->
-                <!--android:layout_width="50dp"-->
-                <!--android:layout_height="50dp"-->
-                <!--android:padding="10dp"-->
-                <!--android:scaleType="fitCenter"-->
-                <!--android:contentDescription="@string/switch_camera"-->
-                <!--android:src="@drawable/switch_camera"-->
-                <!--android:onClick="clickedSwitchCamera"-->
-                <!--/>-->
+
             <ImageButton
                 android:id="@+id/exposure_lock"
                 android:layout_width="50dp"
@@ -49,17 +30,6 @@
                 android:src="@drawable/exposure"
                 android:onClick="clickedExposure"
                 />
-            <!--<ImageButton-->
-                <!--android:id="@+id/gallery"-->
-                <!--android:layout_width="50dp"-->
-                <!--android:layout_height="50dp"-->
-                <!--android:padding="10dp"-->
-                <!--android:scaleType="fitCenter"-->
-                <!--android:contentDescription="@string/gallery"-->
-                <!--android:src="@drawable/gallery"-->
-                <!--android:onClick="clickedGallery"-->
-                <!--/>-->
-
             <ImageButton
                 android:id="@+id/settings"
                 android:layout_width="50dp"
@@ -143,6 +113,19 @@
                 android:src="@drawable/gallery"
                 android:onClick="clickedGallery"
                 />
+            <!--<ImageButton-->
+
+                <!--android:id="@+id/motionDetection"-->
+                <!--android:layout_below="@id/gallery"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:scaleType="fitCenter"-->
+                <!--android:src="@drawable/take_photo_selector"-->
+                <!--android:onClick="clickedMotionDetection"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:background="@null"-->
+                <!--/>-->
         </RelativeLayout>
 
     </ScrollView>

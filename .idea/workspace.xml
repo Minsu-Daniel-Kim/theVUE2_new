@@ -43,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.7412453" vertical-offset="3131" max-vertical-offset="3645">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.7777777" vertical-offset="1485" max-vertical-offset="3840">
+              <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
               <folding>
                 <element signature="e#787#810#0" expanded="true" />
                 <element signature="e#1169#1187#0" expanded="true" />
@@ -57,14 +57,14 @@
                 <element signature="e#3455#3477#0" expanded="true" />
                 <element signature="e#3947#3967#0" expanded="true" />
                 <element signature="e#4532#4549#0" expanded="true" />
-                <element signature="e#4796#4810#0" expanded="true" />
-                <element signature="e#5048#5062#0" expanded="true" />
-                <element signature="e#5437#5461#0" expanded="true" />
-                <element signature="e#6178#6193#0" expanded="true" />
-                <element signature="e#6408#6439#0" expanded="true" />
-                <element signature="e#6734#6765#0" expanded="true" />
-                <element signature="e#7027#7040#0" expanded="true" />
-                <element signature="e#7330#7348#0" expanded="true" />
+                <element signature="e#5413#5427#0" expanded="true" />
+                <element signature="e#5665#5679#0" expanded="true" />
+                <element signature="e#6054#6078#0" expanded="true" />
+                <element signature="e#6795#6810#0" expanded="true" />
+                <element signature="e#7025#7056#0" expanded="true" />
+                <element signature="e#7351#7382#0" expanded="true" />
+                <element signature="e#7644#7657#0" expanded="true" />
+                <element signature="e#7947#7965#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +76,8 @@
       <file leaf-file-name="CameraController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1917" max-vertical-offset="3225">
-              <caret line="146" column="33" selection-start-line="146" selection-start-column="33" selection-end-line="146" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3225">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -86,9 +86,201 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="10211" max-vertical-offset="33570">
-              <caret line="769" column="27" selection-start-line="769" selection-start-column="27" selection-end-line="769" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="12307" max-vertical-offset="33675">
+              <caret line="920" column="2" selection-start-line="920" selection-start-column="2" selection-end-line="920" selection-end-column="2" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPreferenceFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyPreferenceFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4665">
+              <caret line="56" column="54" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyApplicationInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3360" max-vertical-offset="33600">
+              <caret line="302" column="0" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+              <folding>
+                <element signature="e#23123#23194#0" expanded="true" />
+                <element signature="e#23347#23408#0" expanded="true" />
+                <element signature="e#23875#23902#0" expanded="true" />
+                <element signature="e#24068#24095#0" expanded="true" />
+                <element signature="e#24635#24674#0" expanded="true" />
+                <element signature="e#24770#24801#0" expanded="true" />
+                <element signature="e#24974#25002#0" expanded="true" />
+                <element signature="e#25136#25168#0" expanded="true" />
+                <element signature="e#25868#25921#0" expanded="true" />
+                <element signature="e#25948#26009#0" expanded="true" />
+                <element signature="e#26043#26113#0" expanded="true" />
+                <element signature="e#26500#26570#0" expanded="true" />
+                <element signature="e#26648#26709#0" expanded="true" />
+                <element signature="e#26877#26912#0" expanded="true" />
+                <element signature="e#27022#27051#0" expanded="true" />
+                <element signature="e#49797#49849#0" expanded="true" />
+                <element signature="e#49852#49905#0" expanded="true" />
+                <element signature="e#49908#49965#0" expanded="true" />
+                <element signature="e#51178#51231#0" expanded="true" />
+                <element signature="e#51844#51901#0" expanded="true" />
+                <element signature="e#53705#53774#0" expanded="true" />
+                <element signature="e#53940#54009#0" expanded="true" />
+                <element signature="e#54687#54758#0" expanded="true" />
+                <element signature="e#54830#54901#0" expanded="true" />
+                <element signature="e#54989#55060#0" expanded="true" />
+                <element signature="e#56983#57035#0" expanded="true" />
+                <element signature="e#63046#63105#0" expanded="true" />
+                <element signature="e#70635#70667#0" expanded="true" />
+                <element signature="e#72296#72329#0" expanded="true" />
+                <element signature="e#78092#78116#0" expanded="true" />
+                <element signature="e#80675#80742#0" expanded="true" />
+                <element signature="e#84731#84760#0" expanded="true" />
+                <element signature="e#93807#93836#0" expanded="true" />
+                <element signature="e#94054#94083#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Preview.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/Preview.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7207358" vertical-offset="43459" max-vertical-offset="62160">
+              <caret line="3012" column="69" selection-start-line="3012" selection-start-column="69" selection-end-line="3012" selection-end-column="69" />
+              <folding>
+                <element signature="e#114297#115128#0" expanded="true" />
+                <element signature="e#115121#115122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preferences.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.615385" vertical-offset="787" max-vertical-offset="8340">
+              <caret line="83" column="39" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="39" />
+              <folding>
+                <element signature="e#226#270#0" expanded="true" />
+                <element signature="e#2487#2524#0" expanded="true" />
+                <element signature="e#2553#2598#0" expanded="true" />
+                <element signature="e#3024#3059#0" expanded="true" />
+                <element signature="e#3088#3131#0" expanded="true" />
+                <element signature="e#3593#3638#0" expanded="true" />
+                <element signature="e#3725#3751#0" expanded="true" />
+                <element signature="e#3777#3811#0" expanded="true" />
+                <element signature="e#4082#4113#0" expanded="true" />
+                <element signature="e#4142#4181#0" expanded="true" />
+                <element signature="e#4337#4368#0" expanded="true" />
+                <element signature="e#4397#4436#0" expanded="true" />
+                <element signature="e#4729#4764#0" expanded="true" />
+                <element signature="e#4793#4836#0" expanded="true" />
+                <element signature="e#5143#5191#0" expanded="true" />
+                <element signature="e#5329#5363#0" expanded="true" />
+                <element signature="e#5390#5432#0" expanded="true" />
+                <element signature="e#5697#5731#0" expanded="true" />
+                <element signature="e#5758#5800#0" expanded="true" />
+                <element signature="e#5958#5990#0" expanded="true" />
+                <element signature="e#6020#6060#0" expanded="true" />
+                <element signature="e#6378#6412#0" expanded="true" />
+                <element signature="e#6442#6484#0" expanded="true" />
+                <element signature="e#6515#6549#0" expanded="true" />
+                <element signature="e#6582#6624#0" expanded="true" />
+                <element signature="e#6834#6872#0" expanded="true" />
+                <element signature="e#6902#6948#0" expanded="true" />
+                <element signature="e#6979#7017#0" expanded="true" />
+                <element signature="e#7050#7096#0" expanded="true" />
+                <element signature="e#7300#7338#0" expanded="true" />
+                <element signature="e#7368#7414#0" expanded="true" />
+                <element signature="e#7445#7483#0" expanded="true" />
+                <element signature="e#7516#7562#0" expanded="true" />
+                <element signature="e#7769#7806#0" expanded="true" />
+                <element signature="e#7839#7884#0" expanded="true" />
+                <element signature="e#8063#8094#0" expanded="true" />
+                <element signature="e#8127#8166#0" expanded="true" />
+                <element signature="e#8347#8382#0" expanded="true" />
+                <element signature="e#8415#8458#0" expanded="true" />
+                <element signature="e#8811#8842#0" expanded="true" />
+                <element signature="e#8997#9030#0" expanded="true" />
+                <element signature="e#9063#9104#0" expanded="true" />
+                <element signature="e#10077#10112#0" expanded="true" />
+                <element signature="e#10145#10188#0" expanded="true" />
+                <element signature="e#10545#10575#0" expanded="true" />
+                <element signature="e#10608#10646#0" expanded="true" />
+                <element signature="e#10841#10880#0" expanded="true" />
+                <element signature="e#10913#10960#0" expanded="true" />
+                <element signature="e#11163#11209#0" expanded="true" />
+                <element signature="e#11242#11296#0" expanded="true" />
+                <element signature="e#11588#11617#0" expanded="true" />
+                <element signature="e#11650#11687#0" expanded="true" />
+                <element signature="e#11876#11908#0" expanded="true" />
+                <element signature="e#11941#11981#0" expanded="true" />
+                <element signature="e#12168#12199#0" expanded="true" />
+                <element signature="e#12232#12271#0" expanded="true" />
+                <element signature="e#12456#12492#0" expanded="true" />
+                <element signature="e#12525#12569#0" expanded="true" />
+                <element signature="e#12757#12796#0" expanded="true" />
+                <element signature="e#12829#12876#0" expanded="true" />
+                <element signature="e#13055#13085#0" expanded="true" />
+                <element signature="e#13118#13156#0" expanded="true" />
+                <element signature="e#13338#13371#0" expanded="true" />
+                <element signature="e#13404#13445#0" expanded="true" />
+                <element signature="e#13615#13640#0" expanded="true" />
+                <element signature="e#13673#13706#0" expanded="true" />
+                <element signature="e#14031#14062#0" expanded="true" />
+                <element signature="e#14095#14134#0" expanded="true" />
+                <element signature="e#14829#14865#0" expanded="true" />
+                <element signature="e#14898#14942#0" expanded="true" />
+                <element signature="e#15125#15160#0" expanded="true" />
+                <element signature="e#15193#15236#0" expanded="true" />
+                <element signature="e#15456#15500#0" expanded="true" />
+                <element signature="e#15605#15647#0" expanded="true" />
+                <element signature="e#15897#15928#0" expanded="true" />
+                <element signature="e#15955#15994#0" expanded="true" />
+                <element signature="e#16101#16129#0" expanded="true" />
+                <element signature="e#16156#16192#0" expanded="true" />
+                <element signature="e#16340#16366#0" expanded="true" />
+                <element signature="e#16396#16430#0" expanded="true" />
+                <element signature="e#17722#17764#0" expanded="true" />
+                <element signature="e#18019#18042#0" expanded="true" />
+                <element signature="e#18072#18103#0" expanded="true" />
+                <element signature="e#18345#18380#0" expanded="true" />
+                <element signature="e#18410#18453#0" expanded="true" />
+                <element signature="e#18754#18794#0" expanded="true" />
+                <element signature="e#18827#18875#0" expanded="true" />
+                <element signature="e#19052#19086#0" expanded="true" />
+                <element signature="e#19119#19161#0" expanded="true" />
+                <element signature="e#19490#19520#0" expanded="true" />
+                <element signature="e#19553#19591#0" expanded="true" />
+                <element signature="e#19921#19960#0" expanded="true" />
+                <element signature="e#19993#20040#0" expanded="true" />
+                <element signature="e#20377#20411#0" expanded="true" />
+                <element signature="e#20444#20486#0" expanded="true" />
+                <element signature="e#20806#20839#0" expanded="true" />
+                <element signature="e#20869#20910#0" expanded="true" />
+                <element signature="e#21086#21123#0" expanded="true" />
+                <element signature="e#21156#21201#0" expanded="true" />
+                <element signature="e#21553#21585#0" expanded="true" />
+                <element signature="e#21618#21658#0" expanded="true" />
+                <element signature="e#21852#21897#0" expanded="true" />
+                <element signature="e#22039#22068#0" expanded="true" />
+                <element signature="e#22098#22135#0" expanded="true" />
+                <element signature="e#22309#22343#0" expanded="true" />
+                <element signature="e#22373#22415#0" expanded="true" />
+                <element signature="e#22591#22628#0" expanded="true" />
+                <element signature="e#22658#22703#0" expanded="true" />
+                <element signature="e#22923#22959#0" expanded="true" />
+                <element signature="e#23074#23106#0" expanded="true" />
+                <element signature="e#23135#23175#0" expanded="true" />
+                <element signature="e#23333#23359#0" expanded="true" />
+                <element signature="e#23388#23422#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +288,28 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9607844" vertical-offset="437" max-vertical-offset="3675">
-              <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+            <state vertical-scroll-proportion="-22.2" vertical-offset="930" max-vertical-offset="3705">
+              <caret line="99" column="71" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/ApplicationInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="1830">
+              <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreferenceKeys.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/PreferenceKeys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="2445">
+              <caret line="179" column="54" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -1306,15 +1518,18 @@
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/LocationSupplier.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/StorageUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/TakePhoto.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController1.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/FolderChooserDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/PreferenceKeys.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/ApplicationInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/Preview.java" />
       </list>
     </option>
   </component>
@@ -1350,227 +1565,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strings.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimens.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Preview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Preview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CameraSurface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CameraController" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1801,13 +1796,267 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Preview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="CameraController" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strings.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dimens.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CameraSurface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CameraController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1821,6 +2070,8 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="42f6d300383411df" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_22" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../theVUE2_old" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1990,7 +2241,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-347" y="-1028" width="1598" height="1003" extended-state="6" />
+    <frame x="-347" y="-1028" width="1598" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1998,7 +2249,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16347238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2006,14 +2257,14 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35851184" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25028184" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17174038" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2159383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30012855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23337092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2073,30 +2324,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4470" max-vertical-offset="8250">
-          <caret line="298" column="43" selection-start-line="298" selection-start-column="43" selection-end-line="298" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6270">
-          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="13980" max-vertical-offset="35865">
@@ -2109,7 +2336,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="12015" max-vertical-offset="34875">
           <caret line="801" column="59" selection-start-line="801" selection-start-column="59" selection-end-line="801" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#23123#23194#0" expanded="true" />
+            <element signature="e#23347#23408#0" expanded="true" />
+            <element signature="e#23875#23902#0" expanded="true" />
+            <element signature="e#24068#24095#0" expanded="true" />
+            <element signature="e#24635#24674#0" expanded="true" />
+            <element signature="e#24770#24801#0" expanded="true" />
+            <element signature="e#24974#25002#0" expanded="true" />
+            <element signature="e#25136#25168#0" expanded="true" />
+            <element signature="e#25868#25921#0" expanded="true" />
+            <element signature="e#25948#26009#0" expanded="true" />
+            <element signature="e#26043#26113#0" expanded="true" />
+            <element signature="e#26500#26570#0" expanded="true" />
+            <element signature="e#26648#26709#0" expanded="true" />
+            <element signature="e#26877#26912#0" expanded="true" />
+            <element signature="e#27022#27051#0" expanded="true" />
+            <element signature="e#49797#49849#0" expanded="true" />
+            <element signature="e#49852#49905#0" expanded="true" />
+            <element signature="e#49908#49965#0" expanded="true" />
+            <element signature="e#51178#51231#0" expanded="true" />
+            <element signature="e#51844#51901#0" expanded="true" />
+            <element signature="e#53705#53774#0" expanded="true" />
+            <element signature="e#53940#54009#0" expanded="true" />
+            <element signature="e#54687#54758#0" expanded="true" />
+            <element signature="e#54830#54901#0" expanded="true" />
+            <element signature="e#54989#55060#0" expanded="true" />
+            <element signature="e#56983#57035#0" expanded="true" />
+            <element signature="e#63046#63105#0" expanded="true" />
+            <element signature="e#70635#70667#0" expanded="true" />
+            <element signature="e#72296#72329#0" expanded="true" />
+            <element signature="e#78092#78116#0" expanded="true" />
+            <element signature="e#80675#80742#0" expanded="true" />
+            <element signature="e#84731#84760#0" expanded="true" />
+            <element signature="e#93807#93836#0" expanded="true" />
+            <element signature="e#94054#94083#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2117,7 +2379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="5100">
           <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2125,7 +2386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7965" max-vertical-offset="8520">
           <caret line="531" column="23" selection-start-line="531" selection-start-column="23" selection-end-line="531" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2173,7 +2433,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="64335">
           <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#114297#115128#0" expanded="true" />
+            <element signature="e#115121#115122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2205,14 +2468,14 @@
             <element signature="e#3455#3477#0" expanded="true" />
             <element signature="e#3947#3967#0" expanded="true" />
             <element signature="e#4532#4549#0" expanded="true" />
-            <element signature="e#4796#4810#0" expanded="true" />
-            <element signature="e#5048#5062#0" expanded="true" />
-            <element signature="e#5437#5461#0" expanded="true" />
-            <element signature="e#6178#6193#0" expanded="true" />
-            <element signature="e#6408#6439#0" expanded="true" />
-            <element signature="e#6734#6765#0" expanded="true" />
-            <element signature="e#7027#7040#0" expanded="true" />
-            <element signature="e#7330#7348#0" expanded="true" />
+            <element signature="e#5413#5427#0" expanded="true" />
+            <element signature="e#5665#5679#0" expanded="true" />
+            <element signature="e#6054#6078#0" expanded="true" />
+            <element signature="e#6795#6810#0" expanded="true" />
+            <element signature="e#7025#7056#0" expanded="true" />
+            <element signature="e#7351#7382#0" expanded="true" />
+            <element signature="e#7644#7657#0" expanded="true" />
+            <element signature="e#7947#7965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2239,13 +2502,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/CanvasView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="735">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2288,19 +2544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyPreferenceFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4564" max-vertical-offset="5100">
-          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2308,7 +2555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10200">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2316,7 +2562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2324,7 +2569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34701493" vertical-offset="3519" max-vertical-offset="4455">
           <caret line="280" column="49" selection-start-line="280" selection-start-column="49" selection-end-line="280" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2340,7 +2584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2348,15 +2591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/theeyes/theVUE2/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.68" vertical-offset="2553" max-vertical-offset="5730">
-          <caret line="188" column="43" selection-start-line="188" selection-start-column="43" selection-end-line="188" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2364,15 +2598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1135" max-vertical-offset="2175">
           <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="28664" max-vertical-offset="33510">
-          <caret line="2011" column="68" selection-start-line="2011" selection-start-column="68" selection-end-line="2011" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2380,7 +2605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="1155">
           <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2388,7 +2612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1769" max-vertical-offset="5190">
           <caret line="162" column="112" selection-start-line="162" selection-start-column="112" selection-end-line="162" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2408,19 +2631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/Preview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6224" max-vertical-offset="61620">
-          <caret line="494" column="13" selection-start-line="494" selection-start-column="13" selection-end-line="494" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/FolderChooserDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="4245">
           <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2439,15 +2653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11090573" vertical-offset="0" max-vertical-offset="541">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3900185" vertical-offset="4649" max-vertical-offset="8250">
-          <caret line="324" column="18" selection-start-line="324" selection-start-column="18" selection-end-line="324" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2466,38 +2671,234 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16635859" vertical-offset="0" max-vertical-offset="541">
           <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyWidgetProviderTakePhoto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/theeyes/theVUE2/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2760" max-vertical-offset="5745">
+          <caret line="189" column="53" selection-start-line="189" selection-start-column="43" selection-end-line="189" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/CanvasView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09419152" vertical-offset="0" max-vertical-offset="735">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/PreferenceKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="2445">
+          <caret line="179" column="54" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyPreferenceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4665">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MyApplicationInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3360" max-vertical-offset="33600">
+          <caret line="302" column="0" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+          <folding>
+            <element signature="e#23123#23194#0" expanded="true" />
+            <element signature="e#23347#23408#0" expanded="true" />
+            <element signature="e#23875#23902#0" expanded="true" />
+            <element signature="e#24068#24095#0" expanded="true" />
+            <element signature="e#24635#24674#0" expanded="true" />
+            <element signature="e#24770#24801#0" expanded="true" />
+            <element signature="e#24974#25002#0" expanded="true" />
+            <element signature="e#25136#25168#0" expanded="true" />
+            <element signature="e#25868#25921#0" expanded="true" />
+            <element signature="e#25948#26009#0" expanded="true" />
+            <element signature="e#26043#26113#0" expanded="true" />
+            <element signature="e#26500#26570#0" expanded="true" />
+            <element signature="e#26648#26709#0" expanded="true" />
+            <element signature="e#26877#26912#0" expanded="true" />
+            <element signature="e#27022#27051#0" expanded="true" />
+            <element signature="e#49797#49849#0" expanded="true" />
+            <element signature="e#49852#49905#0" expanded="true" />
+            <element signature="e#49908#49965#0" expanded="true" />
+            <element signature="e#51178#51231#0" expanded="true" />
+            <element signature="e#51844#51901#0" expanded="true" />
+            <element signature="e#53705#53774#0" expanded="true" />
+            <element signature="e#53940#54009#0" expanded="true" />
+            <element signature="e#54687#54758#0" expanded="true" />
+            <element signature="e#54830#54901#0" expanded="true" />
+            <element signature="e#54989#55060#0" expanded="true" />
+            <element signature="e#56983#57035#0" expanded="true" />
+            <element signature="e#63046#63105#0" expanded="true" />
+            <element signature="e#70635#70667#0" expanded="true" />
+            <element signature="e#72296#72329#0" expanded="true" />
+            <element signature="e#78092#78116#0" expanded="true" />
+            <element signature="e#80675#80742#0" expanded="true" />
+            <element signature="e#84731#84760#0" expanded="true" />
+            <element signature="e#93807#93836#0" expanded="true" />
+            <element signature="e#94054#94083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/ApplicationInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="1830">
+          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.615385" vertical-offset="787" max-vertical-offset="8340">
+          <caret line="83" column="39" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="39" />
+          <folding>
+            <element signature="e#226#270#0" expanded="true" />
+            <element signature="e#2487#2524#0" expanded="true" />
+            <element signature="e#2553#2598#0" expanded="true" />
+            <element signature="e#3024#3059#0" expanded="true" />
+            <element signature="e#3088#3131#0" expanded="true" />
+            <element signature="e#3593#3638#0" expanded="true" />
+            <element signature="e#3725#3751#0" expanded="true" />
+            <element signature="e#3777#3811#0" expanded="true" />
+            <element signature="e#4082#4113#0" expanded="true" />
+            <element signature="e#4142#4181#0" expanded="true" />
+            <element signature="e#4337#4368#0" expanded="true" />
+            <element signature="e#4397#4436#0" expanded="true" />
+            <element signature="e#4729#4764#0" expanded="true" />
+            <element signature="e#4793#4836#0" expanded="true" />
+            <element signature="e#5143#5191#0" expanded="true" />
+            <element signature="e#5329#5363#0" expanded="true" />
+            <element signature="e#5390#5432#0" expanded="true" />
+            <element signature="e#5697#5731#0" expanded="true" />
+            <element signature="e#5758#5800#0" expanded="true" />
+            <element signature="e#5958#5990#0" expanded="true" />
+            <element signature="e#6020#6060#0" expanded="true" />
+            <element signature="e#6378#6412#0" expanded="true" />
+            <element signature="e#6442#6484#0" expanded="true" />
+            <element signature="e#6515#6549#0" expanded="true" />
+            <element signature="e#6582#6624#0" expanded="true" />
+            <element signature="e#6834#6872#0" expanded="true" />
+            <element signature="e#6902#6948#0" expanded="true" />
+            <element signature="e#6979#7017#0" expanded="true" />
+            <element signature="e#7050#7096#0" expanded="true" />
+            <element signature="e#7300#7338#0" expanded="true" />
+            <element signature="e#7368#7414#0" expanded="true" />
+            <element signature="e#7445#7483#0" expanded="true" />
+            <element signature="e#7516#7562#0" expanded="true" />
+            <element signature="e#7769#7806#0" expanded="true" />
+            <element signature="e#7839#7884#0" expanded="true" />
+            <element signature="e#8063#8094#0" expanded="true" />
+            <element signature="e#8127#8166#0" expanded="true" />
+            <element signature="e#8347#8382#0" expanded="true" />
+            <element signature="e#8415#8458#0" expanded="true" />
+            <element signature="e#8811#8842#0" expanded="true" />
+            <element signature="e#8997#9030#0" expanded="true" />
+            <element signature="e#9063#9104#0" expanded="true" />
+            <element signature="e#10077#10112#0" expanded="true" />
+            <element signature="e#10145#10188#0" expanded="true" />
+            <element signature="e#10545#10575#0" expanded="true" />
+            <element signature="e#10608#10646#0" expanded="true" />
+            <element signature="e#10841#10880#0" expanded="true" />
+            <element signature="e#10913#10960#0" expanded="true" />
+            <element signature="e#11163#11209#0" expanded="true" />
+            <element signature="e#11242#11296#0" expanded="true" />
+            <element signature="e#11588#11617#0" expanded="true" />
+            <element signature="e#11650#11687#0" expanded="true" />
+            <element signature="e#11876#11908#0" expanded="true" />
+            <element signature="e#11941#11981#0" expanded="true" />
+            <element signature="e#12168#12199#0" expanded="true" />
+            <element signature="e#12232#12271#0" expanded="true" />
+            <element signature="e#12456#12492#0" expanded="true" />
+            <element signature="e#12525#12569#0" expanded="true" />
+            <element signature="e#12757#12796#0" expanded="true" />
+            <element signature="e#12829#12876#0" expanded="true" />
+            <element signature="e#13055#13085#0" expanded="true" />
+            <element signature="e#13118#13156#0" expanded="true" />
+            <element signature="e#13338#13371#0" expanded="true" />
+            <element signature="e#13404#13445#0" expanded="true" />
+            <element signature="e#13615#13640#0" expanded="true" />
+            <element signature="e#13673#13706#0" expanded="true" />
+            <element signature="e#14031#14062#0" expanded="true" />
+            <element signature="e#14095#14134#0" expanded="true" />
+            <element signature="e#14829#14865#0" expanded="true" />
+            <element signature="e#14898#14942#0" expanded="true" />
+            <element signature="e#15125#15160#0" expanded="true" />
+            <element signature="e#15193#15236#0" expanded="true" />
+            <element signature="e#15456#15500#0" expanded="true" />
+            <element signature="e#15605#15647#0" expanded="true" />
+            <element signature="e#15897#15928#0" expanded="true" />
+            <element signature="e#15955#15994#0" expanded="true" />
+            <element signature="e#16101#16129#0" expanded="true" />
+            <element signature="e#16156#16192#0" expanded="true" />
+            <element signature="e#16340#16366#0" expanded="true" />
+            <element signature="e#16396#16430#0" expanded="true" />
+            <element signature="e#17722#17764#0" expanded="true" />
+            <element signature="e#18019#18042#0" expanded="true" />
+            <element signature="e#18072#18103#0" expanded="true" />
+            <element signature="e#18345#18380#0" expanded="true" />
+            <element signature="e#18410#18453#0" expanded="true" />
+            <element signature="e#18754#18794#0" expanded="true" />
+            <element signature="e#18827#18875#0" expanded="true" />
+            <element signature="e#19052#19086#0" expanded="true" />
+            <element signature="e#19119#19161#0" expanded="true" />
+            <element signature="e#19490#19520#0" expanded="true" />
+            <element signature="e#19553#19591#0" expanded="true" />
+            <element signature="e#19921#19960#0" expanded="true" />
+            <element signature="e#19993#20040#0" expanded="true" />
+            <element signature="e#20377#20411#0" expanded="true" />
+            <element signature="e#20444#20486#0" expanded="true" />
+            <element signature="e#20806#20839#0" expanded="true" />
+            <element signature="e#20869#20910#0" expanded="true" />
+            <element signature="e#21086#21123#0" expanded="true" />
+            <element signature="e#21156#21201#0" expanded="true" />
+            <element signature="e#21553#21585#0" expanded="true" />
+            <element signature="e#21618#21658#0" expanded="true" />
+            <element signature="e#21852#21897#0" expanded="true" />
+            <element signature="e#22039#22068#0" expanded="true" />
+            <element signature="e#22098#22135#0" expanded="true" />
+            <element signature="e#22309#22343#0" expanded="true" />
+            <element signature="e#22373#22415#0" expanded="true" />
+            <element signature="e#22591#22628#0" expanded="true" />
+            <element signature="e#22658#22703#0" expanded="true" />
+            <element signature="e#22923#22959#0" expanded="true" />
+            <element signature="e#23074#23106#0" expanded="true" />
+            <element signature="e#23135#23175#0" expanded="true" />
+            <element signature="e#23333#23359#0" expanded="true" />
+            <element signature="e#23388#23422#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9607844" vertical-offset="437" max-vertical-offset="3675">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="10211" max-vertical-offset="33570">
-          <caret line="769" column="27" selection-start-line="769" selection-start-column="27" selection-end-line="769" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1917" max-vertical-offset="3225">
-          <caret line="146" column="33" selection-start-line="146" selection-start-column="33" selection-end-line="146" selection-end-column="33" />
+        <state vertical-scroll-proportion="-22.2" vertical-offset="930" max-vertical-offset="3705">
+          <caret line="99" column="71" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.7412453" vertical-offset="3131" max-vertical-offset="3645">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.7777777" vertical-offset="1485" max-vertical-offset="3840">
+          <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
           <folding>
             <element signature="e#787#810#0" expanded="true" />
             <element signature="e#1169#1187#0" expanded="true" />
@@ -2507,19 +2908,46 @@
             <element signature="e#3455#3477#0" expanded="true" />
             <element signature="e#3947#3967#0" expanded="true" />
             <element signature="e#4532#4549#0" expanded="true" />
-            <element signature="e#4796#4810#0" expanded="true" />
-            <element signature="e#5048#5062#0" expanded="true" />
-            <element signature="e#5437#5461#0" expanded="true" />
-            <element signature="e#6178#6193#0" expanded="true" />
-            <element signature="e#6408#6439#0" expanded="true" />
-            <element signature="e#6734#6765#0" expanded="true" />
-            <element signature="e#7027#7040#0" expanded="true" />
-            <element signature="e#7330#7348#0" expanded="true" />
+            <element signature="e#5413#5427#0" expanded="true" />
+            <element signature="e#5665#5679#0" expanded="true" />
+            <element signature="e#6054#6078#0" expanded="true" />
+            <element signature="e#6795#6810#0" expanded="true" />
+            <element signature="e#7025#7056#0" expanded="true" />
+            <element signature="e#7351#7382#0" expanded="true" />
+            <element signature="e#7644#7657#0" expanded="true" />
+            <element signature="e#7947#7965#0" expanded="true" />
           </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/CameraController/CameraController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3225">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="12307" max-vertical-offset="33675">
+          <caret line="920" column="2" selection-start-line="920" selection-start-column="2" selection-end-line="920" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/Preview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7207358" vertical-offset="43459" max-vertical-offset="62160">
+          <caret line="3012" column="69" selection-start-line="3012" selection-start-column="69" selection-end-line="3012" selection-end-column="69" />
+          <folding>
+            <element signature="e#114297#115128#0" expanded="true" />
+            <element signature="e#115121#115122#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

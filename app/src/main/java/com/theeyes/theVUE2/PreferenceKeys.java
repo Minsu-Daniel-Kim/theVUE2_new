@@ -181,6 +181,10 @@ public class PreferenceKeys {
     	return "preference_face_detection";
     }
 
+    public static String getMotionDetectionPreferenceKey() {
+        return "preference_motion_detection";
+    }
+
     public static String getVideoStabilizationPreferenceKey() {
     	return "preference_video_stabilization";
     }

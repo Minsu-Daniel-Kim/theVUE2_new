@@ -49,6 +49,7 @@ import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
+import android.widget.Toast;
 import android.widget.ZoomControls;
 
 import com.theeyes.theVUE2.CameraController.CameraController;
@@ -915,6 +916,13 @@ public class MainActivity extends Activity {
 			Log.d(TAG, "clickedTakePhoto");
     	this.takePicture();
     }
+
+//    public void clickedMotionDetection(View view){
+//
+//        Toast.makeText(getApplicationContext(), "movement detection!", 3000).show();
+//
+//    }
+
 
     public void clickedSwitchCamera(View view) {
 		if( MyDebug.LOG )

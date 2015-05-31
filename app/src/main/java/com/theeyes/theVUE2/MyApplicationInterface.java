@@ -294,7 +294,13 @@ public class MyApplicationInterface implements ApplicationInterface {
 		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
 		return sharedPreferences.getBoolean(PreferenceKeys.getFaceDetectionPreferenceKey(), false);
     }
-    
+
+    @Override
+    public boolean getMotionDetectionPred() {
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+        return sharedPreferences.getBoolean(PreferenceKeys.getMotionDetectionPreferenceKey(), false);
+    }
+
 	@Override
 	public String getVideoQualityPref() {
 		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());

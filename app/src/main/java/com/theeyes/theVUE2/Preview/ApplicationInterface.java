@@ -1,7 +1,5 @@
 package com.theeyes.theVUE2.Preview;
 
-import java.io.File;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -9,6 +7,8 @@ import android.location.Location;
 import android.media.CamcorderProfile;
 import android.util.Pair;
 import android.view.MotionEvent;
+
+import java.io.File;
 
 public interface ApplicationInterface {
     public static final int MEDIA_TYPE_IMAGE = 1;
@@ -34,6 +34,8 @@ public interface ApplicationInterface {
 	Pair<Integer, Integer> getCameraResolutionPref(); // return null to let Preview choose size
 	int getImageQualityPref(); // jpeg quality for taking photos; "90" is a recommended default
 	boolean getFaceDetectionPref(); // whether to use face detection mode
+    boolean getMotionDetectionPred();
+
 	String getVideoQualityPref(); // should be one of Preview.getSupportedVideoQuality() (use Preview.getCamcorderProfile() or Preview.getCamcorderProfileDescription() for details); or return "" to let Preview choose quality
 	boolean getVideoStabilizationPref(); // whether to use video stabilization for video
 	boolean getForce4KPref(); // whether to force 4K mode - experimental, only really available for some devices that allow 4K recording but don't return it as an available resolution - not recommended for most uses

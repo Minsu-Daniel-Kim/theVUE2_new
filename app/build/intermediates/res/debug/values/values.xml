@@ -523,6 +523,8 @@
     <string name="preference_lock_video_summary">비디오 촬영시 화면이 잠금됩니다.</string>
     <string name="preference_max_brightness">최대 밝기 설정</string>
     <string name="preference_max_brightness_summary">최대 밝기를 설정합니다.</string>
+    <string name="preference_motion_detection">모션인식</string>
+    <string name="preference_motion_detection_summary">움직임을 포착하여 촬영합니다.</string>
     <string name="preference_pause_preview">사진 촬영 후 정지</string>
     <string name="preference_pause_preview_summary">사진 활영 후 정지됩니다.</string>
     <string name="preference_preview_size">화면 크기</string>

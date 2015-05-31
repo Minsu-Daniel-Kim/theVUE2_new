@@ -179,7 +179,9 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	private int ui_rotation = 0;
 
 	private boolean supports_face_detection = false;
+//    private boolean supports_motion_detection = false;
 	private boolean using_face_detection = false;
+    private boolean using_motion_detection = false;
 	private CameraController.Face [] faces_detected = null;
 	private boolean supports_video_stabilization = false;
 	private boolean can_disable_shutter_sound = false;
@@ -834,7 +836,9 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 		zoom_ratios = null;
 		faces_detected = null;
 		supports_face_detection = false;
+//        supports_motion_detection = false;
 		using_face_detection = false;
+        using_face_detection = false;
 		supports_video_stabilization = false;
 		can_disable_shutter_sound = false;
 		color_effects = null;
@@ -1153,6 +1157,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 				if( MyDebug.LOG )
 					Log.d(TAG, "using_video_stabilization?: " + using_video_stabilization);
 				camera_controller.setVideoStabilization(using_video_stabilization);
+
 			}
 			if( MyDebug.LOG )
 				Log.d(TAG, "supports_video_stabilization?: " + supports_video_stabilization);
@@ -2987,16 +2992,38 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	        }
 			remaining_burst_photos = n_burst-1;
 		}
-		
-		if( timer_delay == 0 ) {
-			takePicture();
+        boolean motion_detection = applicationInterface.getMotionDetectionPred();
+
+        if( timer_delay == 0 ) {
+
+
+
+            Log.i(TAG, burst_mode_value);
+
+            if(motion_detection){
+
+        		Toast.makeText(getContext(), "motion detection!", 3000).show();
+                Log.i(TAG, "motion detection!");
+            }else{
+
+                takePicture();
+            }
 		}
 		else {
-			takePictureOnTimer(timer_delay, false);
+			takePictureOnTimer(timer_delay, false, motion_detection);
+//            if(motion_detection){
+//
+//                Toast.makeText(getContext(), "timer motion detection!", 3000).show();
+//                Log.i(TAG, "motion detection!");
+//            }else{
+//
+//                takePicture();
+//            }
 		}
+
 	}
 	
-	private void takePictureOnTimer(long timer_delay, boolean repeated) {
+	private void takePictureOnTimer(long timer_delay, boolean repeated, final boolean motion_detection) {
 		if( MyDebug.LOG ) {
 			Log.d(TAG, "takePictureOnTimer");
 			Log.d(TAG, "timer_delay: " + timer_delay);
@@ -3011,13 +3038,20 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 				Activity activity = (Activity)Preview.this.getContext();
 				activity.runOnUiThread(new Runnable() {
 					public void run() {
-						// we run on main thread to avoid problem of camera closing at the same time
-						// but still need to check that the camera hasn't closed or the task halted, since TimerTask.run() started
-						if( camera_controller != null && takePictureTimerTask != null )
-							takePicture();
-						else {
-							if( MyDebug.LOG )
-								Log.d(TAG, "takePictureTimerTask: don't take picture, as already cancelled");
+                        // we run on main thread to avoid problem of camera closing at the same time
+                        // but still need to check that the camera hasn't closed or the task halted, since TimerTask.run() started
+                        if (camera_controller != null && takePictureTimerTask != null){
+                            if(motion_detection){
+                                Toast.makeText(getContext(), "motion detection!", 3000).show();
+
+                            }else{
+
+                                takePicture();
+                            }
+
+                        }else {
+                            if( MyDebug.LOG )
+                                Log.d(TAG, "takePictureTimerTask: don't take picture, as already cancelled");
 						}
 					}
 				});
@@ -3480,7 +3514,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
     	            	takePictureWhenFocused();
     	    		}
     	    		else {
-    	    			takePictureOnTimer(timer_delay, true);
+    	    			takePictureOnTimer(timer_delay, true, false);
     	    		}
     	        }
     	    }

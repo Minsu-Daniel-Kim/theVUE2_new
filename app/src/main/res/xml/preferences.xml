@@ -77,6 +77,12 @@
             android:summary="@string/preference_face_detection_summary"
             android:defaultValue="false"
             />
+        <CheckBoxPreference
+            android:key="preference_motion_detection"
+            android:title="@string/preference_motion_detection"
+            android:summary="@string/preference_motion_detection_summary"
+            android:defaultValue="false"
+            />
 
 	</PreferenceCategory>
 
@@ -135,7 +141,7 @@
 		        android:key="preference_shutter_sound"
 		        android:title="@string/preference_shutter_sound"
 		        android:summary="@string/preference_shutter_sound_summary"
-		        android:defaultValue="true"
+		        android:defaultValue="false"
 		        />
 	
 	        <ListPreference 
