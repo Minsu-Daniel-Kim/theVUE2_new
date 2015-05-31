@@ -70,6 +70,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	private boolean using_android_l = false;
 	private boolean using_texture_view = false;
 
+    private final static String MOTION_DETECTION_KEY = "motion_detection_active";
 	private ApplicationInterface applicationInterface = null;
 	private CameraSurface cameraSurface = null;
 	private CanvasView canvasView = null;
@@ -2036,7 +2037,8 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
     		}
         }
     }
-    
+
+
     private boolean hasAspectRatio() {
     	return has_aspect_ratio;
     }
@@ -3011,14 +3013,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 		}
 		else {
 			takePictureOnTimer(timer_delay, false, motion_detection);
-//            if(motion_detection){
-//
-//                Toast.makeText(getContext(), "timer motion detection!", 3000).show();
-//                Log.i(TAG, "motion detection!");
-//            }else{
-//
-//                takePicture();
-//            }
+
 		}
 
 	}
