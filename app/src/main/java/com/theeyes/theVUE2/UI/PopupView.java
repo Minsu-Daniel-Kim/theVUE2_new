@@ -1,18 +1,5 @@
 package com.theeyes.theVUE2.UI;
 
-import com.theeyes.theVUE2.MainActivity;
-import com.theeyes.theVUE2.MyDebug;
-import com.theeyes.theVUE2.PreferenceKeys;
-import com.theeyes.theVUE2.R;
-import com.theeyes.theVUE2.CameraController.CameraController;
-import com.theeyes.theVUE2.Preview.Preview;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Hashtable;
-import java.util.List;
-import java.util.Map;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -33,11 +20,24 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
+import android.widget.ImageView.ScaleType;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-import android.widget.ImageView.ScaleType;
+
+import com.theeyes.theVUE2.CameraController.CameraController;
+import com.theeyes.theVUE2.MainActivity;
+import com.theeyes.theVUE2.MyDebug;
+import com.theeyes.theVUE2.PreferenceKeys;
+import com.theeyes.theVUE2.Preview.Preview;
+import com.theeyes.theVUE2.R;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Map;
 
 public class PopupView extends LinearLayout {
 	private static final String TAG = "PopupView";
@@ -117,7 +117,7 @@ public class PopupView extends LinearLayout {
         	if( main_activity.supportsAutoStabilise() ) {
         		CheckBox checkBox = new CheckBox(main_activity);
         		checkBox.setText(getResources().getString(R.string.preference_auto_stabilise));
-        		checkBox.setTextColor(Color.WHITE);
+        		checkBox.setTextColor(Color.BLACK);
 
         		boolean auto_stabilise = sharedPreferences.getBoolean(PreferenceKeys.getAutoStabilisePreferenceKey(), false);
         		checkBox.setChecked(auto_stabilise);
@@ -134,7 +134,7 @@ public class PopupView extends LinearLayout {
 						main_activity.closePopup();
 					}
         		});
-
+                this.setBackgroundColor(Color.WHITE);
         		this.addView(checkBox);
         	}
 
@@ -390,6 +390,7 @@ public class PopupView extends LinearLayout {
         			if( MyDebug.LOG )
         				Log.d(TAG, "addButtonOptionsToPopup time 2.11: " + (System.currentTimeMillis() - time_s));
         			view = image_button;
+
         			ll2.addView(view);
         			if( MyDebug.LOG )
         				Log.d(TAG, "addButtonOptionsToPopup time 2.12: " + (System.currentTimeMillis() - time_s));
@@ -411,22 +412,27 @@ public class PopupView extends LinearLayout {
         		}
         		else {
         			Button button = new Button(this.getContext());
+                    button.setTextColor(Color.BLACK);
         			view = button;
+
         			ll2.addView(view);
 
         			// hack for ISO mode ISO_HJR (e.g., on Samsung S5)
         			// also some devices report e.g. "ISO100" etc
         			if( string.equalsIgnoreCase("ISO") && supported_option.length() >= 4 && supported_option.substring(0, 4).equalsIgnoreCase("ISO_") ) {
             			button.setText(string + "\n" + supported_option.substring(4));
+                        button.setTextColor(Color.BLACK);
         			}
         			else if( string.equalsIgnoreCase("ISO") && supported_option.length() >= 3 && supported_option.substring(0, 3).equalsIgnoreCase("ISO") ) {
             			button.setText(string + "\n" + supported_option.substring(3));
+                        button.setTextColor(Color.BLACK);
         			}
         			else {
             			button.setText(string + "\n" + supported_option);
+                        button.setTextColor(Color.BLACK);
         			}
         			button.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12.0f);
-        			button.setTextColor(Color.WHITE);
+                    button.setTextColor(Color.BLACK);
         			// need 0 padding so we have enough room to display text for ISO buttons, when there are 6 ISO settings
         			final int padding = (int) (0 * scale + 0.5f); // convert dps to pixels
         			view.setPadding(padding, padding, padding, padding);
@@ -508,7 +514,7 @@ public class PopupView extends LinearLayout {
 
     		TextView text_view = new TextView(this.getContext());
     		text_view.setText(title);
-    		text_view.setTextColor(Color.WHITE);
+    		text_view.setTextColor(Color.BLACK);
     		text_view.setGravity(Gravity.CENTER);
     		text_view.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 8.0f);
         	this.addView(text_view);
@@ -525,7 +531,7 @@ public class PopupView extends LinearLayout {
         		//Button button = new Button(this);
         		RadioButton button = new RadioButton(this.getContext());
         		button.setText(supported_option);
-        		button.setTextColor(Color.WHITE);
+        		button.setTextColor(Color.BLACK);
         		if( supported_option.equals(current_option) ) {
         			button.setChecked(true);
         		}
@@ -564,17 +570,18 @@ public class PopupView extends LinearLayout {
 		if( supported_options != null && current_index != -1 ) {
     		TextView text_view = new TextView(this.getContext());
     		text_view.setText(title);
-    		text_view.setTextColor(Color.WHITE);
+    		text_view.setTextColor(Color.BLACK);
     		text_view.setGravity(Gravity.CENTER);
     		text_view.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 8.0f);
         	this.addView(text_view);
 
         	LinearLayout ll2 = new LinearLayout(this.getContext());
             ll2.setOrientation(LinearLayout.HORIZONTAL);
+
             
 			final TextView resolution_text_view = new TextView(this.getContext());
 			resolution_text_view.setText(supported_options.get(current_index));
-			resolution_text_view.setTextColor(Color.WHITE);
+			resolution_text_view.setTextColor(Color.BLACK);
 			resolution_text_view.setGravity(Gravity.CENTER);
 			LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1.0f);
 			resolution_text_view.setLayoutParams(params);

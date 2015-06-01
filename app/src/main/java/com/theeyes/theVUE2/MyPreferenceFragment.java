@@ -29,6 +29,7 @@ public class MyPreferenceFragment extends PreferenceFragment {
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.preferences);
 
+
 		final Bundle bundle = getArguments();
 		final int cameraId = bundle.getInt("cameraId");
 		if( MyDebug.LOG )
@@ -319,9 +320,9 @@ public class MyPreferenceFragment extends PreferenceFragment {
 		// note, on Galaxy Nexus Android 4.3 this sets to black rather than the dark grey that the background theme should be (and what the sub-screens use); works okay on Nexus 7 Android 5
 		// we used to use a light theme for the PreferenceFragment, but mixing themes in same activity seems to cause problems (e.g., for EditTextPreference colors)
 		TypedArray array = getActivity().getTheme().obtainStyledAttributes(new int[] {  
-			    android.R.attr.colorBackground
+			    android.R.color.black
 		});
-		int backgroundColor = array.getColor(0, Color.BLACK);
+		int backgroundColor = array.getColor(0, Color.WHITE);
 		/*if( MyDebug.LOG ) {
 			int r = (backgroundColor >> 16) & 0xFF;
 			int g = (backgroundColor >> 8) & 0xFF;

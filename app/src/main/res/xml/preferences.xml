@@ -98,12 +98,14 @@
         <CheckBoxPreference
             android:key="preference_timer_beep"
             android:title="@string/preference_timer_beep"
+            android:textColor="@android:color/black"
             android:defaultValue="true"
             />
 
         <ListPreference 
             android:key="preference_burst_mode"
             android:title="@string/preference_burst_mode"
+            android:textColor="@android:color/holo_green_light"
             android:entries="@array/preference_burst_mode_entries"
             android:entryValues="@array/preference_burst_mode_values"
             android:defaultValue="1"

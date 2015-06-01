@@ -94,7 +94,8 @@ public final class R {
         public static final int take_video=0x7f020020;
         public static final int take_video_pressed=0x7f020021;
         public static final int take_video_selector=0x7f020022;
-        public static final int trash=0x7f020023;
+        public static final int theview2=0x7f020023;
+        public static final int trash=0x7f020024;
     }
     public static final class id {
         public static final int action_settings=0x7f0a0019;
@@ -374,6 +375,7 @@ public final class R {
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f080001;
+        public static final int listViewPrefs=0x7f080002;
     }
     public static final class xml {
         public static final int preferences=0x7f040000;

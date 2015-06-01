@@ -3088,7 +3088,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
                             if (mMotionDetection.detect(data)) {
 
                                 Log.i(TAG, "motion!!");
-
+                                Toast.makeText(getContext(), "모션인식 촬영!", 3000).show();
                                 camera_controller.setMotionDetectionListener(null);
 //                                the delay is necessary to avoid taking a picture while in the
 //                                middle of taking another. This problem causes a Motorola
