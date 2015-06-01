@@ -76,6 +76,8 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	private boolean using_android_l = false;
 	private boolean using_texture_view = false;
 
+    private long mReferenceTime;
+    private static final int PICTURE_DELAY = 4000;
     private boolean motion_detection = false;
 	private ApplicationInterface applicationInterface = null;
 	private CameraSurface cameraSurface = null;
@@ -2986,8 +2988,12 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	public void takePicturePressed() {
         motion_detection = applicationInterface.getMotionDetectionPred();
 
-        using_motion_detection = !using_motion_detection;
+        if(using_motion_detection){
+            Toast.makeText(getContext(), "모션인식 촬영 종료", 3000).show();
+            camera_controller.setMotionDetectionListener(null);
+        }
 
+        using_motion_detection = !using_motion_detection;
 
         if( MyDebug.LOG )
 			Log.d(TAG, "takePicturePressed");
@@ -3073,7 +3079,13 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
         if( timer_delay == 0 ) {
 
             if(motion_detection && using_motion_detection){
-
+                Toast.makeText(getContext(), "모션인식 활성화", 3000).show();
+//                try{
+//
+//                    Thread.sleep(2000);
+//                }catch(InterruptedException ex){
+//
+//                }
                 camera_controller.setMotionDetectionListener(new CameraController.MotionDetectionListener() {
                     MotionDetection mMotionDetection = new MotionDetection(getContext().getSharedPreferences(
                             MotionDetection.PREFS_NAME, Context.MODE_PRIVATE));
@@ -3088,21 +3100,18 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
                             if (mMotionDetection.detect(data)) {
 
                                 Log.i(TAG, "motion!!");
-                                Toast.makeText(getContext(), "모션인식 촬영!", 3000).show();
-                                camera_controller.setMotionDetectionListener(null);
-//                                the delay is necessary to avoid taking a picture while in the
-//                                middle of taking another. This problem causes a Motorola
-//                                Milestone to reboot.
-//                                long now = System.currentTimeMillis();
-//                                if (now > mReferenceTime + PICTURE_DELAY) {
-//                                    mReferenceTime = now + PICTURE_DELAY;
-//                                    Log.i(TAG, "Taking picture");
-//                                    Toast.makeText(getContext(), "Motion detected!!", 3000).show();
-//                //                    camera.takePicture(null, null, this);
-//                                } else {
-//                                    Log.i(TAG, "Not taking picture because not enough time has "
-//                                            + "passed since the creation of the Surface");
-//                                }
+
+                                long now = System.currentTimeMillis();
+                                if (now > mReferenceTime + PICTURE_DELAY) {
+                                    mReferenceTime = now + PICTURE_DELAY;
+                                    Log.i(TAG, "Taking picture");
+                                    Toast.makeText(getContext(), "모션포착", 3000).show();
+                                    takePicture();
+                //                    camera.takePicture(null, null, this);
+                                } else {
+                                    Log.i(TAG, "Not taking picture because not enough time has "
+                                            + "passed since the creation of the Surface");
+                                }
                             }
                         }
                     }
@@ -3883,6 +3892,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
     private void setPreviewPaused(boolean paused) {
 		if( MyDebug.LOG )
 			Log.d(TAG, "setPreviewPaused: " + paused);
+        camera_controller.setMotionDetectionListener(null);
 		applicationInterface.hasPausedPreview(paused);
 	    if( paused ) {
 	    	this.phase = PHASE_PREVIEW_PAUSED;
@@ -4179,6 +4189,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
     public void onPause() {
 		if( MyDebug.LOG )
 			Log.d(TAG, "onPause");
+        camera_controller.setMotionDetectionListener(null);
 		this.app_is_paused = true;
 		this.closeCamera();
     }
