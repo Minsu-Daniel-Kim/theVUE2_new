@@ -322,7 +322,7 @@ public class MyPreferenceFragment extends PreferenceFragment {
 		TypedArray array = getActivity().getTheme().obtainStyledAttributes(new int[] {  
 			    android.R.color.black
 		});
-		int backgroundColor = array.getColor(0, Color.WHITE);
+		int backgroundColor = array.getColor(0, Color.BLACK);
 		/*if( MyDebug.LOG ) {
 			int r = (backgroundColor >> 16) & 0xFF;
 			int g = (backgroundColor >> 8) & 0xFF;

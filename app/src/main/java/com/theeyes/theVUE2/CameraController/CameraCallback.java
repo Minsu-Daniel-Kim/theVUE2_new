@@ -10,7 +10,7 @@ import com.theeyes.theVUE2.MotionDetection.MotionDetection;
  */
 public class CameraCallback implements Camera.PreviewCallback{
 
-    private final String PICTURE_PREFIX = "/Pictures/pim/";
+//    private final String PICTURE_PREFIX = "/Pictures/pim/";
     private static final int PICTURE_DELAY = 4000;
 
     private static final String TAG = "CameraCallback";
@@ -19,13 +19,7 @@ public class CameraCallback implements Camera.PreviewCallback{
 
     private long mReferenceTime;
 
-//    public CameraCallback(Context ct, Camera camera) {
-//
-//        mCamera = camera;
-//
-//        mMotionDetection = new MotionDetection(ct.getSharedPreferences(
-//                MotionDetection.PREFS_NAME, Context.MODE_PRIVATE));
-//    }
+
     @Override
     public void onPreviewFrame(byte[] data, Camera camera) {
 

@@ -1203,15 +1203,8 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 				    	System.arraycopy(faces, 0, faces_detected, 0, faces.length);				    	
 				    }
 				}
-                Toast.makeText(getContext(), "using_face_detection", 3000).show();
 				camera_controller.setFaceDetectionListener(new MyFaceDetectionListener());
-//                class MyMotionDetectionListener implements Camera.PreviewCallback{
-//
-//                    @Override
-//                    public void onPreviewFrame(byte[] data, Camera camera) {
-//
-//                    }
-//                }
+
                 motion_detection = applicationInterface.getMotionDetectionPred();
 
 			}
@@ -2988,7 +2981,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	public void takePicturePressed() {
         motion_detection = applicationInterface.getMotionDetectionPred();
 
-        if(using_motion_detection){
+        if(using_motion_detection && motion_detection){
             Toast.makeText(getContext(), "모션인식 촬영 종료", 3000).show();
             camera_controller.setMotionDetectionListener(null);
         }
@@ -3150,6 +3143,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
                         if (camera_controller != null && takePictureTimerTask != null){
                             if(!motion_detection){
                                 takePicture();
+                                Toast.makeText(getContext(), "take it!", 3000).show();
                             }
 
 //                            if(motion_detection && using_motion_detection){
@@ -3892,7 +3886,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
     private void setPreviewPaused(boolean paused) {
 		if( MyDebug.LOG )
 			Log.d(TAG, "setPreviewPaused: " + paused);
-        camera_controller.setMotionDetectionListener(null);
+//        camera_controller.setMotionDetectionListener(null);
 		applicationInterface.hasPausedPreview(paused);
 	    if( paused ) {
 	    	this.phase = PHASE_PREVIEW_PAUSED;

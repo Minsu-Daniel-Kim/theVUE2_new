@@ -108,6 +108,7 @@ public class PopupView extends LinearLayout {
 	        	addRadioOptionsToPopup(supported_white_balances, getResources().getString(R.string.white_balance), PreferenceKeys.getWhiteBalancePreferenceKey(), preview.getCameraController().getDefaultWhiteBalance(), "TEST_WHITE_BALANCE");
 	
 	        	List<String> supported_scene_modes = preview.getSupportedSceneModes();
+
 	        	addRadioOptionsToPopup(supported_scene_modes, getResources().getString(R.string.scene_mode), PreferenceKeys.getSceneModePreferenceKey(), preview.getCameraController().getDefaultSceneMode(), "TEST_SCENE_MODE");
 	
 	        	List<String> supported_color_effects = preview.getSupportedColorEffects();
