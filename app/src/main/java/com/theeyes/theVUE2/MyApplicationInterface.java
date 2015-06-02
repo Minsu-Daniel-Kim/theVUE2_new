@@ -1377,8 +1377,9 @@ public class MyApplicationInterface implements ApplicationInterface {
 			//battery_frac = 0.2999f; // test
 			int battery_x = (int) (5 * scale + 0.5f); // convert dps to pixels
 			int battery_y = top_y;
-			int battery_width = (int) (5 * scale + 0.5f); // convert dps to pixels
-			int battery_height = 4*battery_width;
+			int battery_height = (int) (20 * scale + 0.5f); // convert dps to pixels
+            int battery_width = (int) (400 * scale + 0.5f);
+//			int battery_width = 25*battery_height;
 			if( ui_rotation == 90 || ui_rotation == 270 ) {
 				int diff = canvas.getWidth() - canvas.getHeight();
 				battery_x += diff/2;
@@ -1395,7 +1396,8 @@ public class MyApplicationInterface implements ApplicationInterface {
 			canvas.drawRect(battery_x, battery_y, battery_x+battery_width, battery_y+battery_height, p);
 			p.setColor(battery_frac >= 0.3f ? Color.rgb(37, 155, 36) : Color.rgb(229, 28, 35)); // Green 500 or Red 500
 			p.setStyle(Paint.Style.FILL);
-			canvas.drawRect(battery_x+1, battery_y+1+(1.0f-battery_frac)*(battery_height-2), battery_x+battery_width-1, battery_y+battery_height-1, p);
+//			canvas.drawRect(battery_x+1, battery_y+1+(1.0f-battery_frac)*(battery_height-2), battery_x+battery_width-1, battery_y+battery_height-1, p);
+            canvas.drawRect(battery_x+1, battery_y+1, +(0.0f + battery_frac)*(battery_width-2), battery_y+battery_height-1, p);
 		}
 		
 		boolean store_location = sharedPreferences.getBoolean(PreferenceKeys.getLocationPreferenceKey(), false);
@@ -1430,10 +1432,17 @@ public class MyApplicationInterface implements ApplicationInterface {
 		}
 		
 		if( sharedPreferences.getBoolean(PreferenceKeys.getShowTimePreferenceKey(), true) ) {
+//            int battery_x = (int) (5 * scale + 0.5f); // convert dps to pixels
+//            int battery_y = top_y;
+//            int battery_height = (int) (20 * scale + 0.5f); // convert dps to pixels
+//            int battery_width = 20*battery_height;
+
 			p.setTextSize(14 * scale + 0.5f); // convert dps to pixels
 			p.setTextAlign(Paint.Align.LEFT);
-			int location_x = (int) (50 * scale + 0.5f); // convert dps to pixels
-			int location_y = top_y;
+//			int location_x = (int) (50 * scale + 0.5f); // convert dps to pixels
+//			int location_y = top_y;
+            int location_x = (int) (250 * scale + 0.5f); // convert dps to pixels
+            int location_y = top_y + (int) (3 * scale + 0.5f); // convert dps to pixels
 			if( ui_rotation == 90 || ui_rotation == 270 ) {
 				int diff = canvas.getWidth() - canvas.getHeight();
 				location_x += diff/2;
@@ -1454,14 +1463,18 @@ public class MyApplicationInterface implements ApplicationInterface {
 	        // http://code.google.com/p/android/issues/detail?id=42104
 	        String current_time = DateFormat.getTimeInstance().format(c.getTime());
 	        //String current_time = DateUtils.formatDateTime(getContext(), c.getTimeInMillis(), DateUtils.FORMAT_SHOW_TIME);
-	        drawTextWithBackground(canvas, p, current_time, Color.WHITE, Color.BLACK, location_x, location_y, true);
+	        drawTextWithBackground(canvas, p, current_time, Color.WHITE, Color.TRANSPARENT, location_x, location_y, true);
 	    }
 
 		if( camera_controller != null && sharedPreferences.getBoolean(PreferenceKeys.getShowFreeMemoryPreferenceKey(), true) ) {
+//            int battery_x = (int) (5 * scale + 0.5f); // convert dps to pixels
+//            int battery_y = top_y;
+//            int battery_height = (int) (20 * scale + 0.5f); // convert dps to pixels
+//            int battery_width = 20*battery_height;
 			p.setTextSize(14 * scale + 0.5f); // convert dps to pixels
 			p.setTextAlign(Paint.Align.LEFT);
-			int location_x = (int) (50 * scale + 0.5f); // convert dps to pixels
-			int location_y = top_y + (int) (16 * scale + 0.5f); // convert dps to pixels
+			int location_x = (int) (100 * scale + 0.5f); // convert dps to pixels
+			int location_y = top_y + (int) (3 * scale + 0.5f); // convert dps to pixels
 			if( ui_rotation == 90 || ui_rotation == 270 ) {
 				int diff = canvas.getWidth() - canvas.getHeight();
 				location_x += diff/2;
@@ -1627,7 +1640,7 @@ public class MyApplicationInterface implements ApplicationInterface {
 		final float scale = getContext().getResources().getDisplayMetrics().density;
 		paint.setStyle(Paint.Style.FILL);
 		paint.setColor(background);
-		paint.setAlpha(64);
+		paint.setAlpha(0);
 		int alt_height = 0;
 		if( ybounds_text != null ) {
 			paint.getTextBounds(ybounds_text, 0, ybounds_text.length(), text_bounds);
