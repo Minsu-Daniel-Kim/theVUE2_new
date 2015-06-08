@@ -50,6 +50,7 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Switch;
+import android.widget.Toast;
 import android.widget.ZoomControls;
 
 import com.theeyes.theVUE2.CameraController.CameraController;
@@ -245,16 +246,8 @@ public class MainActivity extends Activity {
             }
         });
 
-		boolean has_done_first_time = sharedPreferences.contains(PreferenceKeys.getFirstTimePreferenceKey());
-        if( !has_done_first_time && !is_test ) {
-	        AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
-            alertDialog.setTitle(R.string.app_name);
-            alertDialog.setMessage(R.string.intro_text);
-            alertDialog.setPositiveButton(R.string.intro_ok, null);
-            alertDialog.show();
+//		boolean has_done_first_time = sharedPreferences.contains(PreferenceKeys.getFirstTimePreferenceKey());
 
-            setFirstTimeFlag();
-        }
 
         preloadIcons(R.array.flash_icons);
         preloadIcons(R.array.focus_mode_icons);
@@ -627,17 +620,6 @@ public class MainActivity extends Activity {
 			view.setLayoutParams(layoutParams);
 			view.setRotation(ui_rotation);
 
-
-//            view = findViewById(R.id.switch_camera);
-//            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-//            layoutParams.addRule(align_parent_left, 0);
-//            layoutParams.addRule(align_parent_right, 0);
-//            layoutParams.addRule(below, R.id.switch_video);
-//            layoutParams.addRule(align_parent_bottom, 0);
-//            layoutParams.addRule(right_of, 0);
-//            view.setLayoutParams(layoutParams);
-//            view.setRotation(ui_rotation);
-
 			view = findViewById(R.id.gallery);
             layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
             layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
@@ -648,15 +630,6 @@ public class MainActivity extends Activity {
             view.setLayoutParams(layoutParams);
             view.setRotation(ui_rotation);
 
-//			view = findViewById(R.id.exposure);
-//			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-//            layoutParams.addRule(align_parent_left, 0);
-//            layoutParams.addRule(align_parent_right, 0);
-//            layoutParams.addRule(below, R.id.exposure_lock);
-//            layoutParams.addRule(align_parent_bottom, 0);
-//            layoutParams.addRule(right_of, 0);
-//            view.setLayoutParams(layoutParams);
-//            view.setRotation(ui_rotation);
             view = findViewById(R.id.switch_video);
             layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
             layoutParams.addRule(align_parent_left, 0);
@@ -716,29 +689,20 @@ public class MainActivity extends Activity {
 			view.setLayoutParams(layoutParams);
 			view.setRotation(ui_rotation);
 
-//            view = findViewById(R.id.switch_video);
-//            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-//            layoutParams.addRule(align_parent_top, RelativeLayout.TRUE);
-//            layoutParams.addRule(align_parent_left, 0);
-//            layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
-//            view.setLayoutParams(layoutParams);
-//            view.setRotation(ui_rotation);
-
 
 			view = findViewById(R.id.take_photo);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			layoutParams.addRule(align_parent_left, 0);
 			layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
 			view.setLayoutParams(layoutParams);
+//			view.setRotation(ui_rotation);
+
+            view = findViewById(R.id.layout_locked);
+            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
+            layoutParams.addRule(align_parent_left, 0);
+            layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
+            view.setLayoutParams(layoutParams);
 			view.setRotation(ui_rotation);
-
-
-//            view = findViewById(R.id.gallery);
-//            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-//            layoutParams.addRule(align_parent_left, 0);
-//            layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
-//            view.setLayoutParams(layoutParams);
-//            view.setRotation(ui_rotation);
 
 			view = findViewById(R.id.zoom);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
@@ -1265,6 +1229,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
+
                 getWhite();
 //                alert.dismiss();
 
@@ -1315,8 +1280,19 @@ public class MainActivity extends Activity {
         alertdialog.show();
     }
     public void getWhite(){
+        final CharSequence items[];
+        List<String> supported_white_balances = preview.getSupportedWhiteBalances();
+        items = (CharSequence[])supported_white_balances.toArray(new CharSequence[supported_white_balances.size()]);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("화이트밸런스");
+        builder.setSingleChoiceItems(items, , new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+                Toast.makeText(getApplicationContext(), which+"", 3000).show();
+                dialog.dismiss();
+            }
+        });
         builder.setNegativeButton("취소", null);
         AlertDialog alertdialog = builder.create();
         alertdialog.setCanceledOnTouchOutside(true);

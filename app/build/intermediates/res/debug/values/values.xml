@@ -80,7 +80,7 @@
         <item>300</item>
     </string-array>
     <string-array name="preference_burst_mode_entries">
-        <item>미사용</item>
+        <item>사용 안함</item>
         <item>2x</item>
         <item>3x</item>
         <item>4x</item>
@@ -214,7 +214,7 @@
         <item>preference_stamp_yes</item>
     </string-array>
     <string-array name="preference_timer_entries">
-        <item>No timer</item>
+        <item>사용 안함</item>
         <item>1초</item>
         <item>2초</item>
         <item>5초</item>
@@ -565,7 +565,7 @@
     <string name="sorry">죄송합니다. </string>
     <string name="started_recording_video">비디오 촬영 시작</string>
     <string name="started_timer">타이머 시작</string>
-    <string name="stopped_recording_video">비디오 레코딩 중지</string>
+    <string name="stopped_recording_video">비디오 촬영 중지</string>
     <string name="switch_camera">카메라 전환</string>
     <string name="switch_video">비디오 전환</string>
     <string name="take_photo">사진 촬영</string>

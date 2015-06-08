@@ -62,7 +62,7 @@
         <item>초상화</item>
     </string-array>
     <string-array name="preference_timer_entries">
-        <item>No timer</item>
+        <item>사용 안함</item>
         <item>1초</item>
         <item>2초</item>
         <item>5초</item>
@@ -88,7 +88,7 @@
         <item>300</item>
     </string-array>
     <string-array name="preference_burst_mode_entries">
-        <item>미사용</item>
+        <item>사용 안함</item>
         <item>2x</item>
         <item>3x</item>
         <item>4x</item>

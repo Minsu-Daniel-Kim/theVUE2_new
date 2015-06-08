@@ -21,7 +21,7 @@
     <string name="clear_folder_history_question">폴더 히스토리를 삭제 하시겠습니까?</string>
     <string name="choose_another_folder">다른 폴더 선택하기</string>
     <string name="changed_save_location">저장 위치 변경:</string>
-    <string name="stopped_recording_video">비디오 레코딩 중지</string>
+    <string name="stopped_recording_video">비디오 촬영 중지</string>
     <string name="repeats_to_go">repeats to go</string> <!--  intentionally starts lower case -->
     <string name="failed_to_reconnect_camera">카메라 연결 실패</string>
     <string name="video_may_be_corrupted">비디오 파일이 손상 되었습니다.</string>
@@ -86,7 +86,7 @@
     <!--<string name="preference_color_effect_summary">선택된 색상효과 적용</string>-->
     <string name="preference_scene_mode">배경모드 적용</string>
     <!--<string name="preference_scene_mode_summary">배경 최적화</string>-->
-    <string name="preference_white_balance">화이트밸러스 세팅</string>
+    <string name="preference_white_balance">화이트밸러스 설정</string>
     <!--<string name="preference_white_balance_summary">화이트밸러스를 위한 설정을 선택해주세요</string>-->
     <string name="preference_iso">ISO 설정</string>
     <!--<string name="preference_iso_summary">수치가 높아질 수록 빛에 민감하게 반응합니다.</string>-->

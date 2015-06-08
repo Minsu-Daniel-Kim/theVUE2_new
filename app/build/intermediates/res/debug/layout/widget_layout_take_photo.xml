@@ -18,6 +18,6 @@
         android:shadowDx="1"
         android:shadowDy="1"
         android:shadowRadius="1"
-        android:text="@string/take_photo" />
+        />
 </LinearLayout>
 <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/layout/widget_layout_take_photo.xml -->
