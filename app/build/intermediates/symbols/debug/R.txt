@@ -92,7 +92,7 @@ int drawable take_video_selector 0x7f02002b
 int drawable theview2 0x7f02002c
 int drawable trash 0x7f02002d
 int drawable white 0x7f02002e
-int id action_settings 0x7f0b0025
+int id action_settings 0x7f0b0023
 int id awb_line 0x7f0b001f
 int id awb_switch 0x7f0b0020
 int id button_color 0x7f0b001d
@@ -100,8 +100,6 @@ int id button_delay 0x7f0b001a
 int id button_exp 0x7f0b001e
 int id button_focus 0x7f0b001b
 int id button_white 0x7f0b001c
-int id exp_line 0x7f0b0021
-int id exp_switch 0x7f0b0022
 int id exposure 0x7f0b0005
 int id exposure_lock 0x7f0b0004
 int id exposure_seekbar 0x7f0b0012
@@ -126,8 +124,8 @@ int id share 0x7f0b0011
 int id switch_video 0x7f0b0003
 int id take_photo 0x7f0b000c
 int id trash 0x7f0b0009
-int id widget_launch_open_camera 0x7f0b0023
-int id widget_take_photo 0x7f0b0024
+int id widget_launch_open_camera 0x7f0b0021
+int id widget_take_photo 0x7f0b0022
 int id zoom 0x7f0b000d
 int id zoom_seekbar 0x7f0b000e
 int layout activity_main 0x7f030000

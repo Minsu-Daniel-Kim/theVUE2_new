@@ -555,7 +555,7 @@
     <string name="preference_video_restart">비디오 촬영 재시작</string>
     <string name="preference_video_stabilization">비디오 흘들림 보정 활성화</string>
     <string name="preference_volume_keys">볼륨 키</string>
-    <string name="preference_white_balance">화이트밸러스 세팅</string>
+    <string name="preference_white_balance">화이트밸러스 설정</string>
     <string name="repeats_to_go">repeats to go</string>
     <string name="scene_mode">배경모드</string>
     <string name="screen_is_locked">밀어서 잠금해제</string>

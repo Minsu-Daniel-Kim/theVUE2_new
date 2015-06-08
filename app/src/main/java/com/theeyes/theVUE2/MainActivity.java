@@ -45,12 +45,12 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Switch;
-import android.widget.Toast;
 import android.widget.ZoomControls;
 
 import com.theeyes.theVUE2.CameraController.CameraController;
@@ -86,6 +86,7 @@ public class MainActivity extends Activity {
     private Map<Integer, Bitmap> preloaded_bitmap_resources = new Hashtable<Integer, Bitmap>();
     private PopupView popup_view = null;
 
+    private boolean soundOn = false;
 	private boolean ui_placement_right = true;
 
 	private ToastBoxer switch_camera_toast = new ToastBoxer();
@@ -1169,18 +1170,32 @@ public class MainActivity extends Activity {
 
         View view = getLayoutInflater().inflate(R.layout.camview, null);
 
-        Switch switch1 = (Switch)view.findViewById(R.id.awb_switch);
+        final Switch switch1 = (Switch)view.findViewById(R.id.awb_switch);
+        switch1.setChecked(preview.isExposureLocked());
+        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//                toggleExposureLock();
+                clickedExposureLock(null);
+//                if(isChecked && preview.isExposureLocked()){
+                    switch1.setChecked(preview.isExposureLocked());
+//                }
+
+
+            }
+        });
+
+
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
         builder.setView(view);
 
-        builder.setNegativeButton("기타", new DialogInterface.OnClickListener(){
+        builder.setNegativeButton("기타", new DialogInterface.OnClickListener() {
 
             final MainActivity act;
 
-            public void onClick(DialogInterface dialoginterface, int i)
-            {
+            public void onClick(DialogInterface dialoginterface, int i) {
 
             }
 
@@ -1281,16 +1296,38 @@ public class MainActivity extends Activity {
     }
     public void getWhite(){
         final CharSequence items[];
-        List<String> supported_white_balances = preview.getSupportedWhiteBalances();
+        final String pref = PreferenceKeys.getWhiteBalancePreferenceKey();
+        final List<String> supported_white_balances = preview.getSupportedWhiteBalances();
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        String current_option = sharedPreferences.getString(pref, preview.getCameraController().getDefaultWhiteBalance());
+
+        int i = 0;
+
+        for(i = 0; i < supported_white_balances.size(); i++){
+            if(supported_white_balances.get(i).equals(current_option)){
+                break;
+            }
+        }
+
         items = (CharSequence[])supported_white_balances.toArray(new CharSequence[supported_white_balances.size()]);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("화이트밸런스");
-        builder.setSingleChoiceItems(items, , new DialogInterface.OnClickListener() {
+        builder.setSingleChoiceItems(items, i , new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
-                Toast.makeText(getApplicationContext(), which+"", 3000).show();
-                dialog.dismiss();
+
+                    SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+
+                    editor.putString(pref, items[which].toString());
+                    editor.apply();
+
+                    updateForSettings();
+
+
+                    dialog.dismiss();
             }
         });
         builder.setNegativeButton("취소", null);
@@ -1300,8 +1337,44 @@ public class MainActivity extends Activity {
 
     }
     public void getColor(){
+
+
+
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        final CharSequence items[];
+        final String pref = PreferenceKeys.getColorEffectPreferenceKey();
+        final List<String> supported_color_effects = preview.getSupportedColorEffects();
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        String current_option = sharedPreferences.getString(pref, preview.getCameraController().getDefaultColorEffect());
+
+        int i = 0;
+
+        for(i = 0; i < supported_color_effects.size(); i++){
+            if(supported_color_effects.get(i).equals(current_option)){
+                break;
+            }
+        }
+
+        items = (CharSequence[])supported_color_effects.toArray(new CharSequence[supported_color_effects.size()]);
         builder.setTitle("색상효과");
+        builder.setSingleChoiceItems(items, i , new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+
+                SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+
+                editor.putString(pref, items[which].toString());
+                editor.apply();
+
+                updateForSettings();
+
+
+                dialog.dismiss();
+            }
+        });
         builder.setNegativeButton("취소", null);
         AlertDialog alertdialog = builder.create();
         alertdialog.setCanceledOnTouchOutside(true);
