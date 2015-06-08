@@ -49,6 +49,7 @@ import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
+import android.widget.Switch;
 import android.widget.ZoomControls;
 
 import com.theeyes.theVUE2.CameraController.CameraController;
@@ -686,6 +687,16 @@ public class MainActivity extends Activity {
             view.setLayoutParams(layoutParams);
             view.setRotation(ui_rotation);
 
+            view = findViewById(R.id.menu);
+            layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
+            layoutParams.addRule(align_parent_left, 0);
+            layoutParams.addRule(align_parent_right, 0);
+            layoutParams.addRule(below, R.id.settings);
+            layoutParams.addRule(align_parent_bottom, 0);
+            layoutParams.addRule(right_of, 0);
+            view.setLayoutParams(layoutParams);
+            view.setRotation(ui_rotation);
+
 			view = findViewById(R.id.trash);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
             layoutParams.addRule(align_parent_left, 0);
@@ -1070,7 +1081,24 @@ public class MainActivity extends Activity {
 		exposureLockButton.setImageResource(preview.isExposureLocked() ? R.drawable.exposure_locked : R.drawable.exposure_unlocked);
 		preview.showToast(exposure_lock_toast, preview.isExposureLocked() ? R.string.exposure_locked : R.string.exposure_unlocked);
     }
-    
+
+    public void clickedLayoutLock(View view) {
+        if( MyDebug.LOG )
+            Log.d(TAG, "clickedLayoutLock");
+        this.preview.toggleExposureLock();
+        ImageButton layoutLockButton = (ImageButton) findViewById(R.id.layout_locked);
+        RelativeLayout layout = (RelativeLayout) findViewById(R.id.layout);
+
+        layoutLockButton.setImageResource(preview.isExposureLocked() ? R.drawable.exposure_locked : R.drawable.exposure_unlocked);
+
+        if(preview.isExposureLocked()){
+            layout.setVisibility(View.INVISIBLE);
+        }else{
+            layout.setVisibility(View.VISIBLE);
+        }
+
+    }
+
     public void clickedSettings(View view) {
 		if( MyDebug.LOG )
 			Log.d(TAG, "clickedSettings");
@@ -1171,6 +1199,145 @@ public class MainActivity extends Activity {
 
 		if( MyDebug.LOG )
 			Log.d(TAG, "time to create popup: " + (System.currentTimeMillis() - time_s));
+    }
+
+    public void clickedMenu(View v){
+
+        View view = getLayoutInflater().inflate(R.layout.camview, null);
+
+        Switch switch1 = (Switch)view.findViewById(R.id.awb_switch);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        builder.setView(view);
+
+        builder.setNegativeButton("기타", new DialogInterface.OnClickListener(){
+
+            final MainActivity act;
+
+            public void onClick(DialogInterface dialoginterface, int i)
+            {
+
+            }
+
+
+            {
+                act = MainActivity.this;
+//                super();
+            }
+
+
+        });
+
+        builder.setPositiveButton("확인", null);
+
+        final AlertDialog alert = builder.create();
+
+        alert.setCanceledOnTouchOutside(true);
+
+        ImageButton imageButton = (ImageButton) view.findViewById(R.id.button_delay);
+        ImageButton imageButton1 = (ImageButton) view.findViewById(R.id.button_focus);
+        ImageButton imageButton2 = (ImageButton) view.findViewById(R.id.button_white);
+        ImageButton imageButton3 = (ImageButton) view.findViewById(R.id.button_color);
+        ImageButton imageButton4 = (ImageButton) view.findViewById(R.id.button_exp);
+
+        imageButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                getDelay();
+//                alert.dismiss();
+
+            }
+        });
+        imageButton1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                getFocus();
+//                alert.dismiss();
+
+
+            }
+        });
+        imageButton2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                getWhite();
+//                alert.dismiss();
+
+
+            }
+        });
+        imageButton3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                getColor();
+//                alert.dismiss();
+
+            }
+        });
+        imageButton4.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                getExp();
+//                alert.dismiss();
+
+            }
+        });
+
+        alert.show();
+
+
+    }
+
+    public void getDelay(){
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("타이머");
+        builder.setNegativeButton("취소", null);
+        AlertDialog alertdialog = builder.create();
+        alertdialog.setCanceledOnTouchOutside(true);
+        alertdialog.show();
+    }
+    public void getFocus(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("2");
+        builder.setNegativeButton("취소", null);
+        AlertDialog alertdialog = builder.create();
+        alertdialog.setCanceledOnTouchOutside(true);
+        alertdialog.show();
+    }
+    public void getWhite(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("화이트밸런스");
+        builder.setNegativeButton("취소", null);
+        AlertDialog alertdialog = builder.create();
+        alertdialog.setCanceledOnTouchOutside(true);
+        alertdialog.show();
+
+    }
+    public void getColor(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("색상효과");
+        builder.setNegativeButton("취소", null);
+        AlertDialog alertdialog = builder.create();
+        alertdialog.setCanceledOnTouchOutside(true);
+        alertdialog.show();
+    }
+    public void getExp(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("연속촬영");
+        builder.setNegativeButton("취소", null);
+        AlertDialog alertdialog = builder.create();
+        alertdialog.setCanceledOnTouchOutside(true);
+        alertdialog.show();
     }
     
     private void openSettings() {

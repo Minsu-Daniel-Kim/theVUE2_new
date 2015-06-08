@@ -3,13 +3,14 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
+    android:background="#ff000000"
     tools:context=".MainActivity" >
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="50dp"
         android:layout_height="match_parent">
         <RelativeLayout
+            android:id="@+id/layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
@@ -80,6 +81,15 @@
                 android:onClick="clickedPopupSettings"
                 />
             <ImageButton
+                android:id="@+id/menu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/action_settings"
+                android:onClick="clickedMenu"
+                />
+            <ImageButton
                 android:id="@+id/trash"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -96,8 +106,10 @@
     <FrameLayout
         android:id="@+id/preview"
         android:layout_toRightOf="@id/scroll"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         />
     <RelativeLayout
@@ -108,10 +120,12 @@
         android:layout_height="match_parent">
 
         <ImageButton
+            android:id="@+id/layout_locked"
             android:background="@android:color/transparent"
             android:layout_width="50dp"
             android:scaleType="fitCenter"
             android:src="@drawable/exposure_locked"
+            android:onClick="clickedLayoutLock"
             android:layout_height="50dp"/>
     </RelativeLayout>
 
@@ -122,7 +136,7 @@
         android:layout_height="80dp"
         android:scaleType="fitCenter"
         android:contentDescription="@string/take_photo"
-        android:src="@drawable/take_photo_selector"
+        android:src="@drawable/take_photo_selector2"
         android:onClick="clickedTakePhoto"
         android:layout_centerVertical="true"
         android:background="@null"
@@ -222,26 +236,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         />
 
     <FrameLayout
         android:id="@+id/locker"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         />
 
     <ScrollView
         android:id="@+id/popup_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toLeftOf="@+id/settings"
-        android:layout_below="@+id/settings"
+
         />
 
     <ScrollView
         android:id="@+id/hide_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        />
+        android:fillViewport="false" />
 
 </RelativeLayout>

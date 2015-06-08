@@ -175,7 +175,6 @@
 	       <CheckBoxPreference
                 android:key="preference_show_when_locked"
                 android:title="@string/preference_show_when_locked"
-                android:summary="@string/preference_show_when_locked_summary"
                 android:defaultValue="true"
                 />
 
@@ -306,7 +305,6 @@
             <CheckBoxPreference
                 android:key="preference_thumbnail_animation"
                 android:title="@string/preference_thumbnail_animation"
-                android:summary="@string/preference_thumbnail_animation_summary"
                 android:defaultValue="false"
                 />
 
@@ -483,7 +481,7 @@
 
     <PreferenceCategory
         android:key="preference_category_online"
-        android:title="@string/preference_category_online"
+        android:title="설정 초기화"
         >
 
         <CheckBoxPreference

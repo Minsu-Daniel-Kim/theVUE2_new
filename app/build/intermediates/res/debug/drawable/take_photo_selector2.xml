@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/start" /> <!-- pressed -->
+    <item android:drawable="@drawable/start_press" /> <!-- default -->
+</selector>
+<!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable/take_photo_selector2.xml -->

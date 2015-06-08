@@ -3,10 +3,10 @@
     <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="flash_entries">
-        <item>Flash Off</item>
-        <item>Flash Auto</item>
-        <item>Flash On</item>
-        <item>Torch</item>
+        <item>플래시 미사용</item>
+        <item>플래시 오토</item>
+        <item>플래시 사용</item>
+        <item>토치</item>
         <item>Red Eye</item>
     </string-array>
     <string-array name="flash_icons">
@@ -24,14 +24,14 @@
         <item>flash_red_eye</item>
     </string-array>
     <string-array name="focus_mode_entries">
-        <item>Focus Auto</item>
-        <item>Focus Infinity</item>
-        <item>Focus Macro</item>
-        <item>Focus Locked</item>
-        <item>Focus Manual</item>
-        <item>Focus Fixed</item>
-        <item>Focus EDOF</item>
-        <item>Focus Continuous</item>
+        <item>초점 오토</item>
+        <item>초점 무제한</item>
+        <item>초점 매크로</item>
+        <item>초점 잠금</item>
+        <item>초점 수동</item>
+        <item>초점 고정</item>
+        <item>초점 EDOF</item>
+        <item>초점 지속</item>
     </string-array>
     <string-array name="focus_mode_icons">
         <item>drawable/focus_mode_auto</item>
@@ -54,17 +54,17 @@
         <item>focus_mode_continuous_video</item>
     </string-array>
     <string-array name="preference_burst_interval_entries">
-        <item>No delay</item>
-        <item>1s</item>
-        <item>2s</item>
-        <item>5s</item>
-        <item>10s</item>
-        <item>15s</item>
-        <item>20s</item>
-        <item>30s</item>
-        <item>60s</item>
-        <item>2m</item>
-        <item>5m</item>
+        <item>연속</item>
+        <item>1초</item>
+        <item>2초</item>
+        <item>5초</item>
+        <item>10초</item>
+        <item>15초</item>
+        <item>20초</item>
+        <item>30초</item>
+        <item>60초</item>
+        <item>2분</item>
+        <item>5분</item>
     </string-array>
     <string-array name="preference_burst_interval_values">
         <item>0</item>
@@ -80,13 +80,13 @@
         <item>300</item>
     </string-array>
     <string-array name="preference_burst_mode_entries">
-        <item>Off</item>
+        <item>미사용</item>
         <item>2x</item>
         <item>3x</item>
         <item>4x</item>
         <item>5x</item>
         <item>10x</item>
-        <item>Unlimited</item>
+        <item>무제한</item>
     </string-array>
     <string-array name="preference_burst_mode_values">
         <item>1</item>
@@ -95,10 +95,10 @@
         <item>4</item>
         <item>5</item>
         <item>10</item>
-        <item>unlimited</item>
+        <item>무제한</item>
     </string-array>
     <string-array name="preference_crop_guide_entries">
-        <item>None</item>
+        <item>없음</item>
         <item>1.33 (4:3)</item>
         <item>1.5 (3:2)</item>
         <item>1.78 (16:9)</item>
@@ -118,9 +118,9 @@
         <item>crop_guide_2.4</item>
     </string-array>
     <string-array name="preference_grid_entries">
-        <item>None</item>
-        <item>Display a 3x3 grid ("rule of thirds")</item>
-        <item>Display a 4x2 grid</item>
+        <item>없음</item>
+        <item>3x3 그리드 표시</item>
+        <item>4x2 그리드 표시</item>
 	</string-array>
     <string-array name="preference_grid_values">
         <item>preference_grid_none</item>
@@ -128,10 +128,10 @@
         <item>preference_grid_4x2</item>
     </string-array>
     <string-array name="preference_immersive_mode_entries">
-        <item>Off</item>
-        <item>Only hide on-screen virtual navigation buttons</item>
-        <item>Hide GUI</item>
-        <item>Hide everything</item>
+        <item>사용안함</item>
+        <item>스크린에 있는 네비게이션 버튼 없애기</item>
+        <item>GUI 숨기기</item>
+        <item>전부 숨기기</item>
     </string-array>
     <string-array name="preference_immersive_mode_values">
         <item>immersive_mode_off</item>
@@ -140,28 +140,28 @@
         <item>immersive_mode_everything</item>
         </string-array>
     <string-array name="preference_lock_orientation_entries">
-        <item>No lock</item>
-        <item>Lock to landscape</item>
-        <item>Lock to portrait</item>
+        <item>잠금해제</item>
+        <item>풍경화 모드 고정</item>
+        <item>초상화 모드 고정 \</item>
     </string-array>
     <string-array name="preference_lock_orientation_values">
-        <item>none</item>
-        <item>landscape</item>
-        <item>portrait</item>
+        <item>없음</item>
+        <item>풍경화</item>
+        <item>초상화</item>
     </string-array>
     <string-array name="preference_preview_size_entries">
-        <item>Maximise preview size</item>
-        <item>Match photo size (WYSIWYG)</item>
+        <item>최대 화면 크기</item>
+
     </string-array>
     <string-array name="preference_preview_size_values">
         <item>preference_preview_size_display</item>
-        <item>preference_preview_size_wysiwyg</item>
+
     </string-array>
     <string-array name="preference_record_audio_src_entries">
-        <item>Camcorder</item>
-        <item>External mic (if present)</item>
-        <item>Default audio source</item>
-        <item>Optimised for voice</item>
+        <item>캠코더</item>
+        <item>외부마이크</item>
+        <item>기본 오디오 소스</item>
+        <item>목소리 최적화</item>
     </string-array>
     <string-array name="preference_record_audio_src_values">
         <item>audio_src_camcorder</item>
@@ -170,16 +170,16 @@
         <item>audio_src_voice_communication</item>
     </string-array>
     <string-array name="preference_rotate_preview_entries">
-        <item>Don\'t rotate</item>
-        <item>Rotate 180 degrees</item>
+        <item>회전 안함</item>
+        <item>180도 회전</item>
         </string-array>
     <string-array name="preference_rotate_preview_values">
         <item>0</item>
         <item>180</item>
     </string-array>
     <string-array name="preference_stamp_entries">
-        <item>No stamp</item>
-        <item>Stamp photos</item>
+        <item>스탬프 없음</item>
+        <item>사진 스탬프</item>
     </string-array>
     <string-array name="preference_stamp_fontsize_entries">
         <item>6</item>
@@ -215,16 +215,16 @@
     </string-array>
     <string-array name="preference_timer_entries">
         <item>No timer</item>
-        <item>1s</item>
-        <item>2s</item>
-        <item>5s</item>
-        <item>10s</item>
-        <item>15s</item>
-        <item>20s</item>
-        <item>30s</item>
-        <item>60s</item>
-        <item>2m</item>
-        <item>5m</item>
+        <item>1초</item>
+        <item>2초</item>
+        <item>5초</item>
+        <item>10초</item>
+        <item>15초</item>
+        <item>20초</item>
+        <item>30초</item>
+        <item>60초</item>
+        <item>2분</item>
+        <item>5분</item>
     </string-array>
     <string-array name="preference_timer_values">
         <item>0</item>
@@ -240,8 +240,8 @@
         <item>300</item>
     </string-array>
     <string-array name="preference_ui_placement_entries">
-        <item>Left-handed user interface</item>
-        <item>Right-handed user interface</item>
+        <item>왼속잡이용</item>
+        <item>오른손잡이용</item>
     </string-array>
     <string-array name="preference_ui_placement_values">
         <item>ui_left</item>
@@ -300,7 +300,7 @@
         <item>100000000</item>
     </string-array>
     <string-array name="preference_video_fps_entries">
-        <item>Default</item>
+        <item>기본값</item>
         <item>15</item>
         <item>24</item>
         <item>25</item>
@@ -311,7 +311,7 @@
         <item>120</item>
     </string-array>
     <string-array name="preference_video_fps_values">
-        <item>default</item>
+        <item>기본값</item>
         <item>15</item>
         <item>24</item>
         <item>25</item>
@@ -322,27 +322,27 @@
         <item>120</item>
     </string-array>
     <string-array name="preference_video_max_duration_entries">
-        <item>Unlimited</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>4 minutes</item>
-        <item>5 minutes</item>
-        <item>6 minutes</item>
-        <item>7 minutes</item>
-        <item>8 minutes</item>
-        <item>9 minutes</item>
-        <item>10 minutes</item>
-        <item>11 minutes</item>
-        <item>12 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
+        <item>무제한</item>
+        <item>15초</item>
+        <item>30초</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>4분</item>
+        <item>5분</item>
+        <item>6분</item>
+        <item>7분</item>
+        <item>8분</item>
+        <item>9분</item>
+        <item>10분</item>
+        <item>11분</item>
+        <item>12분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>25분</item>
+        <item>30분</item>
+        <item>45분</item>
+        <item>1시간</item>
     </string-array>
     <string-array name="preference_video_max_duration_values">
         <item>0</item>
@@ -368,17 +368,17 @@
         <item>3600</item>
     </string-array>
     <string-array name="preference_video_restart_entries">
-        <item>Don\'t restart</item>
-        <item>Repeat 1 time</item>
-        <item>Repeat 2 times</item>
-        <item>Repeat 3 times</item>
-        <item>Repeat 4 times</item>
-        <item>Repeat 5 times</item>
-        <item>Repeat 6 times</item>
-        <item>Repeat 7 times</item>
-        <item>Repeat 8 times</item>
-        <item>Repeat 9 times</item>
-        <item>Repeat 10 times</item>
+        <item>재시작 안함</item>
+        <item>1회 반복</item>
+        <item>2회 반복</item>
+        <item>3회 반복</item>
+        <item>4회 반복</item>
+        <item>5회 반복</item>
+        <item>6회 반복</item>
+        <item>7회 반복</item>
+        <item>8회 반복</item>
+        <item>9회 반복</item>
+        <item>10회 반복</item>
     </string-array>
     <string-array name="preference_video_restart_values">
         <item>0</item>
@@ -395,12 +395,12 @@
     </string-array>
     <string-array name="preference_volume_keys_entries">
         <item>Take photo (or start/stop video recording)</item>
-        <item>Focus</item>
-        <item>Zoom in/out</item>
-        <item>Change exposure level</item>
+        <item>초점</item>
+        <item>줌 인/아웃</item>
+        <item>노출값 변경</item>
         <item>Switch auto-stabilise on/off</item>
-        <item>Change device volume</item>
-        <item>Do nothing</item>
+        <item>기기 볼륨 변경</item>
+        <item>변경 안함</item>
         </string-array>
     <string-array name="preference_volume_keys_values">
         <item>volume_take_photo</item>
@@ -411,6 +411,11 @@
         <item>volume_nothing</item><!-- actually means change device volume! -->
         <item>volume_really_nothing</item>
     </string-array>
+    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="blue_view">#ff33b5e5</color>
+    <color name="grey_view">#33999999</color>
+    <color name="trans_view">#00000000</color>
     <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
@@ -483,75 +488,42 @@
     <string name="parent_folder">상위 폴더</string>
     <string name="photo">사진</string>
     <string name="photo_deleted">사진</string>
-    <string name="preference_about_summary"/>
     <string name="preference_auto_stabilise">흔들림 자동보정</string>
-    <string name="preference_auto_stabilise_summary">이미지 흔들림 자동 보정</string>
     <string name="preference_burst_interval">연속촬영 간격</string>
-    <string name="preference_burst_interval_summary">연속촬영시 간격을 지정합니다.</string>
     <string name="preference_burst_mode">연속촬영 모드</string>
-    <string name="preference_burst_mode_summary">여러장의 사진을 연이어 촬영합니다.</string>
     <string name="preference_category_camera_controls">카메라 제어</string>
     <string name="preference_category_camera_effects">카메라 효과</string>
     <string name="preference_category_camera_quality">사진/비디오 설정</string>
     <string name="preference_color_effect">색상효과 적용</string>
-    <string name="preference_color_effect_summary">선택된 색상효과 적용</string>
     <string name="preference_crop_guide">가이드 표시</string>
-    <string name="preference_crop_guide_summary">가이드를 화면에 표시합니다.</string>
     <string name="preference_exposure">노출보정 설정</string>
-    <string name="preference_exposure_summary"> 노출보정 0을 기본으로 설정</string>
     <string name="preference_face_detection">안면인식</string>
-    <string name="preference_face_detection_summary">안면을 인식하여 초점을 마춥니다.</string>
     <string name="preference_force_video_4k">4K UHD 비디오</string>
-    <string name="preference_force_video_4k_summary">비디오 촬영시 3840x2160 해상도를 사용합니다.</string>
     <string name="preference_free_memory">여유 공간 보기</string>
-    <string name="preference_free_memory_summary">여유 공간을 화면에 표시합니다.</string>
     <string name="preference_gps_direction">방향 저장</string>
-    <string name="preference_gps_direction_summary">사진에 있는 방향을 저장합니다.</string>
     <string name="preference_grid">그리드 표시</string>
-    <string name="preference_grid_summary">그리드를 표시합니다.</string>
     <string name="preference_immersive_mode">몰입모드</string>
-    <string name="preference_immersive_mode_summary">몰입모드 옵션을 정합니다.</string>
     <string name="preference_iso">ISO 설정</string>
-    <string name="preference_iso_summary">수치가 높아질 수록 빛에 민감하게 반응합니다.</string>
     <string name="preference_keep_display_on">화면유지</string>
-    <string name="preference_keep_display_on_summary">화면이 유지됩니다.</string>
     <string name="preference_location">위치정보 저장</string>
-    <string name="preference_location_summary">위치정보를 저장합니다.</string>
     <string name="preference_lock_orientation">사진/비디오 방향 잠금</string>
-    <string name="preference_lock_orientation_summary">사진/비디오 촬영시 방향을 고정합니다.</string>
     <string name="preference_lock_video">비디오 촬영시 화면 잠금</string>
-    <string name="preference_lock_video_summary">비디오 촬영시 화면이 잠금됩니다.</string>
     <string name="preference_max_brightness">최대 밝기 설정</string>
-    <string name="preference_max_brightness_summary">최대 밝기를 설정합니다.</string>
     <string name="preference_motion_detection">모션인식</string>
-    <string name="preference_motion_detection_summary">움직임을 포착하여 촬영합니다.</string>
     <string name="preference_pause_preview">사진 촬영 후 정지</string>
-    <string name="preference_pause_preview_summary">사진 활영 후 정지됩니다.</string>
     <string name="preference_preview_size">화면 크기</string>
-    <string name="preference_preview_size_summary">화면 크기를 설정합니다. </string>
     <string name="preference_quality">이미지 품질</string>
-    <string name="preference_quality_summary">이미지 품질을 설정합니다.</string>
     <string name="preference_record_audio">오디오 기록</string>
     <string name="preference_record_audio_src">오디오 소스</string>
-    <string name="preference_record_audio_src_summary">오디오 기록시 사용할 마이크를 설정합니다.</string>
-    <string name="preference_record_audio_summary">촬영시 오디오를 기록합니다.</string>
     <string name="preference_require_location">위치정보 필수</string>
-    <string name="preference_require_location_summary">해당 기능이 활성되면 위치정보가 있을때만 촬영을 할 수 있습니다.</string>
     <string name="preference_reset">설정 초기화</string>
     <string name="preference_reset_question">정말 초기화 하시겠습니까?</string>
-    <string name="preference_reset_summary">설정된 값들을 기본설정으로 초기화 합니다.</string>
     <string name="preference_resolution">카메라 해상도</string>
-    <string name="preference_resolution_summary">사진 해상도를 설정합니다.</string>
     <string name="preference_rotate_preview">화면 전환</string>
-    <string name="preference_rotate_preview_summary">화면 전환 옵션</string>
     <string name="preference_save_location">저장 위치</string>
-    <string name="preference_save_location_summary">사진과 비디오 파일을 저장할 폴더를 선택합니다.</string>
     <string name="preference_save_photo_prefix">고정 사진명 저장</string>
-    <string name="preference_save_photo_prefix_summary">고정 사진명을 저장합니다.</string>
     <string name="preference_save_video_prefix">고정 비디오명 저장</string>
-    <string name="preference_save_video_prefix_summary">고정 비디오명을 저장합니다.</string>
     <string name="preference_scene_mode">배경모드 적용</string>
-    <string name="preference_scene_mode_summary">배경 최적화</string>
     <string name="preference_screen_camera_controls_more">카메라 제어 더 보기</string>
     <string name="preference_screen_gui">GUI 설정</string>
     <string name="preference_screen_location_settings">위치 설정</string>
@@ -559,58 +531,31 @@
     <string name="preference_screen_video_settings">비디오 설정</string>
     <string name="preference_show_angle">각도 표시</string>
     <string name="preference_show_angle_line">각도선 표시</string>
-    <string name="preference_show_angle_line_summary">가로로된 각도선을 화면에 표시합니다.</string>
-    <string name="preference_show_angle_summary">화면에 각도를 표시합니다.</string>
     <string name="preference_show_battery">배터리 상태 표시</string>
-    <string name="preference_show_battery_summary">배터리 상태를 화면에 표시합니다.</string>
     <string name="preference_show_geo_direction">방향 표시</string>
-    <string name="preference_show_geo_direction_summary">방향을 화면에 표시합니다.</string>
     <string name="preference_show_iso">ISO 보기</string>
-    <string name="preference_show_iso_summary">현재 ISO 레벨을 표시합니다.</string>
     <string name="preference_show_time">시각 표시</string>
-    <string name="preference_show_time_summary">현재 시각을 화면에 표시합니다.</string>
     <string name="preference_show_when_locked">잠금시 카메라 보기</string>
-    <string name="preference_show_when_locked_summary">활성화시 잠금시 카메라가 보입니다.</string>
     <string name="preference_show_zoom">확대 보기</string>
     <string name="preference_show_zoom_controls">확대 -/+ 아이콘 표시</string>
-    <string name="preference_show_zoom_controls_summary">확대 -/+ 아이콘을 표시합니다.</string>
     <string name="preference_show_zoom_slider_controls">확대 슬라이더 표시</string>
-    <string name="preference_show_zoom_slider_controls_summary"> 확대 슬라이더를 화면에 표시합니다.</string>
-    <string name="preference_show_zoom_summary">현재 카메의 확대 설정을 설정합니다. </string>
     <string name="preference_shutter_sound">셔터 사운드</string>
-    <string name="preference_shutter_sound_summary">사진 촬영시 셔터 사운드가 납니다.</string>
     <string name="preference_stamp">사진 스탬프</string>
     <string name="preference_stamp_fontsize">폰트 크기</string>
-    <string name="preference_stamp_fontsize_summary">폰트 크기를 설정합니다.</string>
-    <string name="preference_stamp_summary">사진에 날짜와 시간을 기록합니다.</string>
     <string name="preference_textstamp">커스텀 문자</string>
-    <string name="preference_textstamp_summary">사진에 커스텀 문자를 기록합니다.</string>
     <string name="preference_thumbnail_animation">애니매이션 설정</string>
-    <string name="preference_thumbnail_animation_summary">사진이 찍힌 후 애니매이션을 동작 시킵니다.</string>
     <string name="preference_timer">타이머</string>
     <string name="preference_timer_beep">타이머 소리</string>
-    <string name="preference_timer_beep_summary">타이머 카운드다운시 소리가 납니다.</string>
-    <string name="preference_timer_summary">타이머 설정</string>
     <string name="preference_ui_placement">UI placement</string>
-    <string name="preference_ui_placement_summary"/>
     <string name="preference_use_camera2"/>
-    <string name="preference_use_camera2_summary"/>
     <string name="preference_video_bitrate">비트레이트 설정</string>
-    <string name="preference_video_bitrate_summary">비트레이트를 설정합니다.</string>
     <string name="preference_video_flash">비디오 활영시 플래시 사용</string>
-    <string name="preference_video_flash_summary">비디오 촬영시 플래시가 깜빡입니다.</string>
     <string name="preference_video_fps">비디오 프레임</string>
-    <string name="preference_video_fps_summary">비디오 프레임을 설정합니다.</string>
     <string name="preference_video_max_duration">최대 비디오 촬영시간 설정</string>
-    <string name="preference_video_max_duration_summary">정해진 시간이 지나면 비디오 촬영이 종료됩니다.</string>
     <string name="preference_video_restart">비디오 촬영 재시작</string>
-    <string name="preference_video_restart_summary">최대 촬영 시간이 지난 후 재시작 됩니다.</string>
     <string name="preference_video_stabilization">비디오 흘들림 보정 활성화</string>
-    <string name="preference_video_stabilization_summary">비디오 촬영시 흘들림을 줄여줍니다.</string>
     <string name="preference_volume_keys">볼륨 키</string>
-    <string name="preference_volume_keys_summary">볼륨 키가 눌렸을때의 행동을 설정합니다. </string>
     <string name="preference_white_balance">화이트밸러스 세팅</string>
-    <string name="preference_white_balance_summary">화이트밸러스를 위한 설정을 선택해주세요</string>
     <string name="repeats_to_go">repeats to go</string>
     <string name="scene_mode">배경모드</string>
     <string name="screen_is_locked">밀어서 잠금해제</string>
@@ -635,7 +580,6 @@
     <string name="video_max_filesize">비디오 최대 파일 용략</string>
     <string name="video_may_be_corrupted">비디오 파일이 손상 되었습니다.</string>
     <string name="video_quality">비디오 해상도</string>
-    <string name="video_quality_summary">비디오 해상도 설정</string>
     <string name="white_balance">화이트밸런스</string>
     <string name="zoom">확대</string>
     <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/styles.xml -->

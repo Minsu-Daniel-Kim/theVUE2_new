@@ -6,31 +6,31 @@
         <item>4</item>
         <item>5</item>
         <item>10</item>
-        <item>unlimited</item>
+        <item>무제한</item>
     </string-array><string-array name="preference_video_restart_entries">
-        <item>Don\'t restart</item>
-        <item>Repeat 1 time</item>
-        <item>Repeat 2 times</item>
-        <item>Repeat 3 times</item>
-        <item>Repeat 4 times</item>
-        <item>Repeat 5 times</item>
-        <item>Repeat 6 times</item>
-        <item>Repeat 7 times</item>
-        <item>Repeat 8 times</item>
-        <item>Repeat 9 times</item>
-        <item>Repeat 10 times</item>
+        <item>재시작 안함</item>
+        <item>1회 반복</item>
+        <item>2회 반복</item>
+        <item>3회 반복</item>
+        <item>4회 반복</item>
+        <item>5회 반복</item>
+        <item>6회 반복</item>
+        <item>7회 반복</item>
+        <item>8회 반복</item>
+        <item>9회 반복</item>
+        <item>10회 반복</item>
     </string-array><string-array name="preference_timer_entries">
         <item>No timer</item>
-        <item>1s</item>
-        <item>2s</item>
-        <item>5s</item>
-        <item>10s</item>
-        <item>15s</item>
-        <item>20s</item>
-        <item>30s</item>
-        <item>60s</item>
-        <item>2m</item>
-        <item>5m</item>
+        <item>1초</item>
+        <item>2초</item>
+        <item>5초</item>
+        <item>10초</item>
+        <item>15초</item>
+        <item>20초</item>
+        <item>30초</item>
+        <item>60초</item>
+        <item>2분</item>
+        <item>5분</item>
     </string-array><string-array name="focus_mode_values">
         <item>focus_mode_auto</item>
         <item>focus_mode_infinity</item>
@@ -41,7 +41,7 @@
         <item>focus_mode_edof</item>
         <item>focus_mode_continuous_video</item>
     </string-array><string-array name="preference_video_fps_entries">
-        <item>Default</item>
+        <item>기본값</item>
         <item>15</item>
         <item>24</item>
         <item>25</item>
@@ -72,8 +72,8 @@
         <item>120</item>
         <item>300</item>
     </string-array><string-array name="preference_rotate_preview_entries">
-        <item>Don\'t rotate</item>
-        <item>Rotate 180 degrees</item>
+        <item>회전 안함</item>
+        <item>180도 회전</item>
         </string-array><string-array name="flash_values">
         <item>flash_off</item>
         <item>flash_auto</item>
@@ -130,16 +130,16 @@
         <item>90Mbit</item>
         <item>100Mbit</item>
     </string-array><string-array name="preference_immersive_mode_entries">
-        <item>Off</item>
-        <item>Only hide on-screen virtual navigation buttons</item>
-        <item>Hide GUI</item>
-        <item>Hide everything</item>
+        <item>사용안함</item>
+        <item>스크린에 있는 네비게이션 버튼 없애기</item>
+        <item>GUI 숨기기</item>
+        <item>전부 숨기기</item>
     </string-array><string-array name="preference_stamp_values">
         <item>preference_stamp_no</item>
         <item>preference_stamp_yes</item>
     </string-array><string-array name="preference_ui_placement_entries">
-        <item>Left-handed user interface</item>
-        <item>Right-handed user interface</item>
+        <item>왼속잡이용</item>
+        <item>오른손잡이용</item>
     </string-array><string-array name="preference_video_restart_values">
         <item>0</item>
         <item>1</item>
@@ -153,28 +153,28 @@
         <item>9</item>
         <item>10</item>
     </string-array><string-array name="preference_lock_orientation_entries">
-        <item>No lock</item>
-        <item>Lock to landscape</item>
-        <item>Lock to portrait</item>
+        <item>잠금해제</item>
+        <item>풍경화 모드 고정</item>
+        <item>초상화 모드 고정 \</item>
     </string-array><string-array name="preference_preview_size_entries">
-        <item>Maximise preview size</item>
-        <item>Match photo size (WYSIWYG)</item>
+        <item>최대 화면 크기</item>
+
     </string-array><string-array name="preference_grid_values">
         <item>preference_grid_none</item>
         <item>preference_grid_3x3</item>
         <item>preference_grid_4x2</item>
     </string-array><string-array name="preference_burst_interval_entries">
-        <item>No delay</item>
-        <item>1s</item>
-        <item>2s</item>
-        <item>5s</item>
-        <item>10s</item>
-        <item>15s</item>
-        <item>20s</item>
-        <item>30s</item>
-        <item>60s</item>
-        <item>2m</item>
-        <item>5m</item>
+        <item>연속</item>
+        <item>1초</item>
+        <item>2초</item>
+        <item>5초</item>
+        <item>10초</item>
+        <item>15초</item>
+        <item>20초</item>
+        <item>30초</item>
+        <item>60초</item>
+        <item>2분</item>
+        <item>5분</item>
     </string-array><string-array name="preference_video_max_duration_values">
         <item>0</item>
         <item>15</item>
@@ -203,37 +203,37 @@
         <item>audio_src_default</item>
         <item>audio_src_voice_communication</item>
     </string-array><string-array name="preference_video_max_duration_entries">
-        <item>Unlimited</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>4 minutes</item>
-        <item>5 minutes</item>
-        <item>6 minutes</item>
-        <item>7 minutes</item>
-        <item>8 minutes</item>
-        <item>9 minutes</item>
-        <item>10 minutes</item>
-        <item>11 minutes</item>
-        <item>12 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
+        <item>무제한</item>
+        <item>15초</item>
+        <item>30초</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>4분</item>
+        <item>5분</item>
+        <item>6분</item>
+        <item>7분</item>
+        <item>8분</item>
+        <item>9분</item>
+        <item>10분</item>
+        <item>11분</item>
+        <item>12분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>25분</item>
+        <item>30분</item>
+        <item>45분</item>
+        <item>1시간</item>
     </string-array><string-array name="preference_record_audio_src_entries">
-        <item>Camcorder</item>
-        <item>External mic (if present)</item>
-        <item>Default audio source</item>
-        <item>Optimised for voice</item>
+        <item>캠코더</item>
+        <item>외부마이크</item>
+        <item>기본 오디오 소스</item>
+        <item>목소리 최적화</item>
     </string-array><string-array name="flash_entries">
-        <item>Flash Off</item>
-        <item>Flash Auto</item>
-        <item>Flash On</item>
-        <item>Torch</item>
+        <item>플래시 미사용</item>
+        <item>플래시 오토</item>
+        <item>플래시 사용</item>
+        <item>토치</item>
         <item>Red Eye</item>
     </string-array><string-array name="preference_immersive_mode_values">
         <item>immersive_mode_off</item>
@@ -241,7 +241,7 @@
         <item>immersive_mode_gui</item>
         <item>immersive_mode_everything</item>
         </string-array><string-array name="preference_crop_guide_entries">
-        <item>None</item>
+        <item>없음</item>
         <item>1.33 (4:3)</item>
         <item>1.5 (3:2)</item>
         <item>1.78 (16:9)</item>
@@ -275,16 +275,16 @@
         <item>90000000</item>
         <item>100000000</item>
     </string-array><string-array name="preference_burst_mode_entries">
-        <item>Off</item>
+        <item>미사용</item>
         <item>2x</item>
         <item>3x</item>
         <item>4x</item>
         <item>5x</item>
         <item>10x</item>
-        <item>Unlimited</item>
+        <item>무제한</item>
     </string-array><string-array name="preference_preview_size_values">
         <item>preference_preview_size_display</item>
-        <item>preference_preview_size_wysiwyg</item>
+
     </string-array><string-array name="preference_stamp_fontsize_entries">
         <item>6</item>
         <item>8</item>
@@ -299,7 +299,7 @@
         <item>22</item>
         <item>24</item>
     </string-array><string-array name="preference_video_fps_values">
-        <item>default</item>
+        <item>기본값</item>
         <item>15</item>
         <item>24</item>
         <item>25</item>
@@ -309,18 +309,18 @@
         <item>100</item>
         <item>120</item>
     </string-array><string-array name="focus_mode_entries">
-        <item>Focus Auto</item>
-        <item>Focus Infinity</item>
-        <item>Focus Macro</item>
-        <item>Focus Locked</item>
-        <item>Focus Manual</item>
-        <item>Focus Fixed</item>
-        <item>Focus EDOF</item>
-        <item>Focus Continuous</item>
+        <item>초점 오토</item>
+        <item>초점 무제한</item>
+        <item>초점 매크로</item>
+        <item>초점 잠금</item>
+        <item>초점 수동</item>
+        <item>초점 고정</item>
+        <item>초점 EDOF</item>
+        <item>초점 지속</item>
     </string-array><string-array name="preference_lock_orientation_values">
-        <item>none</item>
-        <item>landscape</item>
-        <item>portrait</item>
+        <item>없음</item>
+        <item>풍경화</item>
+        <item>초상화</item>
     </string-array><string-array name="flash_icons">
         <item>drawable/flash_off</item>
         <item>drawable/flash_auto</item>
@@ -328,8 +328,8 @@
         <item>drawable/flash_torch</item>
         <item>drawable/flash_red_eye</item>
     </string-array><string-array name="preference_stamp_entries">
-        <item>No stamp</item>
-        <item>Stamp photos</item>
+        <item>스탬프 없음</item>
+        <item>사진 스탬프</item>
     </string-array><string-array name="preference_volume_keys_values">
         <item>volume_take_photo</item>
         <item>volume_focus</item>
@@ -342,17 +342,17 @@
         <item>ui_left</item>
         <item>ui_right</item>
     </string-array><string-array name="preference_grid_entries">
-        <item>None</item>
-        <item>Display a 3x3 grid ("rule of thirds")</item>
-        <item>Display a 4x2 grid</item>
+        <item>없음</item>
+        <item>3x3 그리드 표시</item>
+        <item>4x2 그리드 표시</item>
 	</string-array><string-array name="preference_volume_keys_entries">
         <item>Take photo (or start/stop video recording)</item>
-        <item>Focus</item>
-        <item>Zoom in/out</item>
-        <item>Change exposure level</item>
+        <item>초점</item>
+        <item>줌 인/아웃</item>
+        <item>노출값 변경</item>
         <item>Switch auto-stabilise on/off</item>
-        <item>Change device volume</item>
-        <item>Do nothing</item>
+        <item>기기 볼륨 변경</item>
+        <item>변경 안함</item>
         </string-array><string-array name="preference_stamp_fontsize_values">
         <item>6</item>
         <item>8</item>
@@ -366,7 +366,7 @@
         <item>20</item>
         <item>22</item>
         <item>24</item>
-    </string-array></file><file path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/strings.xml" qualifiers=""><string name="about_not_available">사용 불가능</string><string name="exposure_unlocked">노출 잠금해제</string><string name="preference_show_angle_line">각도선 표시</string><string name="preference_preview_size">화면 크기</string><string name="intro_text">안녕하세요, 새로워진 더뷰2 입니다.</string><string name="preference_rotate_preview_summary">화면 전환 옵션</string><string name="video_quality_summary">비디오 해상도 설정</string><string name="failed_to_reconnect_camera">카메라 연결 실패</string><string name="preference_record_audio">오디오 기록</string><string name="on">키기</string><string name="use_folder">폴더 사용하기</string><string name="preference_immersive_mode">몰입모드</string><string name="preference_lock_video">비디오 촬영시 화면 잠금</string><string name="clear_folder_history_question">폴더 히스토리를 삭제 하시겠습니까?</string><string name="preference_show_angle">각도 표시</string><string name="preference_save_location_summary">사진과 비디오 파일을 저장할 폴더를 선택합니다.</string><string name="preference_thumbnail_animation">애니매이션 설정</string><string name="photo_deleted">사진</string><string name="preference_force_video_4k_summary">비디오 촬영시 3840x2160 해상도를 사용합니다.</string><string name="zoom">확대</string><string name="cancelled_timer">타이머 취소</string><string name="failed_to_take_picture">사진 촬영 실패</string><string name="preference_show_geo_direction_summary">방향을 화면에 표시합니다.</string><string name="choose_another_folder">다른 폴더 선택하기</string><string name="preference_stamp_summary">사진에 날짜와 시간을 기록합니다.</string><string name="preference_record_audio_src">오디오 소스</string><string name="preference_show_geo_direction">방향 표시</string><string name="location_not_available">GPS 사용불가</string><string name="off">끄기</string><string name="preference_show_time">시각 표시</string><string name="max_duration">최대 시간</string><string name="preference_shutter_sound_summary">사진 촬영시 셔터 사운드가 납니다.</string><string name="answer_no">아니오</string><string name="preference_pause_preview">사진 촬영 후 정지</string><string name="video_may_be_corrupted">비디오 파일이 손상 되었습니다.</string><string name="preference_face_detection">안면인식</string><string name="preference_burst_mode">연속촬영 모드</string><string name="preference_save_video_prefix">고정 비디오명 저장</string><string name="app_name">더뷰2</string><string name="preference_exposure_summary"> 노출보정 0을 기본으로 설정</string><string name="action_popup">팝업 설정</string><string name="preference_timer_beep_summary">타이머 카운드다운시 소리가 납니다.</string><string name="new_folder">새폴더</string><string name="preference_burst_interval">연속촬영 간격</string><string name="preference_free_memory">여유 공간 보기</string><string name="preference_use_camera2_summary"/><string name="preference_color_effect_summary">선택된 색상효과 적용</string><string name="preference_thumbnail_animation_summary">사진이 찍힌 후 애니매이션을 동작 시킵니다.</string><string name="video_error_server_died">Server died, video halted</string><string name="taking_photo">사진 촬영</string><string name="preference_show_iso_summary">현재 ISO 레벨을 표시합니다.</string><string name="back_camera">후면 카메라 </string><string name="preference_crop_guide_summary">가이드를 화면에 표시합니다.</string><string name="preference_show_zoom_summary">현재 카메의 확대 설정을 설정합니다. </string><string name="preference_video_max_duration_summary">정해진 시간이 지나면 비디오 촬영이 종료됩니다.</string><string name="preference_location_summary">위치정보를 저장합니다.</string><string name="preference_textstamp_summary">사진에 커스텀 문자를 기록합니다.</string><string name="preference_save_location">저장 위치</string><string name="exposure">노출</string><string name="failed_to_start_camera_preview">카메라 preview 실패</string><string name="preference_screen_video_settings">비디오 설정</string><string name="preference_volume_keys">볼륨 키</string><string name="preference_video_restart">비디오 촬영 재시작</string><string name="preference_exposure">노출보정 설정</string><string name="infinite">Infinite</string><string name="preference_timer_summary">타이머 설정</string><string name="failed_to_auto_stabilise">자동 보정 실패</string><string name="preference_free_memory_summary">여유 공간을 화면에 표시합니다.</string><string name="preference_volume_keys_summary">볼륨 키가 눌렸을때의 행동을 설정합니다. </string><string name="preference_resolution">카메라 해상도</string><string name="exposure_compensation">노출 보정</string><string name="free_memory">여유 공간</string><string name="preference_video_stabilization">비디오 흘들림 보정 활성화</string><string name="preference_white_balance_summary">화이트밸러스를 위한 설정을 선택해주세요</string><string name="failed_to_save_video">비디오 파일 저장 실패</string><string name="preference_max_brightness_summary">최대 밝기를 설정합니다.</string><string name="about_available">사용 가능</string><string name="screen_is_locked">밀어서 잠금해제</string><string name="preference_show_zoom_controls">확대 -/+ 아이콘 표시</string><string name="flash_mode">플래시 모드</string><string name="parent_folder">상위 폴더</string><string name="preference_show_iso">ISO 보기</string><string name="preference_lock_orientation">사진/비디오 방향 잠금</string><string name="preference_require_location_summary">해당 기능이 활성되면 위치정보가 있을때만 촬영을 할 수 있습니다.</string><string name="preference_record_audio_src_summary">오디오 기록시 사용할 마이크를 설정합니다.</string><string name="failed_to_open_camera_2">카메라가 이미 사용중입니다.</string><string name="preference_keep_display_on">화면유지</string><string name="failed_to_open_camera_1">카메라 열기 실패</string><string name="preference_record_audio_summary">촬영시 오디오를 기록합니다.</string><string name="preference_reset_summary">설정된 값들을 기본설정으로 초기화 합니다.</string><string name="failed_to_open_camera_3">다른 앱에서 사용중입니다.</string><string name="trash">최근 사진 지우기</string><string name="preference_quality_summary">이미지 품질을 설정합니다.</string><string name="preference_video_stabilization_summary">비디오 촬영시 흘들림을 줄여줍니다.</string><string name="scene_mode">배경모드</string><string name="action_settings">설정</string><string name="cant_write_folder">해당 폴더에 저장할 수 없습니다.</string><string name="preference_stamp_fontsize">폰트 크기</string><string name="exposure_lock">노출 잠금</string><string name="preference_scene_mode">배경모드 적용</string><string name="preference_iso">ISO 설정</string><string name="preference_save_photo_prefix">고정 사진명 저장</string><string name="preference_keep_display_on_summary">화면이 유지됩니다.</string><string name="angle">각도</string><string name="preference_screen_camera_controls_more">카메라 제어 더 보기</string><string name="preference_face_detection_summary">안면을 인식하여 초점을 마춥니다.</string><string name="preference_show_angle_summary">화면에 각도를 표시합니다.</string><string name="video_max_duration">비디오 최대 길이</string><string name="preference_stamp">사진 스탬프</string><string name="cant_access_folder">해당 폴더에 접근할 수 없습니다.</string><string name="preference_resolution_summary">사진 해상도를 설정합니다.</string><string name="preference_screen_gui">GUI 설정</string><string name="preference_category_camera_quality">사진/비디오 설정</string><string name="failed_create_folder">새폴더 생성 실패</string><string name="preference_auto_stabilise_summary">이미지 흔들림 자동 보정</string><string name="preference_iso_summary">수치가 높아질 수록 빛에 민감하게 반응합니다.</string><string name="about_ok">확인</string><string name="preference_rotate_preview">화면 전환</string><string name="repeats_to_go">repeats to go</string><string name="preference_video_fps">비디오 프레임</string><string name="failed_to_save_image">이미지 파일 저장 실패 </string><string name="preference_show_zoom_slider_controls">확대 슬라이더 표시</string><string name="preference_video_flash_summary">비디오 촬영시 플래시가 깜빡입니다.</string><string name="metres_abbreviation">m</string><string name="preference_video_max_duration">최대 비디오 촬영시간 설정</string><string name="preference_screen_location_settings">위치 설정</string><string name="preference_motion_detection">모션인식</string><string name="preference_show_when_locked_summary">활성화시 잠금시 카메라가 보입니다.</string><string name="preference_preview_size_summary">화면 크기를 설정합니다. </string><string name="preference_show_zoom_controls_summary">확대 -/+ 아이콘을 표시합니다.</string><string name="share">사진 공유</string><string name="unlocked">잠금해제</string><string name="preference_scene_mode_summary">배경 최적화</string><string name="preference_shutter_sound">셔터 사운드</string><string name="preference_textstamp">커스텀 문자</string><string name="preference_category_camera_effects">카메라 효과</string><string name="color_effect">색상효과</string><string name="preference_motion_detection_summary">움직임을 포착하여 촬영합니다.</string><string name="preference_video_fps_summary">비디오 프레임을 설정합니다.</string><string name="preference_reset_question">정말 초기화 하시겠습니까?</string><string name="stopped_recording_video">비디오 레코딩 중지</string><string name="preference_burst_mode_summary">여러장의 사진을 연이어 촬영합니다.</string><string name="preference_video_bitrate_summary">비트레이트를 설정합니다.</string><string name="preference_about_summary"/><string name="take_photo">사진 촬영</string><string name="preference_gps_direction">방향 저장</string><string name="preference_reset">설정 초기화</string><string name="preference_show_time_summary">현재 시각을 화면에 표시합니다.</string><string name="preference_color_effect">색상효과 적용</string><string name="preference_show_zoom">확대 보기</string><string name="no_gallery_app">사용 가능한 갤러리앱에 없습니다</string><string name="preference_show_zoom_slider_controls_summary"> 확대 슬라이더를 화면에 표시합니다.</string><string name="preference_white_balance">화이트밸러스 세팅</string><string name="video_quality">비디오 해상도</string><string name="failed_to_save_photo">사진 저장 실패</string><string name="failed_to_record_video">비디오 촬영 실패</string><string name="preference_video_flash">비디오 활영시 플래시 사용</string><string name="preference_gps_direction_summary">사진에 있는 방향을 저장합니다.</string><string name="preference_video_bitrate">비트레이트 설정</string><string name="preference_timer_beep">타이머 소리</string><string name="preference_timer">타이머</string><string name="switch_camera">카메라 전환</string><string name="video">비디오</string><string name="focus_distance">포커스 거리</string><string name="clear_folder_history">폴더 히스토리 삭제</string><string name="sorry">죄송합니다. </string><string name="preference_lock_orientation_summary">사진/비디오 촬영시 방향을 고정합니다.</string><string name="enter_new_folder">새로운 폴더 이름 기입</string><string name="intro_ok">확인</string><string name="photo">사진</string><string name="preference_lock_video_summary">비디오 촬영시 화면이 잠금됩니다.</string><string name="about_copy_to_clipboard">복사</string><string name="cancelled_burst_mode">연속촬영 모드 취소</string><string name="preference_save_video_prefix_summary">고정 비디오명을 저장합니다.</string><string name="preference_auto_stabilise">흔들림 자동보정</string><string name="preference_show_battery_summary">배터리 상태를 화면에 표시합니다.</string><string name="preference_crop_guide">가이드 표시</string><string name="preference_ui_placement">UI placement</string><string name="preference_use_camera2"/><string name="answer_yes">예</string><string name="iso">ISO</string><string name="preference_ui_placement_summary"/><string name="audio_disabled">오디오 사용 안함</string><string name="folder_exists">폴더가 이미 존재합니다.</string><string name="preference_grid_summary">그리드를 표시합니다.</string><string name="preference_quality">이미지 품질</string><string name="switch_video">비디오 전환</string><string name="front_camera">전면 카메라 </string><string name="preference_screen_photo_settings">사진 설정</string><string name="preference_force_video_4k">4K UHD 비디오</string><string name="preference_video_restart_summary">최대 촬영 시간이 지난 후 재시작 됩니다.</string><string name="auto_stabilise_not_supported">해당 기기에서는 자동보정 기능이 지원되지 않습니다.</string><string name="preference_category_camera_controls">카메라 제어</string><string name="fps">초당 프레임</string><string name="preference_stamp_fontsize_summary">폰트 크기를 설정합니다.</string><string name="preference_burst_interval_summary">연속촬영시 간격을 지정합니다.</string><string name="screen_lock_message_1">잠금</string><string name="screen_lock_message_2">밀어서 잠금해제</string><string name="preference_save_photo_prefix_summary">고정 사진명을 저장합니다.</string><string name="choose_save_location">저장 위치 선택:</string><string name="video_error_unknown">비디오 촬영 중단</string><string name="focus_mode">포커스 모드</string><string name="changed_save_location">저장 위치 변경:</string><string name="preference_immersive_mode_summary">몰입모드 옵션을 정합니다.</string><string name="preference_max_brightness">최대 밝기 설정</string><string name="failed_to_stamp">사진 스탬프 실패</string><string name="preference_show_when_locked">잠금시 카메라 보기</string><string name="preference_show_battery">배터리 상태 표시</string><string name="preference_show_angle_line_summary">가로로된 각도선을 화면에 표시합니다.</string><string name="direction">방향</string><string name="exposure_locked">노출 잠금</string><string name="started_timer">타이머 시작</string><string name="gallery">갤러리</string><string name="preference_pause_preview_summary">사진 활영 후 정지됩니다.</string><string name="preference_grid">그리드 표시</string><string name="video_max_filesize">비디오 최대 파일 용략</string><string name="preference_location">위치정보 저장</string><string name="preference_require_location">위치정보 필수</string><string name="not_supported">지원하지 않은 기기입니다.</string><string name="started_recording_video">비디오 촬영 시작</string><string name="white_balance">화이트밸런스</string></file><file path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+    </string-array></file><file path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/strings.xml" qualifiers=""><string name="angle">각도</string><string name="preference_screen_camera_controls_more">카메라 제어 더 보기</string><string name="about_not_available">사용 불가능</string><string name="video_max_duration">비디오 최대 길이</string><string name="preference_stamp">사진 스탬프</string><string name="exposure_unlocked">노출 잠금해제</string><string name="preference_show_angle_line">각도선 표시</string><string name="preference_preview_size">화면 크기</string><string name="cant_access_folder">해당 폴더에 접근할 수 없습니다.</string><string name="intro_text">안녕하세요, 새로워진 더뷰2 입니다.</string><string name="preference_screen_gui">GUI 설정</string><string name="preference_category_camera_quality">사진/비디오 설정</string><string name="failed_create_folder">새폴더 생성 실패</string><string name="failed_to_reconnect_camera">카메라 연결 실패</string><string name="about_ok">확인</string><string name="preference_rotate_preview">화면 전환</string><string name="repeats_to_go">repeats to go</string><string name="preference_video_fps">비디오 프레임</string><string name="failed_to_save_image">이미지 파일 저장 실패 </string><string name="preference_record_audio">오디오 기록</string><string name="preference_show_zoom_slider_controls">확대 슬라이더 표시</string><string name="on">키기</string><string name="metres_abbreviation">m</string><string name="preference_video_max_duration">최대 비디오 촬영시간 설정</string><string name="use_folder">폴더 사용하기</string><string name="preference_screen_location_settings">위치 설정</string><string name="preference_motion_detection">모션인식</string><string name="preference_immersive_mode">몰입모드</string><string name="share">사진 공유</string><string name="unlocked">잠금해제</string><string name="preference_shutter_sound">셔터 사운드</string><string name="preference_textstamp">커스텀 문자</string><string name="preference_lock_video">비디오 촬영시 화면 잠금</string><string name="preference_category_camera_effects">카메라 효과</string><string name="clear_folder_history_question">폴더 히스토리를 삭제 하시겠습니까?</string><string name="preference_show_angle">각도 표시</string><string name="color_effect">색상효과</string><string name="preference_thumbnail_animation">애니매이션 설정</string><string name="photo_deleted">사진</string><string name="preference_reset_question">정말 초기화 하시겠습니까?</string><string name="stopped_recording_video">비디오 레코딩 중지</string><string name="zoom">확대</string><string name="cancelled_timer">타이머 취소</string><string name="failed_to_take_picture">사진 촬영 실패</string><string name="choose_another_folder">다른 폴더 선택하기</string><string name="take_photo">사진 촬영</string><string name="preference_gps_direction">방향 저장</string><string name="preference_reset">설정 초기화</string><string name="preference_record_audio_src">오디오 소스</string><string name="preference_show_geo_direction">방향 표시</string><string name="preference_color_effect">색상효과 적용</string><string name="location_not_available">GPS 사용불가</string><string name="off">끄기</string><string name="preference_show_zoom">확대 보기</string><string name="preference_show_time">시각 표시</string><string name="no_gallery_app">사용 가능한 갤러리앱에 없습니다</string><string name="max_duration">최대 시간</string><string name="answer_no">아니오</string><string name="preference_pause_preview">사진 촬영 후 정지</string><string name="video_may_be_corrupted">비디오 파일이 손상 되었습니다.</string><string name="preference_face_detection">안면인식</string><string name="preference_burst_mode">연속촬영 모드</string><string name="preference_save_video_prefix">고정 비디오명 저장</string><string name="app_name">더뷰2</string><string name="preference_white_balance">화이트밸러스 세팅</string><string name="video_quality">비디오 해상도</string><string name="failed_to_save_photo">사진 저장 실패</string><string name="action_popup">팝업 설정</string><string name="failed_to_record_video">비디오 촬영 실패</string><string name="preference_video_flash">비디오 활영시 플래시 사용</string><string name="new_folder">새폴더</string><string name="preference_burst_interval">연속촬영 간격</string><string name="preference_free_memory">여유 공간 보기</string><string name="preference_video_bitrate">비트레이트 설정</string><string name="preference_timer_beep">타이머 소리</string><string name="video_error_server_died">Server died, video halted</string><string name="taking_photo">사진 촬영</string><string name="preference_timer">타이머</string><string name="switch_camera">카메라 전환</string><string name="video">비디오</string><string name="focus_distance">포커스 거리</string><string name="clear_folder_history">폴더 히스토리 삭제</string><string name="back_camera">후면 카메라 </string><string name="sorry">죄송합니다. </string><string name="enter_new_folder">새로운 폴더 이름 기입</string><string name="intro_ok">확인</string><string name="photo">사진</string><string name="about_copy_to_clipboard">복사</string><string name="cancelled_burst_mode">연속촬영 모드 취소</string><string name="preference_auto_stabilise">흔들림 자동보정</string><string name="preference_save_location">저장 위치</string><string name="exposure">노출</string><string name="preference_crop_guide">가이드 표시</string><string name="failed_to_start_camera_preview">카메라 preview 실패</string><string name="preference_screen_video_settings">비디오 설정</string><string name="preference_ui_placement">UI placement</string><string name="preference_volume_keys">볼륨 키</string><string name="preference_use_camera2"/><string name="preference_video_restart">비디오 촬영 재시작</string><string name="answer_yes">예</string><string name="preference_exposure">노출보정 설정</string><string name="infinite">Infinite</string><string name="iso">ISO</string><string name="failed_to_auto_stabilise">자동 보정 실패</string><string name="audio_disabled">오디오 사용 안함</string><string name="folder_exists">폴더가 이미 존재합니다.</string><string name="preference_quality">이미지 품질</string><string name="switch_video">비디오 전환</string><string name="front_camera">전면 카메라 </string><string name="preference_screen_photo_settings">사진 설정</string><string name="preference_force_video_4k">4K UHD 비디오</string><string name="auto_stabilise_not_supported">해당 기기에서는 자동보정 기능이 지원되지 않습니다.</string><string name="preference_category_camera_controls">카메라 제어</string><string name="fps">초당 프레임</string><string name="preference_resolution">카메라 해상도</string><string name="exposure_compensation">노출 보정</string><string name="free_memory">여유 공간</string><string name="preference_video_stabilization">비디오 흘들림 보정 활성화</string><string name="failed_to_save_video">비디오 파일 저장 실패</string><string name="about_available">사용 가능</string><string name="screen_is_locked">밀어서 잠금해제</string><string name="preference_show_zoom_controls">확대 -/+ 아이콘 표시</string><string name="flash_mode">플래시 모드</string><string name="parent_folder">상위 폴더</string><string name="screen_lock_message_1">잠금</string><string name="preference_show_iso">ISO 보기</string><string name="screen_lock_message_2">밀어서 잠금해제</string><string name="choose_save_location">저장 위치 선택:</string><string name="preference_lock_orientation">사진/비디오 방향 잠금</string><string name="failed_to_open_camera_2">카메라가 이미 사용중입니다.</string><string name="preference_keep_display_on">화면유지</string><string name="failed_to_open_camera_1">카메라 열기 실패</string><string name="failed_to_open_camera_3">다른 앱에서 사용중입니다.</string><string name="video_error_unknown">비디오 촬영 중단</string><string name="focus_mode">포커스 모드</string><string name="changed_save_location">저장 위치 변경:</string><string name="trash">최근 사진 지우기</string><string name="preference_max_brightness">최대 밝기 설정</string><string name="failed_to_stamp">사진 스탬프 실패</string><string name="preference_show_when_locked">잠금시 카메라 보기</string><string name="scene_mode">배경모드</string><string name="preference_show_battery">배터리 상태 표시</string><string name="action_settings">설정</string><string name="cant_write_folder">해당 폴더에 저장할 수 없습니다.</string><string name="direction">방향</string><string name="preference_stamp_fontsize">폰트 크기</string><string name="exposure_lock">노출 잠금</string><string name="exposure_locked">노출 잠금</string><string name="preference_scene_mode">배경모드 적용</string><string name="preference_iso">ISO 설정</string><string name="started_timer">타이머 시작</string><string name="gallery">갤러리</string><string name="preference_grid">그리드 표시</string><string name="video_max_filesize">비디오 최대 파일 용략</string><string name="preference_save_photo_prefix">고정 사진명 저장</string><string name="preference_location">위치정보 저장</string><string name="preference_require_location">위치정보 필수</string><string name="not_supported">지원하지 않은 기기입니다.</string><string name="started_recording_video">비디오 촬영 시작</string><string name="white_balance">화이트밸런스</string></file><file path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style><style name="listViewPrefs" parent="@android:style/Widget.ListView">
         <item name="android:background">#ffffff</item>
@@ -1724,4 +1724,4 @@
     </string-array><string-array name="preference_ui_placement_entries">
         <item>左手用户界面</item>
         <item>右手用户界面</item>
-    </string-array></file><file path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values-zh-rCN/strings.xml" qualifiers="zh-rCN"><string name="preference_stamp_summary">用日期和时间戳记照片；如果启用了位置/方向数据也戳记 GPS 信息</string><string name="preference_donate_summary">如果您喜欢这个程序，请考虑捐助。您可以通过购买我的“捐助 app”来进行捐助 - 点击此选项将打开我的捐助 app 页面。谢谢！</string><string name="preference_exposure">设置曝光补偿</string><string name="preference_thumbnail_animation">显示缩略图动画</string><string name="preference_immersive_mode">沉浸模式</string><string name="preference_resolution_summary">设置相机拍摄的照片的分辨率</string><string name="preference_show_angle_summary">在屏幕上显示当前的设备方向角</string><string name="preference_crop_guide">显示裁剪指南</string><string name="not_supported">在你的设备上不被支持</string><string name="trash">删除上一张照片</string><string name="preference_video_flash">录像时闪光</string><string name="preference_preview_size_summary">如何选择预览大小</string><string name="preference_video_max_duration_summary">在指定的时间后录像将停止。</string><string name="screen_lock_message_2">滑动以解锁]</string><string name="video_error_unknown">未知错误，视频挂起</string><string name="preference_show_battery">显示电池</string><string name="screen_lock_message_1">[锁定:</string><string name="exposure">曝光</string><string name="max_duration">最大持续时间</string><string name="cant_write_folder">不能写到这个文件夹</string><string name="answer_no">否</string><string name="taking_photo">拍照</string><string name="photo_deleted">照片已删除</string><string name="preference_save_location">保存位置</string><string name="preference_video_max_duration">视频最长持续时间</string><string name="preference_rotate_preview_summary">旋转预览选项 (不会影响最终的照片/视频)</string><string name="preference_show_zoom_summary">在屏幕上显示当前的相机缩放水平 (当放大时)</string><string name="preference_save_photo_prefix_summary">用于保存照片文件名的前缀</string><string name="preference_video_restart">在最大持续时间后重启视频</string><string name="direction">方向</string><string name="failed_to_take_picture">拍照失败</string><string name="preference_show_geo_direction_summary">在屏幕上显示该设备的罗盘方向</string><string name="preference_show_time">显示时间</string><string name="preference_resolution">相机分辨率</string><string name="focus_mode">聚焦模式</string><string name="exposure_compensation">曝光补偿</string><string name="front_camera">前置相机</string><string name="preference_save_video_prefix">保存视频前缀</string><string name="preference_color_effect">应用一个颜色效果</string><string name="auto_stabilise_not_supported">对不起，自动稳定在此设备上\n不被支持</string><string name="preference_face_detection">脸部侦测</string><string name="preference_video_stabilization_summary">视频稳定减少在预览和录像中由于相机移动引起的晃动。</string><string name="preference_about_summary">应用程序和调试信息</string><string name="video_max_filesize">视频达到最大文件大小</string><string name="preference_free_memory_summary">在屏幕上显示剩余的设备存储空间</string><string name="preference_keep_display_on_summary">如果开启，当 Open Camera 的主界面激活时，屏幕将不会关闭。</string><string name="repeats_to_go">repeats to go</string><string name="preference_ui_placement">UI 布局</string><string name="preference_show_when_locked">锁定时显示相机</string><string name="preference_about">关于</string><string name="preference_require_location">需要位置数据</string><string name="failed_to_save_photo">保存照片失败</string><string name="preference_lock_video">录像时锁定屏幕</string><string name="preference_white_balance_summary">选择一个设置来调整白平衡</string><string name="preference_show_zoom_controls_summary">显示缩放控件的 -/+ 按钮</string><string name="preference_require_location_summary">如果启用位置数据，只拍照/录像如果位置数据可用。</string><string name="preference_save_photo_prefix">保存照片前缀</string><string name="angle">角度</string><string name="preference_shutter_sound_summary">拍照时播放声音(需要 Android 4.2 或更高才能禁用)</string><string name="failed_create_folder">创建文件夹失败</string><string name="video_max_duration">视频达到最大时长</string><string name="video_quality_summary">设置视频分辨率</string><string name="preference_record_audio_src">音频源</string><string name="preference_show_zoom_controls">显示缩放 -/+ 控件</string><string name="cant_access_folder">不能访问这个文件夹</string><string name="screen_is_locked">屏幕被锁定\n滑动屏幕来解锁</string><string name="started_timer">已开始定时器</string><string name="flash_mode">闪光模式</string><string name="failed_to_save_image">保存图像文件失败</string><string name="preference_timer">定时器</string><string name="preference_video_fps">视频帧率 (大约)</string><string name="about_not_available">不可用</string><string name="preference_burst_interval">连拍模式间隔</string><string name="preference_show_zoom_slider_controls_summary">显示缩放控件的滑块</string><string name="preference_stamp_fontsize">字体大小</string><string name="preference_reset">复位设置</string><string name="preference_video_bitrate_summary">设置视频的大致比特率 (更高表示更好的质量，但是占用更多磁盘空间；如果比特率不被支持可能引起录像失败)</string><string name="failed_to_save_video">保存视频文件失败</string><string name="preference_lock_orientation_summary">如果设置，设备的方向将被忽略，并且照片/视频的方向将是相对于指定的方向。</string><string name="intro_ok">好 (此消息将不再显示)</string><string name="folder_exists">文件夹已经存在</string><string name="preference_free_memory">显示可用内存</string><string name="switch_video">切换视频</string><string name="changed_save_location">已更改保存位置到:</string><string name="preference_location_summary">在照片/视频中存储 GPS 位置数据</string><string name="preference_category_online">杂项</string><string name="failed_to_record_video">录制视频失败</string><string name="preference_record_audio_summary">录像时录音</string><string name="preference_exposure_summary">设为 0 使用默认曝光补偿。</string><string name="action_settings">设置</string><string name="preference_thumbnail_animation_summary">当拍照时显示移动缩略图动画</string><string name="preference_save_location_summary">用来保存照片/视频文件的文件夹</string><string name="app_name">Open Camera</string><string name="preference_show_zoom_slider_controls">显示缩放滑块控件</string><string name="preference_iso_summary">更高的值意味着对光更敏感(在某些设备上可能无法工作)</string><string name="preference_record_audio">录音</string><string name="preference_show_angle_line">显示角度线</string><string name="preference_gps_direction">存储罗盘方向</string><string name="preference_quality_summary">设置保存的照片图像的图像质量（建议值是90%%）</string><string name="preference_record_audio_src_summary">麦克风用于录制音频</string><string name="about_available">可用</string><string name="preference_grid">显示网格</string><string name="gallery">图库</string><string name="cancelled_timer">已取消定时器</string><string name="scene_mode">场景模式</string><string name="preference_screen_location_settings">位置设置…</string><string name="preference_donate">捐赠以支持开发</string><string name="about_copy_to_clipboard">复制到剪贴板</string><string name="preference_volume_keys">音量键</string><string name="preference_auto_stabilise_summary">图像将被旋转，使它们自动水平(仅照片) (拍照更慢，并且在内存过低的设备上失败)</string><string name="clear_folder_history_question">清除文件夹历史？</string><string name="video_error_server_died">服务器死亡，视频挂起</string><string name="white_balance">白平衡</string><string name="preference_reset_question">你确定要重设所有 Open Camera 设置为默认值吗？</string><string name="clear_folder_history">清除文件夹历史</string><string name="photo">照片</string><string name="back_camera">后置相机</string><string name="preference_rotate_preview">旋转预览</string><string name="cancelled_burst_mode">已取消连拍模式</string><string name="preference_stamp">戳记照片</string><string name="failed_to_auto_stabilise">自动稳定失败</string><string name="video">视频</string><string name="preference_face_detection_summary">用脸部侦测代替聚焦区。</string><string name="preference_max_brightness">强制最大亮度</string><string name="on">开启</string><string name="preference_quality">图像质量</string><string name="preference_ui_placement_summary">是否有一个左撇子还是右撇子的用户界面</string><string name="preference_show_angle">显示角度</string><string name="preference_shutter_sound">快门声音</string><string name="preference_max_brightness_summary">强制屏幕以最大亮度显示，而不是设备默认值</string><string name="failed_to_open_camera_3">其它程序使用？</string><string name="failed_to_open_camera_2">相机可能正被</string><string name="failed_to_open_camera_1">打开相机失败。</string><string name="preference_stamp_fontsize_summary">当在照片上戳记文本时使用的字体大小</string><string name="preference_show_angle_line_summary">显示水平线</string><string name="preference_show_zoom">显示缩放</string><string name="preference_keep_display_on">保持屏幕常亮</string><string name="preference_video_bitrate">视频比特率 (大约)</string><string name="preference_category_camera_controls">相机控制</string><string name="share">共享照片</string><string name="no_gallery_app">没有可用的相册应用</string><string name="audio_disabled">禁止音频</string><string name="preference_textstamp_summary">用自定义文本戳记照片</string><string name="preference_location">存储位置数据 (地理标记)</string><string name="free_memory">可用内存</string><string name="video_quality">视频分辨率</string><string name="switch_camera">切换相机</string><string name="preference_show_time_summary">在屏幕上显示当前时间</string><string name="exposure_unlocked">曝光解锁</string><string name="preference_immersive_mode_summary">\"沉浸模式\" 行为选项</string><string name="preference_pause_preview">拍照后暂停</string><string name="preference_screen_video_settings">视频设置…</string><string name="preference_color_effect_summary">应用选定的颜色效果到照片</string><string name="preference_white_balance">设置白平衡</string><string name="preference_category_camera_effects">相机特效</string><string name="preference_lock_orientation">锁定照片/视频方向</string><string name="preference_crop_guide_summary">裁剪指南显示一个矩形显示指定的宽高比看起来像什么 - 如果你计划以后裁剪照片/视频为不同的分辨率，这有用。需要所见即所得照片模式，或处于视频模式中。</string><string name="preference_screen_camera_controls_more">更多相机控制…</string><string name="new_folder">新文件夹</string><string name="preference_save_video_prefix_summary">用于保存视频文件名的前缀</string><string name="preference_auto_stabilise">自动稳定</string><string name="preference_screen_gui">屏幕GUI…</string><string name="metres_abbreviation">m</string><string name="preference_show_battery_summary">在屏幕上显示当前电池电量</string><string name="preference_video_stabilization">启用视频稳定</string><string name="action_popup">弹出设置</string><string name="preference_textstamp">自定义文本</string><string name="location_not_available">GPS 位置不可用</string><string name="preference_preview_size">预览大小</string><string name="preference_category_camera_quality">照片和视频设置</string><string name="preference_timer_summary">为相机设置一个定时器</string><string name="preference_burst_mode">连拍模式</string><string name="exposure_lock">曝光锁定</string><string name="preference_burst_interval_summary">连拍模式中拍照之间的延迟(如果有的话)</string><string name="started_recording_video">已开始录制视频</string><string name="zoom">缩放</string><string name="preference_lock_video_summary">当录制视频时，图形用户界面将被锁定以防止意外的停止录像。滑动屏幕以解锁。注意，如果程序转到后台或屏幕是空白，视频录制总是会停止。</string><string name="preference_gps_direction_summary">在照片中存储 GPS 罗盘方向</string><string name="preference_timer_beep">定时器蜂鸣</string><string name="answer_yes">是</string><string name="intro_text">轻触聚焦，点击蓝色相机按钮来拍照。点击设置中的在线帮助可以获得更多帮助。Open Camera 是完全免费的。如果你喜欢这个 app，请考虑购买我的捐赠 app :)(查看设置中的链接，或者在线帮助)。\n\n隐私政策：必须允许位置许可才能进行地理标记，但默认这是关闭的。如果开启，你的位置被编码在保存的文件中(并且它仅被用于此目的).\n\n(此消息将不会再显示。)</string><string name="failed_to_reconnect_camera">连接到相机失败</string><string name="use_folder">使用文件夹</string><string name="preference_iso">设置 ISO</string><string name="choose_another_folder">选择另一个文件夹</string><string name="preference_scene_mode">应用一个场景模式</string><string name="unlocked">已解锁</string><string name="preference_force_video_4k">强制 4K UHD 视频 (实验)</string><string name="video_may_be_corrupted">错误，视频文件可能已经损坏</string><string name="parent_folder">父文件夹</string><string name="preference_force_video_4k_summary">为后置相机录像启用 3840x2160 分辨率 - 仅当你的设备支持时才能工作，并且如果不支持可能崩溃！</string><string name="failed_to_start_camera_preview">启动相机预览失败</string><string name="color_effect">颜色效果</string><string name="preference_scene_mode_summary">为各种场景优化照片</string><string name="preference_timer_beep_summary">当计时器倒数或连拍模式延迟时蜂鸣</string><string name="preference_video_fps_summary">设置视频的帧率(FPS)(可能是大约，不能保证实现，并可能导致录像失败，如果帧率不被支持)</string><string name="preference_pause_preview_summary">拍照后暂停屏幕，带有选项分享或删除照片</string><string name="preference_online_help">在线帮助</string><string name="choose_save_location">选择保存位置:</string><string name="preference_volume_keys_summary">设置音量键按下时的行为</string><string name="about_ok">好</string><string name="sorry">对不起</string><string name="take_photo">拍照</string><string name="preference_video_flash_summary">如果启用，录像时闪光将开启/关闭 (在一段距离外可以用来告诉相机仍然在录制)。</string><string name="preference_video_restart_summary">如果在达到最大持续时间(如果设置了)后视频停止，此选项将使视频重启，最多为指定的次数。</string><string name="preference_reset_summary">重设所有 Open Camera 设置为默认</string><string name="preference_show_when_locked_summary">如果开启，Open Camera 将仍然在任何锁屏之上显示 (你仍然必须解锁来访问设置，图库等)</string><string name="exposure_locked">曝光锁定</string><string name="preference_screen_photo_settings">照片设置…</string><string name="preference_burst_mode_summary">连续拍摄多张照片</string><string name="enter_new_folder">输入新文件夹名称</string><string name="off">关闭</string><string name="preference_show_geo_direction">显示罗盘方向</string><string name="stopped_recording_video">已停止录制视频</string><string name="preference_grid_summary">显示各种网格中的一种</string><string name="failed_to_stamp">在照片上戳记失败</string></file><file name="preferences" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/xml/preferences.xml" qualifiers="" type="xml"/><file name="widget_info" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/xml/widget_info.xml" qualifiers="" type="xml"/><file name="widget_info_take_photo" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/xml/widget_info_take_photo.xml" qualifiers="" type="xml"/><file name="theview2" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable-hdpi/theview2.png" qualifiers="hdpi-v4" type="drawable"/></source><source path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/build/generated/res/rs/debug"/><source path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/debug/res"/></dataSet><mergedItems/></merger>
+    </string-array></file><file path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values-zh-rCN/strings.xml" qualifiers="zh-rCN"><string name="preference_stamp_summary">用日期和时间戳记照片；如果启用了位置/方向数据也戳记 GPS 信息</string><string name="preference_donate_summary">如果您喜欢这个程序，请考虑捐助。您可以通过购买我的“捐助 app”来进行捐助 - 点击此选项将打开我的捐助 app 页面。谢谢！</string><string name="preference_exposure">设置曝光补偿</string><string name="preference_thumbnail_animation">显示缩略图动画</string><string name="preference_immersive_mode">沉浸模式</string><string name="preference_resolution_summary">设置相机拍摄的照片的分辨率</string><string name="preference_show_angle_summary">在屏幕上显示当前的设备方向角</string><string name="preference_crop_guide">显示裁剪指南</string><string name="not_supported">在你的设备上不被支持</string><string name="trash">删除上一张照片</string><string name="preference_video_flash">录像时闪光</string><string name="preference_preview_size_summary">如何选择预览大小</string><string name="preference_video_max_duration_summary">在指定的时间后录像将停止。</string><string name="screen_lock_message_2">滑动以解锁]</string><string name="video_error_unknown">未知错误，视频挂起</string><string name="preference_show_battery">显示电池</string><string name="screen_lock_message_1">[锁定:</string><string name="exposure">曝光</string><string name="max_duration">最大持续时间</string><string name="cant_write_folder">不能写到这个文件夹</string><string name="answer_no">否</string><string name="taking_photo">拍照</string><string name="photo_deleted">照片已删除</string><string name="preference_save_location">保存位置</string><string name="preference_video_max_duration">视频最长持续时间</string><string name="preference_rotate_preview_summary">旋转预览选项 (不会影响最终的照片/视频)</string><string name="preference_show_zoom_summary">在屏幕上显示当前的相机缩放水平 (当放大时)</string><string name="preference_save_photo_prefix_summary">用于保存照片文件名的前缀</string><string name="preference_video_restart">在最大持续时间后重启视频</string><string name="direction">方向</string><string name="failed_to_take_picture">拍照失败</string><string name="preference_show_geo_direction_summary">在屏幕上显示该设备的罗盘方向</string><string name="preference_show_time">显示时间</string><string name="preference_resolution">相机分辨率</string><string name="focus_mode">聚焦模式</string><string name="exposure_compensation">曝光补偿</string><string name="front_camera">前置相机</string><string name="preference_save_video_prefix">保存视频前缀</string><string name="preference_color_effect">应用一个颜色效果</string><string name="auto_stabilise_not_supported">对不起，自动稳定在此设备上\n不被支持</string><string name="preference_face_detection">脸部侦测</string><string name="preference_video_stabilization_summary">视频稳定减少在预览和录像中由于相机移动引起的晃动。</string><string name="preference_about_summary">应用程序和调试信息</string><string name="video_max_filesize">视频达到最大文件大小</string><string name="preference_free_memory_summary">在屏幕上显示剩余的设备存储空间</string><string name="preference_keep_display_on_summary">如果开启，当 Open Camera 的主界面激活时，屏幕将不会关闭。</string><string name="repeats_to_go">repeats to go</string><string name="preference_ui_placement">UI 布局</string><string name="preference_show_when_locked">锁定时显示相机</string><string name="preference_about">关于</string><string name="preference_require_location">需要位置数据</string><string name="failed_to_save_photo">保存照片失败</string><string name="preference_lock_video">录像时锁定屏幕</string><string name="preference_white_balance_summary">选择一个设置来调整白平衡</string><string name="preference_show_zoom_controls_summary">显示缩放控件的 -/+ 按钮</string><string name="preference_require_location_summary">如果启用位置数据，只拍照/录像如果位置数据可用。</string><string name="preference_save_photo_prefix">保存照片前缀</string><string name="angle">角度</string><string name="preference_shutter_sound_summary">拍照时播放声音(需要 Android 4.2 或更高才能禁用)</string><string name="failed_create_folder">创建文件夹失败</string><string name="video_max_duration">视频达到最大时长</string><string name="video_quality_summary">设置视频分辨率</string><string name="preference_record_audio_src">音频源</string><string name="preference_show_zoom_controls">显示缩放 -/+ 控件</string><string name="cant_access_folder">不能访问这个文件夹</string><string name="screen_is_locked">屏幕被锁定\n滑动屏幕来解锁</string><string name="started_timer">已开始定时器</string><string name="flash_mode">闪光模式</string><string name="failed_to_save_image">保存图像文件失败</string><string name="preference_timer">定时器</string><string name="preference_video_fps">视频帧率 (大约)</string><string name="about_not_available">不可用</string><string name="preference_burst_interval">连拍模式间隔</string><string name="preference_show_zoom_slider_controls_summary">显示缩放控件的滑块</string><string name="preference_stamp_fontsize">字体大小</string><string name="preference_reset">复位设置</string><string name="preference_video_bitrate_summary">设置视频的大致比特率 (更高表示更好的质量，但是占用更多磁盘空间；如果比特率不被支持可能引起录像失败)</string><string name="failed_to_save_video">保存视频文件失败</string><string name="preference_lock_orientation_summary">如果设置，设备的方向将被忽略，并且照片/视频的方向将是相对于指定的方向。</string><string name="intro_ok">好 (此消息将不再显示)</string><string name="folder_exists">文件夹已经存在</string><string name="preference_free_memory">显示可用内存</string><string name="switch_video">切换视频</string><string name="changed_save_location">已更改保存位置到:</string><string name="preference_location_summary">在照片/视频中存储 GPS 位置数据</string><string name="preference_category_online">杂项</string><string name="failed_to_record_video">录制视频失败</string><string name="preference_record_audio_summary">录像时录音</string><string name="preference_exposure_summary">设为 0 使用默认曝光补偿。</string><string name="action_settings">设置</string><string name="preference_thumbnail_animation_summary">当拍照时显示移动缩略图动画</string><string name="preference_save_location_summary">用来保存照片/视频文件的文件夹</string><string name="app_name">Open Camera</string><string name="preference_show_zoom_slider_controls">显示缩放滑块控件</string><string name="preference_iso_summary">更高的值意味着对光更敏感(在某些设备上可能无法工作)</string><string name="preference_record_audio">录音</string><string name="preference_show_angle_line">显示角度线</string><string name="preference_gps_direction">存储罗盘方向</string><string name="preference_quality_summary">设置保存的照片图像的图像质量（建议值是90%%）</string><string name="preference_record_audio_src_summary">麦克风用于录制音频</string><string name="about_available">可用</string><string name="preference_grid">显示网格</string><string name="gallery">图库</string><string name="cancelled_timer">已取消定时器</string><string name="scene_mode">场景模式</string><string name="preference_screen_location_settings">位置设置…</string><string name="preference_donate">捐赠以支持开发</string><string name="about_copy_to_clipboard">复制到剪贴板</string><string name="preference_volume_keys">音量键</string><string name="preference_auto_stabilise_summary">图像将被旋转，使它们自动水平(仅照片) (拍照更慢，并且在内存过低的设备上失败)</string><string name="clear_folder_history_question">清除文件夹历史？</string><string name="video_error_server_died">服务器死亡，视频挂起</string><string name="white_balance">白平衡</string><string name="preference_reset_question">你确定要重设所有 Open Camera 设置为默认值吗？</string><string name="clear_folder_history">清除文件夹历史</string><string name="photo">照片</string><string name="back_camera">后置相机</string><string name="preference_rotate_preview">旋转预览</string><string name="cancelled_burst_mode">已取消连拍模式</string><string name="preference_stamp">戳记照片</string><string name="failed_to_auto_stabilise">自动稳定失败</string><string name="video">视频</string><string name="preference_face_detection_summary">用脸部侦测代替聚焦区。</string><string name="preference_max_brightness">强制最大亮度</string><string name="on">开启</string><string name="preference_quality">图像质量</string><string name="preference_ui_placement_summary">是否有一个左撇子还是右撇子的用户界面</string><string name="preference_show_angle">显示角度</string><string name="preference_shutter_sound">快门声音</string><string name="preference_max_brightness_summary">强制屏幕以最大亮度显示，而不是设备默认值</string><string name="failed_to_open_camera_3">其它程序使用？</string><string name="failed_to_open_camera_2">相机可能正被</string><string name="failed_to_open_camera_1">打开相机失败。</string><string name="preference_stamp_fontsize_summary">当在照片上戳记文本时使用的字体大小</string><string name="preference_show_angle_line_summary">显示水平线</string><string name="preference_show_zoom">显示缩放</string><string name="preference_keep_display_on">保持屏幕常亮</string><string name="preference_video_bitrate">视频比特率 (大约)</string><string name="preference_category_camera_controls">相机控制</string><string name="share">共享照片</string><string name="no_gallery_app">没有可用的相册应用</string><string name="audio_disabled">禁止音频</string><string name="preference_textstamp_summary">用自定义文本戳记照片</string><string name="preference_location">存储位置数据 (地理标记)</string><string name="free_memory">可用内存</string><string name="video_quality">视频分辨率</string><string name="switch_camera">切换相机</string><string name="preference_show_time_summary">在屏幕上显示当前时间</string><string name="exposure_unlocked">曝光解锁</string><string name="preference_immersive_mode_summary">\"沉浸模式\" 行为选项</string><string name="preference_pause_preview">拍照后暂停</string><string name="preference_screen_video_settings">视频设置…</string><string name="preference_color_effect_summary">应用选定的颜色效果到照片</string><string name="preference_white_balance">设置白平衡</string><string name="preference_category_camera_effects">相机特效</string><string name="preference_lock_orientation">锁定照片/视频方向</string><string name="preference_crop_guide_summary">裁剪指南显示一个矩形显示指定的宽高比看起来像什么 - 如果你计划以后裁剪照片/视频为不同的分辨率，这有用。需要所见即所得照片模式，或处于视频模式中。</string><string name="preference_screen_camera_controls_more">更多相机控制…</string><string name="new_folder">新文件夹</string><string name="preference_save_video_prefix_summary">用于保存视频文件名的前缀</string><string name="preference_auto_stabilise">自动稳定</string><string name="preference_screen_gui">屏幕GUI…</string><string name="metres_abbreviation">m</string><string name="preference_show_battery_summary">在屏幕上显示当前电池电量</string><string name="preference_video_stabilization">启用视频稳定</string><string name="action_popup">弹出设置</string><string name="preference_textstamp">自定义文本</string><string name="location_not_available">GPS 位置不可用</string><string name="preference_preview_size">预览大小</string><string name="preference_category_camera_quality">照片和视频设置</string><string name="preference_timer_summary">为相机设置一个定时器</string><string name="preference_burst_mode">连拍模式</string><string name="exposure_lock">曝光锁定</string><string name="preference_burst_interval_summary">连拍模式中拍照之间的延迟(如果有的话)</string><string name="started_recording_video">已开始录制视频</string><string name="zoom">缩放</string><string name="preference_lock_video_summary">当录制视频时，图形用户界面将被锁定以防止意外的停止录像。滑动屏幕以解锁。注意，如果程序转到后台或屏幕是空白，视频录制总是会停止。</string><string name="preference_gps_direction_summary">在照片中存储 GPS 罗盘方向</string><string name="preference_timer_beep">定时器蜂鸣</string><string name="answer_yes">是</string><string name="intro_text">轻触聚焦，点击蓝色相机按钮来拍照。点击设置中的在线帮助可以获得更多帮助。Open Camera 是完全免费的。如果你喜欢这个 app，请考虑购买我的捐赠 app :)(查看设置中的链接，或者在线帮助)。\n\n隐私政策：必须允许位置许可才能进行地理标记，但默认这是关闭的。如果开启，你的位置被编码在保存的文件中(并且它仅被用于此目的).\n\n(此消息将不会再显示。)</string><string name="failed_to_reconnect_camera">连接到相机失败</string><string name="use_folder">使用文件夹</string><string name="preference_iso">设置 ISO</string><string name="choose_another_folder">选择另一个文件夹</string><string name="preference_scene_mode">应用一个场景模式</string><string name="unlocked">已解锁</string><string name="preference_force_video_4k">强制 4K UHD 视频 (实验)</string><string name="video_may_be_corrupted">错误，视频文件可能已经损坏</string><string name="parent_folder">父文件夹</string><string name="preference_force_video_4k_summary">为后置相机录像启用 3840x2160 分辨率 - 仅当你的设备支持时才能工作，并且如果不支持可能崩溃！</string><string name="failed_to_start_camera_preview">启动相机预览失败</string><string name="color_effect">颜色效果</string><string name="preference_scene_mode_summary">为各种场景优化照片</string><string name="preference_timer_beep_summary">当计时器倒数或连拍模式延迟时蜂鸣</string><string name="preference_video_fps_summary">设置视频的帧率(FPS)(可能是大约，不能保证实现，并可能导致录像失败，如果帧率不被支持)</string><string name="preference_pause_preview_summary">拍照后暂停屏幕，带有选项分享或删除照片</string><string name="preference_online_help">在线帮助</string><string name="choose_save_location">选择保存位置:</string><string name="preference_volume_keys_summary">设置音量键按下时的行为</string><string name="about_ok">好</string><string name="sorry">对不起</string><string name="take_photo">拍照</string><string name="preference_video_flash_summary">如果启用，录像时闪光将开启/关闭 (在一段距离外可以用来告诉相机仍然在录制)。</string><string name="preference_video_restart_summary">如果在达到最大持续时间(如果设置了)后视频停止，此选项将使视频重启，最多为指定的次数。</string><string name="preference_reset_summary">重设所有 Open Camera 设置为默认</string><string name="preference_show_when_locked_summary">如果开启，Open Camera 将仍然在任何锁屏之上显示 (你仍然必须解锁来访问设置，图库等)</string><string name="exposure_locked">曝光锁定</string><string name="preference_screen_photo_settings">照片设置…</string><string name="preference_burst_mode_summary">连续拍摄多张照片</string><string name="enter_new_folder">输入新文件夹名称</string><string name="off">关闭</string><string name="preference_show_geo_direction">显示罗盘方向</string><string name="stopped_recording_video">已停止录制视频</string><string name="preference_grid_summary">显示各种网格中的一种</string><string name="failed_to_stamp">在照片上戳记失败</string></file><file name="preferences" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/xml/preferences.xml" qualifiers="" type="xml"/><file name="widget_info" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/xml/widget_info.xml" qualifiers="" type="xml"/><file name="widget_info_take_photo" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/xml/widget_info_take_photo.xml" qualifiers="" type="xml"/><file name="theview2" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable-hdpi/theview2.png" qualifiers="hdpi-v4" type="drawable"/><file name="exp" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable-hdpi/exp.png" qualifiers="hdpi-v4" type="drawable"/><file name="start_press" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable-hdpi/start_press.png" qualifiers="hdpi-v4" type="drawable"/><file name="camview" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/layout/camview.xml" qualifiers="" type="layout"/><file name="color" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable-hdpi/color.png" qualifiers="hdpi-v4" type="drawable"/><file name="start" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable-hdpi/start.png" qualifiers="hdpi-v4" type="drawable"/><file name="take_photo_selector2" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable/take_photo_selector2.xml" qualifiers="" type="drawable"/><file name="white" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable-hdpi/white.png" qualifiers="hdpi-v4" type="drawable"/><file path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/colors.xml" qualifiers=""><color name="blue_view">#ff33b5e5</color><color name="grey_view">#33999999</color><color name="trans_view">#00000000</color></file><file name="delay" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable-hdpi/delay.png" qualifiers="hdpi-v4" type="drawable"/><file name="focus" path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable-hdpi/focus.png" qualifiers="hdpi-v4" type="drawable"/></source><source path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/build/generated/res/rs/debug"/><source path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/debug/res"/></dataSet><mergedItems/></merger>

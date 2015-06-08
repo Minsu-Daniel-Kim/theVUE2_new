@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_view">#33999999</color>
+    <color name="blue_view">#ff33b5e5</color>
+    <color name="trans_view">#00000000</color>
+</resources>
