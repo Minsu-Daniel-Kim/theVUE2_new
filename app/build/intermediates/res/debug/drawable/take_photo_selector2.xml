@@ -4,4 +4,4 @@
           android:drawable="@drawable/start" /> <!-- pressed -->
     <item android:drawable="@drawable/start_press" /> <!-- default -->
 </selector>
-<!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/drawable/take_photo_selector2.xml -->
+<!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/drawable/take_photo_selector2.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/arrays.xml -->
+    <!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="flash_entries">
         <item>플래시 미사용</item>
@@ -411,16 +411,16 @@
         <item>volume_nothing</item><!-- actually means change device volume! -->
         <item>volume_really_nothing</item>
     </string-array>
-    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="blue_view">#ff33b5e5</color>
     <color name="grey_view">#33999999</color>
     <color name="trans_view">#00000000</color>
-    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="about_available">사용 가능</string>
     <string name="about_copy_to_clipboard">복사</string>
@@ -582,7 +582,7 @@
     <string name="video_quality">비디오 해상도</string>
     <string name="white_balance">화이트밸런스</string>
     <string name="zoom">확대</string>
-    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.NoTitleBar.Fullscreen">
         <!--

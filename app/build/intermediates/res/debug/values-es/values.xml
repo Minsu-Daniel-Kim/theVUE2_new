@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values-es/arrays.xml -->
+    <!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/values-es/arrays.xml -->
     <eat-comment/>
     <string-array name="flash_entries">
         <item>Flash Off</item>
@@ -335,7 +335,7 @@
         <item>volume_nothing</item><!-- actually means change device volume! -->
         <item>volume_really_nothing</item>
     </string-array>
-    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="about_available">Disponible</string>
     <string name="about_copy_to_clipboard">Copiar al Portapapeles</string>

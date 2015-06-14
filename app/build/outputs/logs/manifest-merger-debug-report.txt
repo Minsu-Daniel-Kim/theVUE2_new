@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 manifest
 ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
 	package
 		ADDED from AndroidManifest.xml:3:5
 		INJECTED from AndroidManifest.xml:0:0
@@ -11,8 +13,6 @@ ADDED from AndroidManifest.xml:2:1
 		ADDED from AndroidManifest.xml:4:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
-	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
 	android:installLocation
 		ADDED from AndroidManifest.xml:6:5
 uses-sdk
@@ -30,14 +30,14 @@ supports-screens
 ADDED from AndroidManifest.xml:13:5
 	android:largeScreens
 		ADDED from AndroidManifest.xml:13:52
-	android:smallScreens
-		ADDED from AndroidManifest.xml:13:109
+	android:anyDensity
+		ADDED from AndroidManifest.xml:13:137
 	android:normalScreens
 		ADDED from AndroidManifest.xml:13:80
 	android:xlargeScreens
 		ADDED from AndroidManifest.xml:13:23
-	android:anyDensity
-		ADDED from AndroidManifest.xml:13:137
+	android:smallScreens
+		ADDED from AndroidManifest.xml:13:109
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from AndroidManifest.xml:15:5
 	android:name
@@ -71,10 +71,10 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 		ADDED from AndroidManifest.xml:24:9
 	android:icon
 		ADDED from AndroidManifest.xml:25:9
-	android:largeHeap
-		ADDED from AndroidManifest.xml:28:9
 	android:theme
 		ADDED from AndroidManifest.xml:27:9
+	android:largeHeap
+		ADDED from AndroidManifest.xml:28:9
 activity#com.theeyes.theVUE2.MainActivity
 ADDED from AndroidManifest.xml:31:9
 	android:screenOrientation
@@ -123,12 +123,12 @@ ADDED from AndroidManifest.xml:56:9
 		ADDED from AndroidManifest.xml:60:13
 	android:label
 		ADDED from AndroidManifest.xml:58:13
-	android:excludeFromRecents
-		ADDED from AndroidManifest.xml:63:4
-	android:configChanges
-		ADDED from AndroidManifest.xml:61:4
 	android:icon
 		ADDED from AndroidManifest.xml:59:10
+	android:configChanges
+		ADDED from AndroidManifest.xml:61:4
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:63:4
 	android:taskAffinity
 		ADDED from AndroidManifest.xml:62:4
 	android:name

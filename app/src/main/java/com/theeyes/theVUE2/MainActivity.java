@@ -45,12 +45,10 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
-import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
-import android.widget.Switch;
 import android.widget.ZoomControls;
 
 import com.theeyes.theVUE2.CameraController.CameraController;
@@ -1170,20 +1168,17 @@ public class MainActivity extends Activity {
 
         View view = getLayoutInflater().inflate(R.layout.camview, null);
 
-        final Switch switch1 = (Switch)view.findViewById(R.id.awb_switch);
-        switch1.setChecked(preview.isExposureLocked());
-        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-//                toggleExposureLock();
-                clickedExposureLock(null);
-//                if(isChecked && preview.isExposureLocked()){
-                    switch1.setChecked(preview.isExposureLocked());
-//                }
-
-
-            }
-        });
+//        final Switch switch1 = (Switch)view.findViewById(R.id.awb_switch);
+//        switch1.setChecked(preview.isExposureLocked());
+//        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//            clickedExposureLock(null);
+//            switch1.setChecked(preview.isExposureLocked());
+//
+//
+//            }
+//        });
 
 
 
@@ -1191,7 +1186,7 @@ public class MainActivity extends Activity {
 
         builder.setView(view);
 
-        builder.setNegativeButton("기타", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("고급설정", new DialogInterface.OnClickListener() {
 
             final MainActivity act;
 
@@ -1215,10 +1210,8 @@ public class MainActivity extends Activity {
         alert.setCanceledOnTouchOutside(true);
 
         ImageButton imageButton = (ImageButton) view.findViewById(R.id.button_delay);
-        ImageButton imageButton1 = (ImageButton) view.findViewById(R.id.button_focus);
         ImageButton imageButton2 = (ImageButton) view.findViewById(R.id.button_white);
         ImageButton imageButton3 = (ImageButton) view.findViewById(R.id.button_color);
-        ImageButton imageButton4 = (ImageButton) view.findViewById(R.id.button_exp);
 
         imageButton.setOnClickListener(new View.OnClickListener() {
 
@@ -1230,16 +1223,7 @@ public class MainActivity extends Activity {
 
             }
         });
-        imageButton1.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                getFocus();
-//                alert.dismiss();
-
-
-            }
-        });
         imageButton2.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -1261,16 +1245,7 @@ public class MainActivity extends Activity {
 
             }
         });
-        imageButton4.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-
-                getExp();
-//                alert.dismiss();
-
-            }
-        });
 
         alert.show();
 
@@ -1279,8 +1254,11 @@ public class MainActivity extends Activity {
 
     public void getDelay(){
 
+
+        View view = getLayoutInflater().inflate(R.layout.iso, null);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("타이머");
+        builder.setView(view);
         builder.setNegativeButton("취소", null);
         AlertDialog alertdialog = builder.create();
         alertdialog.setCanceledOnTouchOutside(true);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values-ru/arrays.xml -->
+    <!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/values-ru/arrays.xml -->
     <eat-comment/>
     <string-array name="flash_entries">
         <item>Вспышка Выкл</item>
@@ -383,7 +383,7 @@
         <item>volume_nothing</item>
         <item>volume_really_nothing</item>
     </string-array>
-    <!-- From: file:/Users/Daniel/Documents/workspace/Android/theVUE2/app/src/main/res/values-ru/strings.xml -->
+    <!-- From: file:/Users/DanielMinsuKim/Documents/workspace/Android/theVUE2/app/src/main/res/values-ru/strings.xml -->
     <eat-comment/>
     <string name="about_available">Доступно</string>
     <string name="about_copy_to_clipboard">Копировать в буфер</string>
