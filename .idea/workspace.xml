@@ -5,77 +5,15 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b256f8df-3c32-46eb-b57a-642ce4a9a316" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/theVUE2.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$28.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$29.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$30.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-a20632defccf2aeac9d6811d828939ca9b8dd700.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-2b97d1b14686a1f9e5fd1dc6ae2fc00e38821630.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-19c0455a76ee1c7cff57c40995764e37e424a465.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/AbstractAndroidImage.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/AbstractAndroidImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/AndroidImage.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/AndroidImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/AndroidImageFactory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/AndroidImageFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/AndroidImage_NV21.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/AndroidImage_NV21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/ApplicationInterface.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/ApplicationInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/CameraActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/CameraActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraCallback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraCallback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/CameraCallback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/CameraCallback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$Area.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$Area.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$AutoFocusCallback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$AutoFocusCallback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$CameraCallback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$CameraCallback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$CameraFeatures.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$CameraFeatures.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$ErrorCallback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$ErrorCallback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$Face.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$Face.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$FaceDetectionListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$FaceDetectionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$MotionDetectionListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$MotionDetectionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$PictureCallback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$PictureCallback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$Size.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$Size.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$SupportedValues.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController$SupportedValues.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$1CameraCallback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$1CameraCallback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$1CameraFaceDetectionListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$1CameraFaceDetectionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$1MyStateCallback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$1MyStateCallback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$2MyStateCallback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$2MyStateCallback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$CameraSettings.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2$CameraSettings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraController2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraControllerException.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraControllerException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraControllerManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraControllerManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraControllerManager1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraControllerManager1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraControllerManager2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/CameraController/CameraControllerManager2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CameraSurface/CameraSurface.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CameraSurface/CameraSurface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CanvasView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CanvasView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CanvasView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CanvasView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$FileWrapper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog$FileWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/FolderChooserDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/KeyValue.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/KeyValue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/LocationSupplier$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/LocationSupplier$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/LocationSupplier$MyLocationListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/LocationSupplier$MyLocationListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/LocationSupplier.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/LocationSupplier.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15$3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$11.class" />
@@ -105,71 +43,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$MyGestureDetector.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$MyGestureDetector.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/MotionDetection.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/MotionDetection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyDebug.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyDebug.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment$3$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyPreferenceFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CameraSurface/MySurfaceView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CameraSurface/MySurfaceView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CameraSurface/MyTextureView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/CameraSurface/MyTextureView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProvider.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProvider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProviderTakePhoto.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProviderTakePhoto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$6$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$ArrayOptionsPopupListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$ArrayOptionsPopupListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$ButtonOptionsPopupListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$ButtonOptionsPopupListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/PreferenceKeys.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/PreferenceKeys.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1BeepTimerTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1BeepTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1FlashVideoTimerTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1FlashVideoTimerTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1FlashVideoTimerTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1FlashVideoTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1MyFaceDetectionListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1MyFaceDetectionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1RestartVideoTimerTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1RestartVideoTimerTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1RestartVideoTimerTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1RestartVideoTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1RotatedTextView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1RotatedTextView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1TakePictureTimerTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1TakePictureTimerTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1TakePictureTimerTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$1TakePictureTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$7$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$7$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$8$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$8$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$ScaleListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview$ScaleListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/Preview.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/Preview.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/Preview/Preview.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$array.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$array.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$dimen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$layout.class" />
@@ -178,59 +54,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$xml.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/Size.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MotionDetection/image/Size.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/StorageUtils$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/StorageUtils$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/StorageUtils$Media.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/StorageUtils$Media.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/StorageUtils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/StorageUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/TakePhoto.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/TakePhoto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/ToastBoxer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/ToastBoxer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theeyes/theVUE2/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theeyes/theVUE2/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/camview.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/camview.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/camview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/camview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/menu/main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/iso.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/iso.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/iso.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/iso.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/xml/preferences.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/xml/preferences.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/take_photo_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/take_photo_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/take_photo_selector2.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/take_photo_selector2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/take_video_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/take_video_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theVUE2.iml" afterPath="$PROJECT_DIR$/theVUE2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-es/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-es/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-it/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-it/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ru/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ru/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-sw720dp-land-v13/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-sw720dp-land-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-v21/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-v21/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-zh-rCN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/xml/widget_info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/xml/widget_info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/xml/widget_info_take_photo.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/xml/widget_info_take_photo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/widget_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/widget_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/widget_layout_take_photo.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/widget_layout_take_photo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="theVUE2.iws" />
@@ -264,14 +103,124 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83554375">
-              <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.6493056">
+              <caret line="1369" column="22" selection-start-line="1369" selection-start-column="22" selection-end-line="1369" selection-end-column="22" />
+              <folding>
+                <element signature="e#15599#15659#0" expanded="true" />
+                <element signature="e#15711#15722#0" expanded="true" />
+                <element signature="e#15725#15737#0" expanded="true" />
+                <element signature="e#15886#15923#0" expanded="true" />
+                <element signature="e#35430#35451#0" expanded="true" />
+                <element signature="e#35521#35541#0" expanded="true" />
+                <element signature="e#40415#40439#0" expanded="true" />
+                <element signature="e#40442#40468#0" expanded="true" />
+                <element signature="e#41399#41400#0" expanded="true" />
+                <element signature="e#41449#41450#0" expanded="true" />
+                <element signature="e#43062#43094#0" expanded="true" />
+                <element signature="e#47574#48000#0" expanded="true" />
+                <element signature="e#47999#48000#0" expanded="true" />
+                <element signature="e#49427#49870#0" expanded="true" />
+                <element signature="e#49869#49870#0" expanded="true" />
+                <element signature="e#60774#60799#0" expanded="true" />
+                <element signature="e#72441#72464#0" expanded="true" />
+                <element signature="e#75230#75286#0" expanded="true" />
+                <element signature="e#75822#75851#0" expanded="true" />
+                <element signature="e#76249#76304#0" expanded="true" />
+                <element signature="e#76368#76424#0" expanded="true" />
+                <element signature="e#76804#76833#0" expanded="true" />
+                <element signature="e#76859#76897#0" expanded="true" />
+                <element signature="e#76930#76949#0" expanded="true" />
+                <element signature="e#77316#77334#0" expanded="true" />
+                <element signature="e#78466#78522#0" expanded="true" />
+                <element signature="e#80907#80929#0" expanded="true" />
+                <element signature="e#83605#83622#0" expanded="true" />
+                <element signature="e#83881#83906#0" expanded="true" />
+                <element signature="e#95428#95460#0" expanded="true" />
+                <element signature="e#98652#98692#0" expanded="true" />
+                <element signature="e#98979#99028#0" expanded="true" />
+                <element signature="e#99490#99537#0" expanded="true" />
+                <element signature="e#99710#99767#0" expanded="true" />
+                <element signature="e#99805#99845#0" expanded="true" />
+                <element signature="e#101250#101295#0" expanded="true" />
+                <element signature="e#101519#101567#0" expanded="true" />
+                <element signature="e#101789#101836#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#217#242#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopupView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/PopupView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-100.96154">
+              <caret line="401" column="29" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="29" />
+              <folding>
+                <element signature="e#3668#4221#0" expanded="true" />
+                <element signature="e#4220#4221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iso.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/iso.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.7777777">
+              <caret line="10" column="227" selection-start-line="10" selection-start-column="227" selection-end-line="10" selection-end-column="227" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exposure.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/exposure.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9444444">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camview.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camview.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.1111112">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1463,6 +1412,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/camview.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/iso.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/exposure.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" />
       </list>
     </option>
@@ -1478,10 +1430,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="162" />
-    <option name="width" value="1400" />
-    <option name="height" value="757" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1585,11 +1536,221 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xxhdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xhdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-mdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1613,6 +1774,13 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="42f6d300383411df" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_22_x86" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1621,6 +1789,31 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_SELECTION_ERROR" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1654,6 +1847,22 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1673,6 +1882,11 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -1718,7 +1932,7 @@
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1752,6 +1966,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b256f8df-3c32-46eb-b57a-642ce4a9a316" name="Default" comment="" />
@@ -1762,28 +1979,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="162" width="1400" height="757" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39951864" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21058965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20695971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20818292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1829,7 +2047,102 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/delay.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/exp.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/exposure.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/flash_auto.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/flash_off.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/flash_on.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/focus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher_take_photo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rec.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rec_press.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/settings.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/share.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/start.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/start_press.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/switch_camera.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/theview2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/trash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1837,19 +2150,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/earth.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/earth_off.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/exposure_locked.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/flash_auto.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/flash_off.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/flash_on.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/flash_red_eye.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/flash_torch.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/focus_mode_auto.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/focus_mode_edof.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/focus_mode_fixed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/focus_mode_infinity.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/focus_mode_locked.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/focus_mode_macro.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/popup_flash_auto.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/popup.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher_take_photo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/gallery.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/focus_mode_manual.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/popup_flash_on.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/popup_flash_torch.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/settings.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/share.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/exposure.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025510205">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#217#242#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/PopupView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-100.96154">
+          <caret line="401" column="29" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="29" />
+          <folding>
+            <element signature="e#3668#4221#0" expanded="true" />
+            <element signature="e#4220#4221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1111112">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/iso.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7777777">
+          <caret line="10" column="227" selection-start-line="10" selection-start-column="227" selection-end-line="10" selection-end-column="227" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/exposure.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9444444">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83554375">
-          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.6493056">
+          <caret line="1369" column="22" selection-start-line="1369" selection-start-column="22" selection-end-line="1369" selection-end-column="22" />
+          <folding>
+            <element signature="e#15599#15659#0" expanded="true" />
+            <element signature="e#15711#15722#0" expanded="true" />
+            <element signature="e#15725#15737#0" expanded="true" />
+            <element signature="e#15886#15923#0" expanded="true" />
+            <element signature="e#35430#35451#0" expanded="true" />
+            <element signature="e#35521#35541#0" expanded="true" />
+            <element signature="e#40415#40439#0" expanded="true" />
+            <element signature="e#40442#40468#0" expanded="true" />
+            <element signature="e#41399#41400#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+            <element signature="e#43062#43094#0" expanded="true" />
+            <element signature="e#47574#48000#0" expanded="true" />
+            <element signature="e#47999#48000#0" expanded="true" />
+            <element signature="e#49427#49870#0" expanded="true" />
+            <element signature="e#49869#49870#0" expanded="true" />
+            <element signature="e#60774#60799#0" expanded="true" />
+            <element signature="e#72441#72464#0" expanded="true" />
+            <element signature="e#75230#75286#0" expanded="true" />
+            <element signature="e#75822#75851#0" expanded="true" />
+            <element signature="e#76249#76304#0" expanded="true" />
+            <element signature="e#76368#76424#0" expanded="true" />
+            <element signature="e#76804#76833#0" expanded="true" />
+            <element signature="e#76859#76897#0" expanded="true" />
+            <element signature="e#76930#76949#0" expanded="true" />
+            <element signature="e#77316#77334#0" expanded="true" />
+            <element signature="e#78466#78522#0" expanded="true" />
+            <element signature="e#80907#80929#0" expanded="true" />
+            <element signature="e#83605#83622#0" expanded="true" />
+            <element signature="e#83881#83906#0" expanded="true" />
+            <element signature="e#95428#95460#0" expanded="true" />
+            <element signature="e#98652#98692#0" expanded="true" />
+            <element signature="e#98979#99028#0" expanded="true" />
+            <element signature="e#99490#99537#0" expanded="true" />
+            <element signature="e#99710#99767#0" expanded="true" />
+            <element signature="e#99805#99845#0" expanded="true" />
+            <element signature="e#101250#101295#0" expanded="true" />
+            <element signature="e#101519#101567#0" expanded="true" />
+            <element signature="e#101789#101836#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -45,10 +45,14 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
+import android.widget.AdapterView;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
+import android.widget.Switch;
+import android.widget.Toast;
 import android.widget.ZoomControls;
 
 import com.theeyes.theVUE2.CameraController.CameraController;
@@ -148,7 +152,6 @@ public class MainActivity extends Activity {
 		applicationInterface = new MyApplicationInterface(this, savedInstanceState);
 
 		initCamera2Support();
-
         setWindowFlagsForCamera();
 
         // read save locations
@@ -1164,6 +1167,7 @@ public class MainActivity extends Activity {
 			Log.d(TAG, "time to create popup: " + (System.currentTimeMillis() - time_s));
     }
 
+	//dialog #dialog
     public void clickedMenu(View v){
 
         View view = getLayoutInflater().inflate(R.layout.camview, null);
@@ -1209,8 +1213,9 @@ public class MainActivity extends Activity {
 
         alert.setCanceledOnTouchOutside(true);
 
-        ImageButton imageButton = (ImageButton) view.findViewById(R.id.button_delay);
-        ImageButton imageButton2 = (ImageButton) view.findViewById(R.id.button_white);
+		ImageButton imageButton = (ImageButton) view.findViewById(R.id.button_white);
+		ImageButton imageButton1 = (ImageButton) view.findViewById(R.id.button_iso);
+        ImageButton imageButton2 = (ImageButton) view.findViewById(R.id.button_exp);
         ImageButton imageButton3 = (ImageButton) view.findViewById(R.id.button_color);
 
         imageButton.setOnClickListener(new View.OnClickListener() {
@@ -1218,30 +1223,38 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                getDelay();
-//                alert.dismiss();
+				getWhite();
 
             }
         });
+		imageButton1.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+
+
+			getISO();
+
+			}
+		});
 
         imageButton2.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-
-                getWhite();
-//                alert.dismiss();
+			@Override
+			public void onClick(View v) {
 
 
-            }
-        });
+				getExp();
+
+
+			}
+		});
         imageButton3.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
 
                 getColor();
-//                alert.dismiss();
 
             }
         });
@@ -1251,121 +1264,201 @@ public class MainActivity extends Activity {
 
 
     }
+	public void getWhite(){
+		final CharSequence items[];
+		final String pref = PreferenceKeys.getWhiteBalancePreferenceKey();
+		final List<String> supported_white_balances = preview.getSupportedWhiteBalances();
+		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+		String current_option = sharedPreferences.getString(pref, preview.getCameraController().getDefaultWhiteBalance());
 
-    public void getDelay(){
+		int i = 0;
 
+		for(i = 0; i < supported_white_balances.size(); i++){
+			if(supported_white_balances.get(i).equals(current_option)){
+				break;
+			}
+		}
 
-        View view = getLayoutInflater().inflate(R.layout.iso, null);
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("타이머");
-        builder.setView(view);
-        builder.setNegativeButton("취소", null);
-        AlertDialog alertdialog = builder.create();
-        alertdialog.setCanceledOnTouchOutside(true);
-        alertdialog.show();
-    }
-    public void getFocus(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("2");
-        builder.setNegativeButton("취소", null);
-        AlertDialog alertdialog = builder.create();
-        alertdialog.setCanceledOnTouchOutside(true);
-        alertdialog.show();
-    }
-    public void getWhite(){
-        final CharSequence items[];
-        final String pref = PreferenceKeys.getWhiteBalancePreferenceKey();
-        final List<String> supported_white_balances = preview.getSupportedWhiteBalances();
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        String current_option = sharedPreferences.getString(pref, preview.getCameraController().getDefaultWhiteBalance());
-
-        int i = 0;
-
-        for(i = 0; i < supported_white_balances.size(); i++){
-            if(supported_white_balances.get(i).equals(current_option)){
-                break;
-            }
-        }
-
-        items = (CharSequence[])supported_white_balances.toArray(new CharSequence[supported_white_balances.size()]);
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("화이트밸런스");
-        builder.setSingleChoiceItems(items, i , new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
+		items = (CharSequence[])supported_white_balances.toArray(new CharSequence[supported_white_balances.size()]);
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle("화이트밸런스");
+		builder.setSingleChoiceItems(items, i, new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
 
 
-                    SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+				SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
-                    SharedPreferences.Editor editor = sharedPreferences.edit();
+				SharedPreferences.Editor editor = sharedPreferences.edit();
 
-                    editor.putString(pref, items[which].toString());
-                    editor.apply();
+				editor.putString(pref, items[which].toString());
+				editor.apply();
 
-                    updateForSettings();
-
-
-                    dialog.dismiss();
-            }
-        });
-        builder.setNegativeButton("취소", null);
-        AlertDialog alertdialog = builder.create();
-        alertdialog.setCanceledOnTouchOutside(true);
-        alertdialog.show();
-
-    }
-    public void getColor(){
+				updateForSettings();
 
 
+				dialog.dismiss();
+			}
+		});
+		builder.setNegativeButton("취소", null);
+		AlertDialog alertdialog = builder.create();
+		alertdialog.setCanceledOnTouchOutside(true);
+		alertdialog.show();
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        final CharSequence items[];
-        final String pref = PreferenceKeys.getColorEffectPreferenceKey();
-        final List<String> supported_color_effects = preview.getSupportedColorEffects();
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        String current_option = sharedPreferences.getString(pref, preview.getCameraController().getDefaultColorEffect());
+	}
 
-        int i = 0;
-
-        for(i = 0; i < supported_color_effects.size(); i++){
-            if(supported_color_effects.get(i).equals(current_option)){
-                break;
-            }
-        }
-
-        items = (CharSequence[])supported_color_effects.toArray(new CharSequence[supported_color_effects.size()]);
-        builder.setTitle("색상효과");
-        builder.setSingleChoiceItems(items, i , new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
+	public void getISO(){
 
 
-                SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+		View view = getLayoutInflater().inflate(R.layout.iso, null);
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle("ISO");
+		builder.setView(view);
+		builder.setNegativeButton("취소", null);
+		AlertDialog alertdialog = builder.create();
+		alertdialog.setCanceledOnTouchOutside(true);
+		alertdialog.show();
+	}
+	public void iso_clicked(View v){
 
-                SharedPreferences.Editor editor = sharedPreferences.edit();
 
-                editor.putString(pref, items[which].toString());
-                editor.apply();
+		String name = null;
+		switch(v.getId()){
 
-                updateForSettings();
+			case R.id.button_iso_auto:
+				name = "Auto";
+				break;
+			case R.id.button_iso_100:
+				name = "ISO 100";
+				break;
+			case R.id.button_iso_200:
+				name = "ISO 200";
+				break;
+			case R.id.button_iso_400:
+				name = "ISO 400";
+				break;
+			case R.id.button_iso_800:
+				name = "ISO 800";
+				break;
+			case R.id.button_iso_1600:
+				name = "ISO 1600";
+				break;
+			default:
+				name = "ISO";
+				break;
+
+		}
+		Toast.makeText(getApplicationContext(), name, 3000).show();
+	}
+	public void getExp(){
 
 
-                dialog.dismiss();
-            }
-        });
-        builder.setNegativeButton("취소", null);
-        AlertDialog alertdialog = builder.create();
-        alertdialog.setCanceledOnTouchOutside(true);
-        alertdialog.show();
-    }
-    public void getExp(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("연속촬영");
-        builder.setNegativeButton("취소", null);
-        AlertDialog alertdialog = builder.create();
-        alertdialog.setCanceledOnTouchOutside(true);
-        alertdialog.show();
-    }
+		View view = getLayoutInflater().inflate(R.layout.exposure, null);
+		final Switch exp_switch = (Switch) view.findViewById(R.id.exp_switch);
+
+		final SeekBar exp_seekbar = (SeekBar) view.findViewById(R.id.exp_seekBar);
+
+		exp_switch.setChecked(preview.isExposureLocked());
+		exp_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+			@Override
+			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+				clickedExposureLock(null);
+				exp_switch.setChecked(preview.isExposureLocked());
+//				exp_seekbar.setEnabled(!preview.isExposureLocked());
+				if(preview.isExposureLocked()){
+					exp_seekbar.setVisibility(View.INVISIBLE);
+				}else{
+					exp_seekbar.setVisibility(View.VISIBLE);
+				}
+
+
+
+			}
+		});
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle("노출");
+		builder.setView(view);
+		builder.setNegativeButton("취소", null);
+		AlertDialog alertdialog = builder.create();
+		alertdialog.setCanceledOnTouchOutside(true);
+		alertdialog.show();
+	}
+	public void getColor(){
+
+
+
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		final CharSequence items[];
+		final String pref = PreferenceKeys.getColorEffectPreferenceKey();
+		final List<String> supported_color_effects = preview.getSupportedColorEffects();
+		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+		String current_option = sharedPreferences.getString(pref, preview.getCameraController().getDefaultColorEffect());
+
+		int i = 0;
+
+		for(i = 0; i < supported_color_effects.size(); i++){
+			if(supported_color_effects.get(i).equals(current_option)){
+				break;
+			}
+		}
+
+		items = (CharSequence[])supported_color_effects.toArray(new CharSequence[supported_color_effects.size()]);
+		builder.setTitle("색상효과");
+		builder.setSingleChoiceItems(items, i , new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+
+
+				SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+
+				editor.putString(pref, items[which].toString());
+				editor.apply();
+
+				updateForSettings();
+
+
+				dialog.dismiss();
+			}
+		});
+		builder.setNegativeButton("취소", null);
+		AlertDialog alertdialog = builder.create();
+		alertdialog.setCanceledOnTouchOutside(true);
+		alertdialog.show();
+	}
+
+//
+//
+//	public void getDelay(){
+//
+//
+//		View view = getLayoutInflater().inflate(R.layout.iso, null);
+//		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//		builder.setTitle("타이머");
+//		builder.setView(view);
+//		builder.setNegativeButton("취소", null);
+//		AlertDialog alertdialog = builder.create();
+//		alertdialog.setCanceledOnTouchOutside(true);
+//		alertdialog.show();
+//	}
+//    public void getFocus(){
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setTitle("2");
+//        builder.setNegativeButton("취소", null);
+//        AlertDialog alertdialog = builder.create();
+//        alertdialog.setCanceledOnTouchOutside(true);
+//        alertdialog.show();
+//    }
+
+//    public void getExp(){
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setTitle("연속촬영");
+//        builder.setNegativeButton("취소", null);
+//        AlertDialog alertdialog = builder.create();
+//        alertdialog.setCanceledOnTouchOutside(true);
+//        alertdialog.show();
+//    }
     
     private void openSettings() {
 		if( MyDebug.LOG )
