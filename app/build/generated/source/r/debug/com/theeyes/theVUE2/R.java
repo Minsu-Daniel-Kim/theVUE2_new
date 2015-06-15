@@ -114,23 +114,22 @@ public final class R {
         public static final int white=0x7f02002f;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b002c;
-        public static final int button_1=0x7f0b001e;
-        public static final int button_2=0x7f0b001f;
-        public static final int button_3=0x7f0b0020;
+        public static final int action_settings=0x7f0b002b;
+        public static final int button_autostabilizer=0x7f0b001f;
         public static final int button_color=0x7f0b001d;
         public static final int button_exp=0x7f0b001c;
+        public static final int button_flash=0x7f0b001e;
         public static final int button_iso=0x7f0b001b;
-        public static final int button_iso_100=0x7f0b0025;
-        public static final int button_iso_1600=0x7f0b0029;
-        public static final int button_iso_200=0x7f0b0026;
-        public static final int button_iso_400=0x7f0b0027;
-        public static final int button_iso_800=0x7f0b0028;
-        public static final int button_iso_auto=0x7f0b0024;
+        public static final int button_iso_100=0x7f0b0024;
+        public static final int button_iso_1600=0x7f0b0028;
+        public static final int button_iso_200=0x7f0b0025;
+        public static final int button_iso_400=0x7f0b0026;
+        public static final int button_iso_800=0x7f0b0027;
+        public static final int button_iso_auto=0x7f0b0023;
         public static final int button_white=0x7f0b001a;
-        public static final int exp_line=0x7f0b0022;
-        public static final int exp_seekBar=0x7f0b0021;
-        public static final int exp_switch=0x7f0b0023;
+        public static final int exp_line=0x7f0b0021;
+        public static final int exp_seekBar=0x7f0b0020;
+        public static final int exp_switch=0x7f0b0022;
         public static final int exposure=0x7f0b0005;
         public static final int exposure_lock=0x7f0b0004;
         public static final int exposure_seekbar=0x7f0b0012;
@@ -155,8 +154,8 @@ public final class R {
         public static final int switch_video=0x7f0b0003;
         public static final int take_photo=0x7f0b000c;
         public static final int trash=0x7f0b0009;
-        public static final int widget_launch_open_camera=0x7f0b002a;
-        public static final int widget_take_photo=0x7f0b002b;
+        public static final int widget_launch_open_camera=0x7f0b0029;
+        public static final int widget_take_photo=0x7f0b002a;
         public static final int zoom=0x7f0b000d;
         public static final int zoom_seekbar=0x7f0b000e;
     }

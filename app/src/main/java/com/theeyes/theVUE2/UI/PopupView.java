@@ -25,6 +25,7 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.theeyes.theVUE2.CameraController.CameraController;
 import com.theeyes.theVUE2.MainActivity;
@@ -62,6 +63,7 @@ public class PopupView extends LinearLayout {
 			public void onClick(String option) {
 				if( MyDebug.LOG )
 					Log.d(TAG, "clicked flash: " + option);
+				Toast.makeText(getContext(), option, 3000).show();
 				preview.updateFlash(option);
 		    	main_activity.setPopupIcon();
 				main_activity.closePopup();
@@ -97,7 +99,8 @@ public class PopupView extends LinearLayout {
     				editor.putString(PreferenceKeys.getISOPreferenceKey(), option);
     				editor.apply();
 
-    				main_activity.updateForSettings("ISO: " + option);
+					Toast.makeText(getContext(), option, Toast.LENGTH_LONG).show();
+					main_activity.updateForSettings("ISO: " + option);
     				main_activity.closePopup();
     			}
     		});

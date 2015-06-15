@@ -8,11 +8,11 @@
         <item>drawable/flash_red_eye</item>
     </string-array>
     <string-array name="flash_entries">
-        <item>플래시 미사용</item>
-        <item>플래시 오토</item>
+        <item>플래시 자동</item>
         <item>플래시 사용</item>
         <item>토치</item>
         <item>Red Eye</item>
+        <item>플래시 미사용</item>
     </string-array>
     <string-array name="flash_values">
         <item>flash_off</item>

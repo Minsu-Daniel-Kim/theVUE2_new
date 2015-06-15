@@ -10,9 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b256f8df-3c32-46eb-b57a-642ce4a9a316" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18$3.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$13.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$14.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15.class" />
@@ -20,6 +24,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$19.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$20.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$20.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$21.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$21.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$22.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$22.class" />
@@ -30,16 +35,60 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$27.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$27.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$28.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$28.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$29.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$29.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$30.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$30.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$MyGestureDetector.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$MyGestureDetector.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProvider.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProviderTakePhoto.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProviderTakePhoto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$ArrayOptionsPopupListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$ArrayOptionsPopupListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$ButtonOptionsPopupListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView$ButtonOptionsPopupListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/UI/PopupView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/PopupView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/PopupView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theeyes/theVUE2/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theeyes/theVUE2/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/camview.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/camview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/camview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/camview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="theVUE2.iws" />
@@ -73,90 +122,29 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59210527">
-              <caret line="1393" column="53" selection-start-line="1393" selection-start-column="53" selection-end-line="1393" selection-end-column="53" />
-              <folding>
-                <element signature="e#15599#15659#0" expanded="true" />
-                <element signature="e#15711#15722#0" expanded="true" />
-                <element signature="e#15725#15737#0" expanded="true" />
-                <element signature="e#15886#15923#0" expanded="true" />
-                <element signature="e#35430#35451#0" expanded="true" />
-                <element signature="e#35521#35541#0" expanded="true" />
-                <element signature="e#40415#40439#0" expanded="true" />
-                <element signature="e#40442#40468#0" expanded="true" />
-                <element signature="e#41399#41400#0" expanded="true" />
-                <element signature="e#41449#41450#0" expanded="true" />
-                <element signature="e#43062#43094#0" expanded="true" />
-                <element signature="e#47574#48000#0" expanded="true" />
-                <element signature="e#47999#48000#0" expanded="true" />
-                <element signature="e#50528#50938#0" expanded="true" />
-                <element signature="e#50937#50938#0" expanded="true" />
-                <element signature="e#61847#61872#0" expanded="true" />
-                <element signature="e#73514#73537#0" expanded="true" />
-                <element signature="e#76303#76359#0" expanded="true" />
-                <element signature="e#76895#76924#0" expanded="true" />
-                <element signature="e#77322#77377#0" expanded="true" />
-                <element signature="e#77441#77497#0" expanded="true" />
-                <element signature="e#77877#77906#0" expanded="true" />
-                <element signature="e#77932#77970#0" expanded="true" />
-                <element signature="e#78003#78022#0" expanded="true" />
-                <element signature="e#78389#78407#0" expanded="true" />
-                <element signature="e#79539#79595#0" expanded="true" />
-                <element signature="e#81980#82002#0" expanded="true" />
-                <element signature="e#84678#84695#0" expanded="true" />
-                <element signature="e#84954#84979#0" expanded="true" />
-                <element signature="e#94803#94935#0" expanded="true" />
-                <element signature="e#94934#94935#0" expanded="true" />
-                <element signature="e#94982#95103#0" expanded="true" />
-                <element signature="e#95102#95103#0" expanded="true" />
-                <element signature="e#96501#96533#0" expanded="true" />
-                <element signature="e#99725#99765#0" expanded="true" />
-                <element signature="e#100052#100101#0" expanded="true" />
-                <element signature="e#100563#100610#0" expanded="true" />
-                <element signature="e#100783#100840#0" expanded="true" />
-                <element signature="e#100878#100918#0" expanded="true" />
-                <element signature="e#102323#102368#0" expanded="true" />
-                <element signature="e#102592#102640#0" expanded="true" />
-                <element signature="e#102862#102909#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16049382">
-              <caret line="198" column="41" selection-start-line="198" selection-start-column="25" selection-end-line="198" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.5110357">
+              <caret line="1311" column="43" selection-start-line="1311" selection-start-column="43" selection-end-line="1311" selection-end-column="43" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <file leaf-file-name="Preview.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/Preview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#217#242#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-3.7692308">
+              <caret line="2769" column="35" selection-start-line="2769" selection-start-column="24" selection-end-line="2769" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopupView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/PopupView.java">
+      <file leaf-file-name="arrays.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-100.96154">
-              <caret line="401" column="29" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="29" />
-              <folding>
-                <element signature="e#3668#4221#0" expanded="true" />
-                <element signature="e#4220#4221#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-4.2">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,13 +178,40 @@
       <file leaf-file-name="camview.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camview.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1111112">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
+            <state vertical-scroll-proportion="-3.0555556">
+              <caret line="11" column="143" selection-start-line="11" selection-start-column="143" selection-end-line="11" selection-end-column="143" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#217#242#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopupView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/PopupView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.090909">
+              <caret line="68" column="43" selection-start-line="66" selection-start-column="16" selection-end-line="68" selection-end-column="43" />
+              <folding>
+                <element signature="e#2122#2442#0" expanded="true" />
+                <element signature="e#2441#2442#0" expanded="true" />
+                <element signature="e#3752#4371#0" expanded="true" />
+                <element signature="e#4370#4371#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -1399,9 +1414,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/camview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/iso.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/exposure.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/PopupView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/camview.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" />
       </list>
     </option>
@@ -1553,6 +1570,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1669,36 +1716,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-mdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theVUE2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1738,6 +1755,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theVUE2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preview" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1981,7 +2032,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13838749" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08062575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19494584" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2034,11 +2085,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/exp.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/exposure.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2122,14 +2168,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/white.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/earth.png">
@@ -2257,6 +2295,17 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69007635">
+          <caret line="198" column="41" selection-start-line="198" selection-start-column="25" selection-end-line="198" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2265,28 +2314,6 @@
             <element signature="e#217#242#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/PopupView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-100.96154">
-          <caret line="401" column="29" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="29" />
-          <folding>
-            <element signature="e#3668#4221#0" expanded="true" />
-            <element signature="e#4220#4221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1111112">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/iso.xml">
@@ -2311,10 +2338,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/UI/PopupView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16049382">
-          <caret line="198" column="41" selection-start-line="198" selection-start-column="25" selection-end-line="198" selection-end-column="41" />
+        <state vertical-scroll-proportion="-4.090909">
+          <caret line="68" column="43" selection-start-line="66" selection-start-column="16" selection-end-line="68" selection-end-column="43" />
+          <folding>
+            <element signature="e#2122#2442#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#3752#4371#0" expanded="true" />
+            <element signature="e#4370#4371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0555556">
+          <caret line="11" column="143" selection-start-line="11" selection-start-column="143" selection-end-line="11" selection-end-column="143" />
           <folding />
         </state>
       </provider>
@@ -2322,54 +2362,27 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/Preview/Preview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7692308">
+          <caret line="2769" column="35" selection-start-line="2769" selection-start-column="24" selection-end-line="2769" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59210527">
-          <caret line="1393" column="53" selection-start-line="1393" selection-start-column="53" selection-end-line="1393" selection-end-column="53" />
-          <folding>
-            <element signature="e#15599#15659#0" expanded="true" />
-            <element signature="e#15711#15722#0" expanded="true" />
-            <element signature="e#15725#15737#0" expanded="true" />
-            <element signature="e#15886#15923#0" expanded="true" />
-            <element signature="e#35430#35451#0" expanded="true" />
-            <element signature="e#35521#35541#0" expanded="true" />
-            <element signature="e#40415#40439#0" expanded="true" />
-            <element signature="e#40442#40468#0" expanded="true" />
-            <element signature="e#41399#41400#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-            <element signature="e#43062#43094#0" expanded="true" />
-            <element signature="e#47574#48000#0" expanded="true" />
-            <element signature="e#47999#48000#0" expanded="true" />
-            <element signature="e#50528#50938#0" expanded="true" />
-            <element signature="e#50937#50938#0" expanded="true" />
-            <element signature="e#61847#61872#0" expanded="true" />
-            <element signature="e#73514#73537#0" expanded="true" />
-            <element signature="e#76303#76359#0" expanded="true" />
-            <element signature="e#76895#76924#0" expanded="true" />
-            <element signature="e#77322#77377#0" expanded="true" />
-            <element signature="e#77441#77497#0" expanded="true" />
-            <element signature="e#77877#77906#0" expanded="true" />
-            <element signature="e#77932#77970#0" expanded="true" />
-            <element signature="e#78003#78022#0" expanded="true" />
-            <element signature="e#78389#78407#0" expanded="true" />
-            <element signature="e#79539#79595#0" expanded="true" />
-            <element signature="e#81980#82002#0" expanded="true" />
-            <element signature="e#84678#84695#0" expanded="true" />
-            <element signature="e#84954#84979#0" expanded="true" />
-            <element signature="e#94803#94935#0" expanded="true" />
-            <element signature="e#94934#94935#0" expanded="true" />
-            <element signature="e#94982#95103#0" expanded="true" />
-            <element signature="e#95102#95103#0" expanded="true" />
-            <element signature="e#96501#96533#0" expanded="true" />
-            <element signature="e#99725#99765#0" expanded="true" />
-            <element signature="e#100052#100101#0" expanded="true" />
-            <element signature="e#100563#100610#0" expanded="true" />
-            <element signature="e#100783#100840#0" expanded="true" />
-            <element signature="e#100878#100918#0" expanded="true" />
-            <element signature="e#102323#102368#0" expanded="true" />
-            <element signature="e#102592#102640#0" expanded="true" />
-            <element signature="e#102862#102909#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.5110357">
+          <caret line="1311" column="43" selection-start-line="1311" selection-start-column="43" selection-end-line="1311" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -46,6 +46,7 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
@@ -1192,20 +1193,20 @@ public class MainActivity extends Activity {
 
         builder.setNegativeButton("고급설정", new DialogInterface.OnClickListener() {
 
-            final MainActivity act;
+			final MainActivity act;
 
-            public void onClick(DialogInterface dialoginterface, int i) {
+			public void onClick(DialogInterface dialoginterface, int i) {
 
-            }
+			}
 
 
-            {
-                act = MainActivity.this;
+			{
+				act = MainActivity.this;
 //                super();
-            }
+			}
 
 
-        });
+		});
 
         builder.setPositiveButton("확인", null);
 
@@ -1213,21 +1214,24 @@ public class MainActivity extends Activity {
 
         alert.setCanceledOnTouchOutside(true);
 
-		ImageButton imageButton = (ImageButton) view.findViewById(R.id.button_white);
-		ImageButton imageButton1 = (ImageButton) view.findViewById(R.id.button_iso);
-        ImageButton imageButton2 = (ImageButton) view.findViewById(R.id.button_exp);
-        ImageButton imageButton3 = (ImageButton) view.findViewById(R.id.button_color);
+		ImageButton button_whiteBalacne = (ImageButton) view.findViewById(R.id.button_white);
+		ImageButton button_iso = (ImageButton) view.findViewById(R.id.button_iso);
+        ImageButton button_exposure = (ImageButton) view.findViewById(R.id.button_exp);
+        ImageButton button_colorEffect = (ImageButton) view.findViewById(R.id.button_color);
+		final ImageButton button_flash = (ImageButton) view.findViewById(R.id.button_flash);
+		Button button_autostabilizer = (Button) view.findViewById(R.id.button_autostabilizer);
 
-        imageButton.setOnClickListener(new View.OnClickListener() {
+
+
+		button_whiteBalacne.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-
 				getWhite();
 
             }
         });
-		imageButton1.setOnClickListener(new View.OnClickListener() {
+		button_iso.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
@@ -1238,7 +1242,7 @@ public class MainActivity extends Activity {
 			}
 		});
 
-        imageButton2.setOnClickListener(new View.OnClickListener() {
+		button_exposure.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
@@ -1249,21 +1253,125 @@ public class MainActivity extends Activity {
 
 			}
 		});
-        imageButton3.setOnClickListener(new View.OnClickListener() {
+		button_colorEffect.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
+			@Override
+			public void onClick(View v) {
 
-                getColor();
+				getColor();
 
-            }
-        });
+			}
+		});
 
+		button_flash.setOnClickListener(new View.OnClickListener() {
+
+
+			int i = 0;
+
+			@Override
+			public void onClick(View view){
+				String [] icons = R.array.flash_values != -1 ? getResources().getStringArray(R.array.flash_icons) : null;
+				String [] values = R.array.flash_values != -1 ? getResources().getStringArray(R.array.flash_values) : null;
+				String level = null;
+				int resource = -1;
+				Bitmap bm = null;
+				switch(i){
+					case 0:
+						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
+						bm = getPreloadedBitmap(resource);
+						button_flash.setImageBitmap(bm);
+						level = "flash_auto";
+						break;
+					case 1:
+						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
+						bm = getPreloa1dedBitmap(resource);
+						button_flash.setImageBitmap(bm);
+						level = "flash_on";
+						break;
+					case 2:
+						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
+						bm = getPreloadedBitmap(resource);
+						button_flash.setImageBitmap(bm);
+						level = "flash_torch";
+						break;
+					case 3:
+						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
+						bm = getPreloadedBitmap(resource);
+						button_flash.setImageBitmap(bm);
+						level = "flash_off";
+						break;
+					default:
+						i = 0;
+						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
+						bm = getPreloadedBitmap(resource);
+						button_flash.setImageBitmap(bm);
+						level = "flash_auto";
+
+						break;
+				}
+				preview.updateFlash(level);
+
+				i++;
+
+			}
+
+//			int i = 0;
+//
+//			@Override
+//			public void onClick(View view) {
+//
+//				String level = null;
+//				switch (i){
+//					case 0:
+//						level = "auto";
+//						break;
+//					case 1:
+//						level = "200";
+//						break;
+//					case 2:
+//						level = "400";
+//						break;
+//					case 3:
+//						level = "800";
+//						break;
+//					case 4:
+//						level = "1600";
+//						break;
+//					default:
+//						i = 1;
+//						level = "auto";
+//						break;
+//
+//				}
+//				Toast.makeText(getApplicationContext(), level, 3000).show();
+//				i++;
+//
+//
+//				SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+//				SharedPreferences.Editor editor = sharedPreferences.edit();
+//				editor.putString(PreferenceKeys.getISOPreferenceKey(), "200");
+//				editor.apply();
+//
+//				updateForSettings();
+//
+//
+//			}
+		});
+
+		button_autostabilizer.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+
+			}
+		});
 
         alert.show();
 
 
+
+
     }
+
 	public void getWhite(){
 		final CharSequence items[];
 		final String pref = PreferenceKeys.getWhiteBalancePreferenceKey();
