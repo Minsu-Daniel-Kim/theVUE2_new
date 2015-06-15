@@ -47,6 +47,7 @@ import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
@@ -1173,19 +1174,6 @@ public class MainActivity extends Activity {
 
         View view = getLayoutInflater().inflate(R.layout.camview, null);
 
-//        final Switch switch1 = (Switch)view.findViewById(R.id.awb_switch);
-//        switch1.setChecked(preview.isExposureLocked());
-//        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-//            @Override
-//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-//            clickedExposureLock(null);
-//            switch1.setChecked(preview.isExposureLocked());
-//
-//
-//            }
-//        });
-
-
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
@@ -1193,16 +1181,9 @@ public class MainActivity extends Activity {
 
         builder.setNegativeButton("고급설정", new DialogInterface.OnClickListener() {
 
-			final MainActivity act;
 
 			public void onClick(DialogInterface dialoginterface, int i) {
-
-			}
-
-
-			{
-				act = MainActivity.this;
-//                super();
+				openSettings();
 			}
 
 
@@ -1219,7 +1200,7 @@ public class MainActivity extends Activity {
         ImageButton button_exposure = (ImageButton) view.findViewById(R.id.button_exp);
         ImageButton button_colorEffect = (ImageButton) view.findViewById(R.id.button_color);
 		final ImageButton button_flash = (ImageButton) view.findViewById(R.id.button_flash);
-		Button button_autostabilizer = (Button) view.findViewById(R.id.button_autostabilizer);
+		final CheckBox button_autostabilizer = (CheckBox) view.findViewById(R.id.button_autostabilizer);
 
 
 
@@ -1263,104 +1244,61 @@ public class MainActivity extends Activity {
 			}
 		});
 
+//		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+//		String flash_level = sharedPreferences.getString(PreferenceKeys.getFlashPreferenceKey(1), null);
+		final String [] icons = R.array.flash_values != -1 ? getResources().getStringArray(R.array.flash_icons) : null;
+		final String [] values = R.array.flash_values != -1 ? getResources().getStringArray(R.array.flash_values) : null;
+		String level = null;
+		int resource = -1;
+		Bitmap bm = null;
+		int i = 0;
+		for(i = 0; i < values.length; i++){
+
+			if(values[i].equals(preview.getCurrentFlashValue())){
+				resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
+				Bitmap bm2 = getPreloadedBitmap(resource);
+				button_flash.setImageBitmap(bm2);
+				break;
+			}
+
+		}
+		final int j = i == 3 ? i : i + 1;
+
+
 		button_flash.setOnClickListener(new View.OnClickListener() {
-
-
-			int i = 0;
+			int i = j;
+			String level = null;
+			int resource = -1;
+			Bitmap bm = null;
 
 			@Override
 			public void onClick(View view){
-				String [] icons = R.array.flash_values != -1 ? getResources().getStringArray(R.array.flash_icons) : null;
-				String [] values = R.array.flash_values != -1 ? getResources().getStringArray(R.array.flash_values) : null;
-				String level = null;
-				int resource = -1;
-				Bitmap bm = null;
-				switch(i){
-					case 0:
-						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
-						bm = getPreloadedBitmap(resource);
-						button_flash.setImageBitmap(bm);
-						level = "flash_auto";
-						break;
-					case 1:
-						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
-						bm = getPreloa1dedBitmap(resource);
-						button_flash.setImageBitmap(bm);
-						level = "flash_on";
-						break;
-					case 2:
-						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
-						bm = getPreloadedBitmap(resource);
-						button_flash.setImageBitmap(bm);
-						level = "flash_torch";
-						break;
-					case 3:
-						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
-						bm = getPreloadedBitmap(resource);
-						button_flash.setImageBitmap(bm);
-						level = "flash_off";
-						break;
-					default:
-						i = 0;
-						resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
-						bm = getPreloadedBitmap(resource);
-						button_flash.setImageBitmap(bm);
-						level = "flash_auto";
 
-						break;
-				}
+				resource = getResources().getIdentifier(icons[i], null, getApplicationContext().getPackageName());
+				bm = getPreloadedBitmap(resource);
+				button_flash.setImageBitmap(bm);
+				level = values[i];
+
 				preview.updateFlash(level);
+				if(i > 2){
+					i = 0;
+				}
 
 				i++;
 
 			}
 
-//			int i = 0;
-//
-//			@Override
-//			public void onClick(View view) {
-//
-//				String level = null;
-//				switch (i){
-//					case 0:
-//						level = "auto";
-//						break;
-//					case 1:
-//						level = "200";
-//						break;
-//					case 2:
-//						level = "400";
-//						break;
-//					case 3:
-//						level = "800";
-//						break;
-//					case 4:
-//						level = "1600";
-//						break;
-//					default:
-//						i = 1;
-//						level = "auto";
-//						break;
-//
-//				}
-//				Toast.makeText(getApplicationContext(), level, 3000).show();
-//				i++;
-//
-//
-//				SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-//				SharedPreferences.Editor editor = sharedPreferences.edit();
-//				editor.putString(PreferenceKeys.getISOPreferenceKey(), "200");
-//				editor.apply();
-//
-//				updateForSettings();
-//
-//
-//			}
 		});
-
-		button_autostabilizer.setOnClickListener(new View.OnClickListener() {
+		final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+		boolean auto_stabilise = sharedPreferences.getBoolean(PreferenceKeys.getAutoStabilisePreferenceKey(), false);
+		button_autostabilizer.setChecked(auto_stabilise);
+		button_autostabilizer.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 			@Override
-			public void onClick(View view) {
+			public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor.putBoolean(PreferenceKeys.getAutoStabilisePreferenceKey(), isChecked);
+				editor.apply();
 
 			}
 		});
@@ -1416,48 +1354,53 @@ public class MainActivity extends Activity {
 	}
 
 	public void getISO(){
+//		List<String> supported_isos = preview.getSupportedISOs();
+//    		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
 
-
-		View view = getLayoutInflater().inflate(R.layout.iso, null);
+//		View view = getLayoutInflater().inflate(R.layout.iso, null);
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle("ISO");
-		builder.setView(view);
+
+
+		final CharSequence items[];
+		final String pref = PreferenceKeys.getISOPreferenceKey();
+		final List<String> supported_isos = preview.getSupportedISOs();
+		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+		String current_option = sharedPreferences.getString(pref, preview.getCameraController().getDefaultISO());
+
+		int i = 0;
+
+		for(i = 0; i < supported_isos.size(); i++){
+			if(supported_isos.get(i).equals(current_option)){
+				break;
+			}
+		}
+
+		items = (CharSequence[])supported_isos.toArray(new CharSequence[supported_isos.size()]);
+		builder.setSingleChoiceItems(items, i , new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+
+
+				SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+
+				editor.putString(pref, items[which].toString());
+				editor.apply();
+
+				updateForSettings();
+
+
+				dialog.dismiss();
+			}
+		});
 		builder.setNegativeButton("취소", null);
 		AlertDialog alertdialog = builder.create();
 		alertdialog.setCanceledOnTouchOutside(true);
 		alertdialog.show();
 	}
-	public void iso_clicked(View v){
 
-
-		String name = null;
-		switch(v.getId()){
-
-			case R.id.button_iso_auto:
-				name = "Auto";
-				break;
-			case R.id.button_iso_100:
-				name = "ISO 100";
-				break;
-			case R.id.button_iso_200:
-				name = "ISO 200";
-				break;
-			case R.id.button_iso_400:
-				name = "ISO 400";
-				break;
-			case R.id.button_iso_800:
-				name = "ISO 800";
-				break;
-			case R.id.button_iso_1600:
-				name = "ISO 1600";
-				break;
-			default:
-				name = "ISO";
-				break;
-
-		}
-		Toast.makeText(getApplicationContext(), name, 3000).show();
-	}
 	public void getExp(){
 
 
@@ -1469,10 +1412,31 @@ public class MainActivity extends Activity {
 
 		//
 		if( preview.supportsExposures() ) {
-			if (MyDebug.LOG)
-				Log.d(TAG, "set up exposure compensation");
-			final int min_exposure = preview.getMinimumExposure();
 			exposure_seek_bar = ((SeekBar) view.findViewById(R.id.exp_seekBar));
+
+			exp_switch.setChecked(preview.isExposureLocked());
+
+			if (preview.isExposureLocked()) {
+				exposure_seek_bar.setVisibility(View.INVISIBLE);
+			} else {
+				exposure_seek_bar.setVisibility(View.VISIBLE);
+			}
+			exp_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+				@Override
+				public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+					clickedExposureLock(null);
+					exp_switch.setChecked(preview.isExposureLocked());
+					if (preview.isExposureLocked()) {
+						exposure_seek_bar.setVisibility(View.INVISIBLE);
+					} else {
+						exposure_seek_bar.setVisibility(View.VISIBLE);
+					}
+
+
+				}
+			});
+			final int min_exposure = preview.getMinimumExposure();
+
 			exposure_seek_bar.setOnSeekBarChangeListener(null); // clear an existing listener - don't want to call the listener when setting up the progress bar to match the existing state
 			exposure_seek_bar.setMax(preview.getMaximumExposure() - min_exposure);
 			exposure_seek_bar.setProgress(preview.getCurrentExposure() - min_exposure);
@@ -1493,21 +1457,7 @@ public class MainActivity extends Activity {
 				}
 			});
 
-			exp_switch.setChecked(preview.isExposureLocked());
-			exp_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-				@Override
-				public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-					clickedExposureLock(null);
-					exp_switch.setChecked(preview.isExposureLocked());
-					if (preview.isExposureLocked()) {
-						exposure_seek_bar.setVisibility(View.INVISIBLE);
-					} else {
-						exposure_seek_bar.setVisibility(View.VISIBLE);
-					}
 
-
-				}
-			});
 		}
 
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -1563,37 +1513,6 @@ public class MainActivity extends Activity {
 		alertdialog.show();
 	}
 
-//
-//
-//	public void getDelay(){
-//
-//
-//		View view = getLayoutInflater().inflate(R.layout.iso, null);
-//		AlertDialog.Builder builder = new AlertDialog.Builder(this);
-//		builder.setTitle("타이머");
-//		builder.setView(view);
-//		builder.setNegativeButton("취소", null);
-//		AlertDialog alertdialog = builder.create();
-//		alertdialog.setCanceledOnTouchOutside(true);
-//		alertdialog.show();
-//	}
-//    public void getFocus(){
-//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-//        builder.setTitle("2");
-//        builder.setNegativeButton("취소", null);
-//        AlertDialog alertdialog = builder.create();
-//        alertdialog.setCanceledOnTouchOutside(true);
-//        alertdialog.show();
-//    }
-
-//    public void getExp(){
-//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-//        builder.setTitle("연속촬영");
-//        builder.setNegativeButton("취소", null);
-//        AlertDialog alertdialog = builder.create();
-//        alertdialog.setCanceledOnTouchOutside(true);
-//        alertdialog.show();
-//    }
     
     private void openSettings() {
 		if( MyDebug.LOG )

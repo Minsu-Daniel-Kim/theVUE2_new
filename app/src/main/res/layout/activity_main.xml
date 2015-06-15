@@ -67,6 +67,7 @@
                 android:scaleType="fitCenter"
                 android:contentDescription="@string/action_settings"
                 android:src="@drawable/settings"
+                android:visibility="gone"
                 android:onClick="clickedSettings"
                 />
             <ImageButton

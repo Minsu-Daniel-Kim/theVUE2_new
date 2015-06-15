@@ -15,11 +15,11 @@
         <item>최대 화면 크기</item>
 
     </string-array><string-array name="flash_values">
-        <item>flash_off</item>
         <item>flash_auto</item>
         <item>flash_on</item>
         <item>flash_torch</item>
-        <item>flash_red_eye</item>
+        <!--<item>flash_red_eye</item>-->
+        <item>flash_off</item>
     </string-array><string-array name="focus_mode_values">
         <item>focus_mode_auto</item>
         <item>focus_mode_infinity</item>
@@ -65,7 +65,7 @@
         <item>플래시 자동</item>
         <item>플래시 사용</item>
         <item>토치</item>
-        <item>Red Eye</item>
+        <!--<item>Red Eye</item>-->
         <item>플래시 미사용</item>
     </string-array><string-array name="preference_burst_mode_values">
         <item>1</item>
@@ -292,7 +292,7 @@
         <item>drawable/flash_auto</item>
         <item>drawable/flash_on</item>
         <item>drawable/flash_torch</item>
-        <item>drawable/flash_red_eye</item>
+        <!--<item>drawable/flash_red_eye</item>-->
         <item>drawable/flash_off</item>
     </string-array><string-array name="preference_lock_orientation_values">
         <item>없음</item>

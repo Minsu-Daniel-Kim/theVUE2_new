@@ -57,53 +57,53 @@ public class PopupView extends LinearLayout {
 
 		final MainActivity main_activity = (MainActivity)this.getContext();
 		final Preview preview = main_activity.getPreview();
-        List<String> supported_flash_values = preview.getSupportedFlashValues();
-    	addButtonOptionsToPopup(supported_flash_values, R.array.flash_icons, R.array.flash_values, getResources().getString(R.string.flash_mode), preview.getCurrentFlashValue(), "TEST_FLASH", new ButtonOptionsPopupListener() {
-			@Override
-			public void onClick(String option) {
-				if( MyDebug.LOG )
-					Log.d(TAG, "clicked flash: " + option);
-				Toast.makeText(getContext(), option, 3000).show();
-				preview.updateFlash(option);
-		    	main_activity.setPopupIcon();
-				main_activity.closePopup();
-			}
-		});
-    	
+//        List<String> supported_flash_values = preview.getSupportedFlashValues();
+//    	addButtonOptionsToPopup(supported_flash_values, R.array.flash_icons, R.array.flash_values, getResources().getString(R.string.flash_mode), preview.getCurrentFlashValue(), "TEST_FLASH", new ButtonOptionsPopupListener() {
+//			@Override
+//			public void onClick(String option) {
+//				if( MyDebug.LOG )
+//					Log.d(TAG, "clicked flash: " + option);
+//				Toast.makeText(getContext(), option, 3000).show();
+//				preview.updateFlash(option);
+//		    	main_activity.setPopupIcon();
+//				main_activity.closePopup();
+//			}
+//		});
+
 		if( preview.isVideo() && preview.isTakingPhoto() ) {
     		// don't add any more options
     	}
     	else {
-        	List<String> supported_focus_values = preview.getSupportedFocusValues();
-        	addButtonOptionsToPopup(supported_focus_values, R.array.focus_mode_icons, R.array.focus_mode_values, getResources().getString(R.string.focus_mode), preview.getCurrentFocusValue(), "TEST_FOCUS", new ButtonOptionsPopupListener() {
-    			@Override
-    			public void onClick(String option) {
-    				if( MyDebug.LOG )
-    					Log.d(TAG, "clicked focus: " + option);
-    				preview.updateFocus(option, false, true);
-    				main_activity.closePopup();
-    			}
-    		});
-            
-    		List<String> supported_isos = preview.getSupportedISOs();
-    		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
-    		String current_iso = sharedPreferences.getString(PreferenceKeys.getISOPreferenceKey(), "auto");
+//        	List<String> supported_focus_values = preview.getSupportedFocusValues();
+//        	addButtonOptionsToPopup(supported_focus_values, R.array.focus_mode_icons, R.array.focus_mode_values, getResources().getString(R.string.focus_mode), preview.getCurrentFocusValue(), "TEST_FOCUS", new ButtonOptionsPopupListener() {
+//    			@Override
+//    			public void onClick(String option) {
+//    				if( MyDebug.LOG )
+//    					Log.d(TAG, "clicked focus: " + option);
+//    				preview.updateFocus(option, false, true);
+//    				main_activity.closePopup();
+//    			}
+//    		});
+//
+//    		List<String> supported_isos = preview.getSupportedISOs();
+//    		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
+//    		String current_iso = sharedPreferences.getString(PreferenceKeys.getISOPreferenceKey(), "auto");
     		// n.b., we hardcode the string "ISO" as we don't want it translated - firstly more consistent with the ISO values returned by the driver, secondly need to worry about the size of the buttons, so don't want risk of a translated string being too long
-        	addButtonOptionsToPopup(supported_isos, -1, -1, "ISO", current_iso, "TEST_ISO", new ButtonOptionsPopupListener() {
-    			@Override
-    			public void onClick(String option) {
-    				if( MyDebug.LOG )
-    					Log.d(TAG, "clicked iso: " + option);
+//        	addButtonOptionsToPopup(supported_isos, -1, -1, "ISO", current_iso, "TEST_ISO", new ButtonOptionsPopupListener() {
+//    			@Override
+//    			public void onClick(String option) {
+//    				if( MyDebug.LOG )
+//    					Log.d(TAG, "clicked iso: " + option);
     				SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
-    				SharedPreferences.Editor editor = sharedPreferences.edit();
-    				editor.putString(PreferenceKeys.getISOPreferenceKey(), option);
-    				editor.apply();
-
-					Toast.makeText(getContext(), option, Toast.LENGTH_LONG).show();
-					main_activity.updateForSettings("ISO: " + option);
-    				main_activity.closePopup();
-    			}
-    		});
+//    				SharedPreferences.Editor editor = sharedPreferences.edit();
+//    				editor.putString(PreferenceKeys.getISOPreferenceKey(), option);
+//    				editor.apply();
+//
+//					Toast.makeText(getContext(), option, Toast.LENGTH_LONG).show();
+//					main_activity.updateForSettings("ISO: " + option);
+//    				main_activity.closePopup();
+//    			}
+//    		});
 
         	// popup should only be opened if we have a camera controller, but check just to be safe
 //    		if( preview.getCameraController() != null ) {
@@ -119,30 +119,30 @@ public class PopupView extends LinearLayout {
 //	        	addRadioOptionsToPopup(supported_color_effects, getResources().getString(R.string.color_effect), PreferenceKeys.getColorEffectPreferenceKey(), preview.getCameraController().getDefaultColorEffect(), "TEST_COLOR_EFFECT");
 //    		}
         	
-        	if( main_activity.supportsAutoStabilise() ) {
-        		CheckBox checkBox = new CheckBox(main_activity);
-        		checkBox.setText(getResources().getString(R.string.preference_auto_stabilise));
-        		checkBox.setTextColor(Color.BLACK);
-
-        		boolean auto_stabilise = sharedPreferences.getBoolean(PreferenceKeys.getAutoStabilisePreferenceKey(), false);
-        		checkBox.setChecked(auto_stabilise);
-        		checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-					public void onCheckedChanged(CompoundButton buttonView,
-							boolean isChecked) {
-	    				SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
-						SharedPreferences.Editor editor = sharedPreferences.edit();
-						editor.putBoolean(PreferenceKeys.getAutoStabilisePreferenceKey(), isChecked);
-						editor.apply();
-
-						String message = getResources().getString(R.string.preference_auto_stabilise) + ": " + getResources().getString(isChecked ? R.string.on : R.string.off);
-						preview.showToast(main_activity.getChangedAutoStabiliseToastBoxer(), message);
-						main_activity.closePopup();
-					}
-        		});
-                this.setBackgroundColor(Color.WHITE);
-        		this.addView(checkBox);
-        	}
-
+//        	if( main_activity.supportsAutoStabilise() ) {
+//        		CheckBox checkBox = new CheckBox(main_activity);
+//        		checkBox.setText(getResources().getString(R.string.preference_auto_stabilise));
+//        		checkBox.setTextColor(Color.BLACK);
+//
+//        		boolean auto_stabilise = sharedPreferences.getBoolean(PreferenceKeys.getAutoStabilisePreferenceKey(), false);
+//        		checkBox.setChecked(auto_stabilise);
+//        		checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//					public void onCheckedChanged(CompoundButton buttonView,
+//							boolean isChecked) {
+//	    				SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
+//						SharedPreferences.Editor editor = sharedPreferences.edit();
+//						editor.putBoolean(PreferenceKeys.getAutoStabilisePreferenceKey(), isChecked);
+//						editor.apply();
+//
+//						String message = getResources().getString(R.string.preference_auto_stabilise) + ": " + getResources().getString(isChecked ? R.string.on : R.string.off);
+//						preview.showToast(main_activity.getChangedAutoStabiliseToastBoxer(), message);
+//						main_activity.closePopup();
+//					}
+//        		});
+//                this.setBackgroundColor(Color.WHITE);
+//        		this.addView(checkBox);
+//        	}
+			this.setBackgroundColor(Color.WHITE);
     		final List<CameraController.Size> picture_sizes = preview.getSupportedPictureSizes();
     		picture_size_index = preview.getCurrentPictureSizeIndex();
     		final List<String> picture_size_strings = new ArrayList<String>();
