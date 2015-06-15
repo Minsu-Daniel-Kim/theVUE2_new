@@ -1356,25 +1356,52 @@ public class MainActivity extends Activity {
 		View view = getLayoutInflater().inflate(R.layout.exposure, null);
 		final Switch exp_switch = (Switch) view.findViewById(R.id.exp_switch);
 
-		final SeekBar exp_seekbar = (SeekBar) view.findViewById(R.id.exp_seekBar);
+//		final SeekBar exp_seekbar = (SeekBar) view.findViewById(R.id.exp_seekBar);
+		final SeekBar exposure_seek_bar;
 
-		exp_switch.setChecked(preview.isExposureLocked());
-		exp_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-			@Override
-			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-				clickedExposureLock(null);
-				exp_switch.setChecked(preview.isExposureLocked());
-//				exp_seekbar.setEnabled(!preview.isExposureLocked());
-				if(preview.isExposureLocked()){
-					exp_seekbar.setVisibility(View.INVISIBLE);
-				}else{
-					exp_seekbar.setVisibility(View.VISIBLE);
+		//
+		if( preview.supportsExposures() ) {
+			if (MyDebug.LOG)
+				Log.d(TAG, "set up exposure compensation");
+			final int min_exposure = preview.getMinimumExposure();
+			exposure_seek_bar = ((SeekBar) view.findViewById(R.id.exp_seekBar));
+			exposure_seek_bar.setOnSeekBarChangeListener(null); // clear an existing listener - don't want to call the listener when setting up the progress bar to match the existing state
+			exposure_seek_bar.setMax(preview.getMaximumExposure() - min_exposure);
+			exposure_seek_bar.setProgress(preview.getCurrentExposure() - min_exposure);
+			exposure_seek_bar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
+				@Override
+				public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+					if (MyDebug.LOG)
+						Log.d(TAG, "exposure seekbar onProgressChanged: " + progress);
+					preview.setExposure(min_exposure + progress);
 				}
 
+				@Override
+				public void onStartTrackingTouch(SeekBar seekBar) {
+				}
+
+				@Override
+				public void onStopTrackingTouch(SeekBar seekBar) {
+				}
+			});
+
+			exp_switch.setChecked(preview.isExposureLocked());
+			exp_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+				@Override
+				public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+					clickedExposureLock(null);
+					exp_switch.setChecked(preview.isExposureLocked());
+					if (preview.isExposureLocked()) {
+						exposure_seek_bar.setVisibility(View.INVISIBLE);
+					} else {
+						exposure_seek_bar.setVisibility(View.VISIBLE);
+					}
 
 
-			}
-		});
+				}
+			});
+		}
+
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle("노출");
 		builder.setView(view);

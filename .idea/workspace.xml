@@ -7,17 +7,12 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b256f8df-3c32-46eb-b57a-642ce4a9a316" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15$3.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$12.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17$3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$13.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$14.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$15.class" />
@@ -25,7 +20,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$17.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$18.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$19.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$20.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$20.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$21.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$21.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$22.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$22.class" />
@@ -34,42 +28,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$25.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$25.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$26.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$26.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$27.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$27.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$28.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$28.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$29.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$29.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$MyGestureDetector.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity$MyGestureDetector.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyApplicationInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProvider.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProviderTakePhoto.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/MyWidgetProviderTakePhoto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theeyes/theVUE2/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theeyes/theVUE2/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theeyes/theVUE2/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/camview.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/camview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/camview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/camview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/iso.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/iso.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/iso.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/iso.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="theVUE2.iws" />
@@ -103,8 +73,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6493056">
-              <caret line="1369" column="22" selection-start-line="1369" selection-start-column="22" selection-end-line="1369" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.59210527">
+              <caret line="1393" column="53" selection-start-line="1393" selection-start-column="53" selection-end-line="1393" selection-end-column="53" />
               <folding>
                 <element signature="e#15599#15659#0" expanded="true" />
                 <element signature="e#15711#15722#0" expanded="true" />
@@ -119,33 +89,50 @@
                 <element signature="e#43062#43094#0" expanded="true" />
                 <element signature="e#47574#48000#0" expanded="true" />
                 <element signature="e#47999#48000#0" expanded="true" />
-                <element signature="e#49427#49870#0" expanded="true" />
-                <element signature="e#49869#49870#0" expanded="true" />
-                <element signature="e#60774#60799#0" expanded="true" />
-                <element signature="e#72441#72464#0" expanded="true" />
-                <element signature="e#75230#75286#0" expanded="true" />
-                <element signature="e#75822#75851#0" expanded="true" />
-                <element signature="e#76249#76304#0" expanded="true" />
-                <element signature="e#76368#76424#0" expanded="true" />
-                <element signature="e#76804#76833#0" expanded="true" />
-                <element signature="e#76859#76897#0" expanded="true" />
-                <element signature="e#76930#76949#0" expanded="true" />
-                <element signature="e#77316#77334#0" expanded="true" />
-                <element signature="e#78466#78522#0" expanded="true" />
-                <element signature="e#80907#80929#0" expanded="true" />
-                <element signature="e#83605#83622#0" expanded="true" />
-                <element signature="e#83881#83906#0" expanded="true" />
-                <element signature="e#95428#95460#0" expanded="true" />
-                <element signature="e#98652#98692#0" expanded="true" />
-                <element signature="e#98979#99028#0" expanded="true" />
-                <element signature="e#99490#99537#0" expanded="true" />
-                <element signature="e#99710#99767#0" expanded="true" />
-                <element signature="e#99805#99845#0" expanded="true" />
-                <element signature="e#101250#101295#0" expanded="true" />
-                <element signature="e#101519#101567#0" expanded="true" />
-                <element signature="e#101789#101836#0" expanded="true" />
+                <element signature="e#50528#50938#0" expanded="true" />
+                <element signature="e#50937#50938#0" expanded="true" />
+                <element signature="e#61847#61872#0" expanded="true" />
+                <element signature="e#73514#73537#0" expanded="true" />
+                <element signature="e#76303#76359#0" expanded="true" />
+                <element signature="e#76895#76924#0" expanded="true" />
+                <element signature="e#77322#77377#0" expanded="true" />
+                <element signature="e#77441#77497#0" expanded="true" />
+                <element signature="e#77877#77906#0" expanded="true" />
+                <element signature="e#77932#77970#0" expanded="true" />
+                <element signature="e#78003#78022#0" expanded="true" />
+                <element signature="e#78389#78407#0" expanded="true" />
+                <element signature="e#79539#79595#0" expanded="true" />
+                <element signature="e#81980#82002#0" expanded="true" />
+                <element signature="e#84678#84695#0" expanded="true" />
+                <element signature="e#84954#84979#0" expanded="true" />
+                <element signature="e#94803#94935#0" expanded="true" />
+                <element signature="e#94934#94935#0" expanded="true" />
+                <element signature="e#94982#95103#0" expanded="true" />
+                <element signature="e#95102#95103#0" expanded="true" />
+                <element signature="e#96501#96533#0" expanded="true" />
+                <element signature="e#99725#99765#0" expanded="true" />
+                <element signature="e#100052#100101#0" expanded="true" />
+                <element signature="e#100563#100610#0" expanded="true" />
+                <element signature="e#100783#100840#0" expanded="true" />
+                <element signature="e#100878#100918#0" expanded="true" />
+                <element signature="e#102323#102368#0" expanded="true" />
+                <element signature="e#102592#102640#0" expanded="true" />
+                <element signature="e#102862#102909#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16049382">
+              <caret line="198" column="41" selection-start-line="198" selection-start-column="25" selection-end-line="198" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1993,8 +1980,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21058965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13838749" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08062575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2047,11 +2034,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/delay.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/exp.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2329,10 +2311,21 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16049382">
+          <caret line="198" column="41" selection-start-line="198" selection-start-column="25" selection-end-line="198" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/theeyes/theVUE2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6493056">
-          <caret line="1369" column="22" selection-start-line="1369" selection-start-column="22" selection-end-line="1369" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.59210527">
+          <caret line="1393" column="53" selection-start-line="1393" selection-start-column="53" selection-end-line="1393" selection-end-column="53" />
           <folding>
             <element signature="e#15599#15659#0" expanded="true" />
             <element signature="e#15711#15722#0" expanded="true" />
@@ -2347,31 +2340,35 @@
             <element signature="e#43062#43094#0" expanded="true" />
             <element signature="e#47574#48000#0" expanded="true" />
             <element signature="e#47999#48000#0" expanded="true" />
-            <element signature="e#49427#49870#0" expanded="true" />
-            <element signature="e#49869#49870#0" expanded="true" />
-            <element signature="e#60774#60799#0" expanded="true" />
-            <element signature="e#72441#72464#0" expanded="true" />
-            <element signature="e#75230#75286#0" expanded="true" />
-            <element signature="e#75822#75851#0" expanded="true" />
-            <element signature="e#76249#76304#0" expanded="true" />
-            <element signature="e#76368#76424#0" expanded="true" />
-            <element signature="e#76804#76833#0" expanded="true" />
-            <element signature="e#76859#76897#0" expanded="true" />
-            <element signature="e#76930#76949#0" expanded="true" />
-            <element signature="e#77316#77334#0" expanded="true" />
-            <element signature="e#78466#78522#0" expanded="true" />
-            <element signature="e#80907#80929#0" expanded="true" />
-            <element signature="e#83605#83622#0" expanded="true" />
-            <element signature="e#83881#83906#0" expanded="true" />
-            <element signature="e#95428#95460#0" expanded="true" />
-            <element signature="e#98652#98692#0" expanded="true" />
-            <element signature="e#98979#99028#0" expanded="true" />
-            <element signature="e#99490#99537#0" expanded="true" />
-            <element signature="e#99710#99767#0" expanded="true" />
-            <element signature="e#99805#99845#0" expanded="true" />
-            <element signature="e#101250#101295#0" expanded="true" />
-            <element signature="e#101519#101567#0" expanded="true" />
-            <element signature="e#101789#101836#0" expanded="true" />
+            <element signature="e#50528#50938#0" expanded="true" />
+            <element signature="e#50937#50938#0" expanded="true" />
+            <element signature="e#61847#61872#0" expanded="true" />
+            <element signature="e#73514#73537#0" expanded="true" />
+            <element signature="e#76303#76359#0" expanded="true" />
+            <element signature="e#76895#76924#0" expanded="true" />
+            <element signature="e#77322#77377#0" expanded="true" />
+            <element signature="e#77441#77497#0" expanded="true" />
+            <element signature="e#77877#77906#0" expanded="true" />
+            <element signature="e#77932#77970#0" expanded="true" />
+            <element signature="e#78003#78022#0" expanded="true" />
+            <element signature="e#78389#78407#0" expanded="true" />
+            <element signature="e#79539#79595#0" expanded="true" />
+            <element signature="e#81980#82002#0" expanded="true" />
+            <element signature="e#84678#84695#0" expanded="true" />
+            <element signature="e#84954#84979#0" expanded="true" />
+            <element signature="e#94803#94935#0" expanded="true" />
+            <element signature="e#94934#94935#0" expanded="true" />
+            <element signature="e#94982#95103#0" expanded="true" />
+            <element signature="e#95102#95103#0" expanded="true" />
+            <element signature="e#96501#96533#0" expanded="true" />
+            <element signature="e#99725#99765#0" expanded="true" />
+            <element signature="e#100052#100101#0" expanded="true" />
+            <element signature="e#100563#100610#0" expanded="true" />
+            <element signature="e#100783#100840#0" expanded="true" />
+            <element signature="e#100878#100918#0" expanded="true" />
+            <element signature="e#102323#102368#0" expanded="true" />
+            <element signature="e#102592#102640#0" expanded="true" />
+            <element signature="e#102862#102909#0" expanded="true" />
           </folding>
         </state>
       </provider>
